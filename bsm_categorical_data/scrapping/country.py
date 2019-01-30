@@ -24,7 +24,7 @@ def get_country_by_ticker(ticker_):
     This function bring information about countries given a ticker. Is a
     vectorize function.
 
-    :param ticker_:
+    :param str ticker_: ticker of the company.
     :return str or float: The country of the company or nan if does not found something
     """
     url_ = 'https://es.finance.yahoo.com/quote/%s/profile?p=%s' % (ticker_, ticker_)

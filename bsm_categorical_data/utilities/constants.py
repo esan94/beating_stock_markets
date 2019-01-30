@@ -78,7 +78,7 @@ LIST_GICS_NAMES = ['Communication services', 'Consumer discretionary', 'Consumer
 
 # LISTS OF SECTORS BY ICB
 
-LIST_ICB_OIL_GAS = ['Petrolio-e-Gas-Naturale', 'Services-et-distribution']
+LIST_ICB_OIL_GAS = ['Petrolio-e-Gas-Naturale']
 
 LIST_ICB_BASIC_MAT = ['basic_materials', 'Matieres-premieres', 'manufacturing_materials',
                       'Chimica-e-Materie-Prime', 'chemie']
@@ -105,7 +105,8 @@ LIST_ICB_TELECOM = ['Telecomunicaciones', 'telecom_utilities', 'telecoms_utiliti
                     'Telecoms', 'Telecomunicazioni']
 
 LIST_ICB_CONS_SERV = ['Servizi-al-Consumo', 'Turismo-y-Servicios',
-                      'retailing_hospitality', 'leisure', 'Audiovisual-y-Medios']
+                      'retailing_hospitality', 'leisure', 'Audiovisual-y-Medios',
+                      'Services-et-distribution']
 
 LIST_ICB_NAMES = ['Oil & gas', 'Basic materials', 'Industrials', 'Consumer goods',
                   'Healthcare', 'Technology', 'Financials', 'Utilities',

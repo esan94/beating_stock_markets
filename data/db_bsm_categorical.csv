@@ -17,12 +17,12 @@ NVO,Novo Nordisk A/S,Healthcare,Healthcare,,Denmark
 SNY,Sanofi,Healthcare,Healthcare,,France
 TMO,Thermo Fisher Scientific Inc.,Healthcare,Healthcare,,United States
 GSK,GlaxoSmithKline plc,Healthcare,Healthcare,,Kingdom
-AZN,AstraZeneca PLC,Healthcare,Healthcare,,Kingdom
 GILD,"Gilead Sciences, Inc.",Healthcare,Healthcare,,United States
+AZN,AstraZeneca PLC,Healthcare,Healthcare,,Kingdom
 CVS,CVS Health Corporation,Healthcare,Healthcare,,United States
 BMY,Bristol-Myers Squibb Company,Healthcare,Healthcare,,United States
-DHR,Danaher Corporation,Healthcare,Healthcare,,United States
 CI,Cigna Corporation,Healthcare,Healthcare,,United States
+DHR,Danaher Corporation,Healthcare,Healthcare,,United States
 ANTM,"Anthem, Inc.",Healthcare,Healthcare,,United States
 BIIB,Biogen Inc.,Healthcare,Healthcare,,United States
 BDX,"Becton, Dickinson and Company",Healthcare,Healthcare,,United States
@@ -53,28 +53,28 @@ TEVA,Teva Pharmaceutical Industries Limited,Healthcare,Healthcare,,Israel
 ALGN,"Align Technology, Inc.",Healthcare,Healthcare,,United States
 IDXX,"IDEXX Laboratories, Inc.",Healthcare,Healthcare,,United States
 WAT,Waters Corporation,Healthcare,Healthcare,,United States
-ABC,AmerisourceBergen Corporation,Healthcare,Healthcare,,United States
-GRFS,"Grifols, S.A.",Healthcare,Healthcare,,Spain
 INCY,Incyte Corporation,Healthcare,Healthcare,,United States
 BMRN,BioMarin Pharmaceutical Inc.,Healthcare,Healthcare,,United States
-SNN,Smith &amp; Nephew plc,Healthcare,Healthcare,,Kingdom
+ABC,AmerisourceBergen Corporation,Healthcare,Healthcare,,United States
+GRFS,"Grifols, S.A.",Healthcare,Healthcare,,Spain
 CGC,Canopy Growth Corporation,Healthcare,Healthcare,,Canada
+SNN,Smith &amp; Nephew plc,Healthcare,Healthcare,,Kingdom
 ABMD,"ABIOMED, Inc.",Healthcare,Healthcare,,United States
 MTD,Mettler-Toledo International Inc.,Healthcare,Healthcare,,United States
 MYL,Mylan N.V.,Healthcare,Healthcare,NASDAQ 100,United States
 CAH,"Cardinal Health, Inc.",Healthcare,Healthcare,,United States
-RMD,ResMed Inc.,Healthcare,Healthcare,,United States
 LH,Laboratory Corporation of America Holdings,Healthcare,Healthcare,,United States
 WCG,"WellCare Health Plans, Inc.",Healthcare,Healthcare,,United States
 COO,"The Cooper Companies, Inc.",Healthcare,Healthcare,,United States
+RMD,ResMed Inc.,Healthcare,Healthcare,,United States
 HOLX,"Hologic, Inc.",Healthcare,Healthcare,,United States
 DXCM,"DexCom, Inc.",Healthcare,Healthcare,,United States
 TFX,Teleflex Incorporated,Healthcare,Healthcare,,United States
 UHS,"Universal Health Services, Inc.",Healthcare,Healthcare,,United States
-HSIC,"Henry Schein, Inc.",Healthcare,Healthcare,NASDAQ 100,United States
 VAR,"Varian Medical Systems, Inc.",Healthcare,Healthcare,,United States
-DGX,Quest Diagnostics Incorporated,Healthcare,Healthcare,,United States
+HSIC,"Henry Schein, Inc.",Healthcare,Healthcare,NASDAQ 100,United States
 SGEN,"Seattle Genetics, Inc.",Healthcare,Healthcare,,United States
+DGX,Quest Diagnostics Incorporated,Healthcare,Healthcare,,United States
 ELAN,Elanco Animal Health Incorporated,Healthcare,Healthcare,,United States
 STE,STERIS plc,Healthcare,Healthcare,,Kingdom
 PKI,"PerkinElmer, Inc.",Healthcare,Healthcare,,United States
@@ -93,203 +93,203 @@ NKTR,Nektar Therapeutics,Healthcare,Healthcare,,United States
 BGNE,"BeiGene, Ltd.",Healthcare,Healthcare,,Cayman Islands
 ICLR,ICON Public Limited Company,Healthcare,Healthcare,,Ireland
 BIO,"Bio-Rad Laboratories, Inc.",Healthcare,Healthcare,,United States
-TLRY,"Tilray, Inc.",Healthcare,Healthcare,,Canada
-HRC,"Hill-Rom Holdings, Inc.",Healthcare,Healthcare,,United States
+BIO-B,"Bio-Rad Laboratories, Inc.",Healthcare,Healthcare,,United States
 BLUE,"bluebird bio, Inc.",Healthcare,Healthcare,,United States
-ACB,Aurora Cannabis Inc.,Healthcare,Healthcare,,Canada
+TLRY,"Tilray, Inc.",Healthcare,Healthcare,,Canada
 EXEL,"Exelixis, Inc.",Healthcare,Healthcare,,United States
+HRC,"Hill-Rom Holdings, Inc.",Healthcare,Healthcare,,United States
+ACB,Aurora Cannabis Inc.,Healthcare,Healthcare,,Canada
 EHC,Encompass Health Corporation,Healthcare,Healthcare,,United States
 PRAH,"PRA Health Sciences, Inc.",Healthcare,Healthcare,,United States
 MASI,Masimo Corporation,Healthcare,Healthcare,,United States
-TECH,Bio-Techne Corporation,Healthcare,Healthcare,,United States
 PRGO,Perrigo Company plc,Healthcare,Healthcare,,Ireland
+TECH,Bio-Techne Corporation,Healthcare,Healthcare,,United States
 RDY,Dr. Reddy's Laboratories Limited,Healthcare,Healthcare,,India
 CRL,"Charles River Laboratories International, Inc.",Healthcare,Healthcare,,United States
 GLPG,Galapagos NV,Healthcare,Healthcare,,Belgium
 BRKR,Bruker Corporation,Healthcare,Healthcare,,United States
-CTLT,"Catalent, Inc.",Healthcare,Healthcare,,United States
 ALKS,Alkermes plc,Healthcare,Healthcare,,Ireland
+CTLT,"Catalent, Inc.",Healthcare,Healthcare,,United States
 SYNH,"Syneos Health, Inc.",Healthcare,Healthcare,,United States
-HAE,Haemonetics Corporation,Healthcare,Healthcare,,United States
 UTHR,United Therapeutics Corporation,Healthcare,Healthcare,,United States
+HAE,Haemonetics Corporation,Healthcare,Healthcare,,United States
 ICUI,"ICU Medical, Inc.",Healthcare,Healthcare,,United States
 PEN,"Penumbra, Inc.",Healthcare,Healthcare,,United States
 MRNA,"Moderna, Inc.",Healthcare,Healthcare,,United States
 CHE,Chemed Corporation,Healthcare,Healthcare,,United States
-NVCR,NovoCure Limited,Healthcare,Healthcare,NASDAQ Composite,nan
-PODD,Insulet Corporation,Healthcare,Healthcare,,United States
 FGEN,"FibroGen, Inc.",Healthcare,Healthcare,,United States
+PODD,Insulet Corporation,Healthcare,Healthcare,,United States
+NVCR,NovoCure Limited,Healthcare,Healthcare,NASDAQ Composite,nan
 LIVN,LivaNova PLC,Healthcare,Healthcare,,Kingdom
 GMED,"Globus Medical, Inc.",Healthcare,Healthcare,,United States
-TSRO,"Tesaro, Inc.",Healthcare,Healthcare,,United States
 AMED,"Amedisys, Inc.",Healthcare,Healthcare,,United States
 IART,Integra LifeSciences Holdings Corporation,Healthcare,Healthcare,,United States
 ARGX,argenx SE,Healthcare,Healthcare,,Netherland
 MOR,MorphoSys AG,Healthcare,Healthcare,,Germany
-TARO,Taro Pharmaceutical Industries Ltd.,Healthcare,Healthcare,,Israel
 WMGI,Wright Medical Group N.V.,Healthcare,Healthcare,,nan
+TARO,Taro Pharmaceutical Industries Ltd.,Healthcare,Healthcare,,Israel
 HZNP,Horizon Pharma Public Limited Company,Healthcare,Healthcare,,Ireland
-AMRX,"Amneal Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 ALLO,"Allogene Therapeutics, Inc.",Healthcare,Healthcare,,United States
+AMRX,"Amneal Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 ICPT,"Intercept Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 LHCG,"LHC Group, Inc.",Healthcare,Healthcare,,United States
 GH,"Guardant Health, Inc.",Healthcare,Healthcare,,United States
 CMD,Cantel Medical Corp.,Healthcare,Healthcare,,United States
 MD,"MEDNAX, Inc.",Healthcare,Healthcare,,United States
-NEOG,Neogen Corporation,Healthcare,Healthcare,,United States
+ACAD,ACADIA Pharmaceuticals Inc.,Healthcare,Healthcare,,United States
 INGN,"Inogen, Inc.",Healthcare,Healthcare,,United States
 CBPO,"China Biologic Products Holdings, Inc.",Healthcare,Healthcare,,China
-ACAD,ACADIA Pharmaceuticals Inc.,Healthcare,Healthcare,,United States
+NEOG,Neogen Corporation,Healthcare,Healthcare,,United States
 ASND,Ascendis Pharma A/S,Healthcare,Healthcare,,Denmark
 EBS,Emergent BioSolutions Inc.,Healthcare,Healthcare,,United States
-AGIO,"Agios Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-MMSI,"Merit Medical Systems, Inc.",Healthcare,Healthcare,,United States
-AMN,"AMN Healthcare Services, Inc.",Healthcare,Healthcare,,United States
 BPMC,Blueprint Medicines Corporation,Healthcare,Healthcare,,United States
+AGIO,"Agios Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+AMN,"AMN Healthcare Services, Inc.",Healthcare,Healthcare,,United States
+MMSI,"Merit Medical Systems, Inc.",Healthcare,Healthcare,,United States
 HCM,Hutchison China MediTech Limited,Healthcare,Healthcare,,Hong Kong
 GHDX,"Genomic Health, Inc.",Healthcare,Healthcare,,United States
-ITGR,Integer Holdings Corporation,Healthcare,Healthcare,,United States
 GBT,"Global Blood Therapeutics, Inc.",Healthcare,Healthcare,,United States
-NUVA,"NuVasive, Inc.",Healthcare,Healthcare,,United States
+ITGR,Integer Holdings Corporation,Healthcare,Healthcare,,United States
 RARE,Ultragenyx Pharmaceutical Inc.,Healthcare,Healthcare,,United States
 AKCA,"Akcea Therapeutics, Inc.",Healthcare,Healthcare,,United States
 RGEN,Repligen Corporation,Healthcare,Healthcare,,United States
+NUVA,"NuVasive, Inc.",Healthcare,Healthcare,,United States
 ACHC,"Acadia Healthcare Company, Inc.",Healthcare,Healthcare,,United States
 HALO,"Halozyme Therapeutics, Inc.",Healthcare,Healthcare,,United States
 BEAT,"BioTelemetry, Inc.",Healthcare,Healthcare,,United States
-GKOS,Glaukos Corporation,Healthcare,Healthcare,,United States
-THC,Tenet Healthcare Corporation,Healthcare,Healthcare,,United States
-ENSG,"The Ensign Group, Inc.",Healthcare,Healthcare,,United States
 MRTX,"Mirati Therapeutics, Inc.",Healthcare,Healthcare,,United States
+THC,Tenet Healthcare Corporation,Healthcare,Healthcare,,United States
+GKOS,Glaukos Corporation,Healthcare,Healthcare,,United States
+ENSG,"The Ensign Group, Inc.",Healthcare,Healthcare,,United States
 ENDP,Endo International plc,Healthcare,Healthcare,,Ireland
-AVNS,"Avanos Medical, Inc.",Healthcare,Healthcare,,United States
-MEDP,"Medpace Holdings, Inc.",Healthcare,Healthcare,,United States
-QDEL,Quidel Corporation,Healthcare,Healthcare,,United States
 ARNA,"Arena Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+QDEL,Quidel Corporation,Healthcare,Healthcare,,United States
+MEDP,"Medpace Holdings, Inc.",Healthcare,Healthcare,,United States
+AVNS,"Avanos Medical, Inc.",Healthcare,Healthcare,,United States
 SEM,Select Medical Holdings Corporation,Healthcare,Healthcare,,United States
 PDCO,"Patterson Companies, Inc.",Healthcare,Healthcare,,United States
+DNLI,Denali Therapeutics Inc.,Healthcare,Healthcare,,United States
 MYGN,"Myriad Genetics, Inc.",Healthcare,Healthcare,,United States
 IRTC,"iRhythm Technologies, Inc.",Healthcare,Healthcare,,United States
-DNLI,Denali Therapeutics Inc.,Healthcare,Healthcare,,United States
 INVA,"Innoviva, Inc.",Healthcare,Healthcare,,United States
-CNMD,CONMED Corporation,Healthcare,Healthcare,,United States
 IRWD,"Ironwood Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-NXTM,"Nxstage Medical, Inc.",Healthcare,Healthcare,,United States
+CNMD,CONMED Corporation,Healthcare,Healthcare,,United States
 INSM,Insmed Incorporated,Healthcare,Healthcare,,United States
+NXTM,"Nxstage Medical, Inc.",Healthcare,Healthcare,,United States
 ALLK,Allakos Inc.,Healthcare,Healthcare,,United States
+PTLA,"Portola Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 ANAB,"AnaptysBio, Inc.",Healthcare,Healthcare,,United States
 MNK,Mallinckrodt Public Limited Company,Healthcare,Healthcare,,Kingdom
 APHA,Aphria Inc.,Healthcare,Healthcare,,Canada
-PTLA,"Portola Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 MYOK,"MyoKardia, Inc.",Healthcare,Healthcare,,United States
-PCRX,"Pacira Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-ONCE,"Spark Therapeutics, Inc.",Healthcare,Healthcare,,United States
 ATRA,"Atara Biotherapeutics, Inc.",Healthcare,Healthcare,,United States
-MGLN,"Magellan Health, Inc.",Healthcare,Healthcare,,United States
-BKD,Brookdale Senior Living Inc.,Healthcare,Healthcare,,United States
+ONCE,"Spark Therapeutics, Inc.",Healthcare,Healthcare,,United States
 ENTA,"Enanta Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-RGNX,REGENXBIO Inc.,Healthcare,Healthcare,,United States
+PCRX,"Pacira Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 MDCO,The Medicines Company,Healthcare,Healthcare,,United States
+MGLN,"Magellan Health, Inc.",Healthcare,Healthcare,,United States
 BHVN,Biohaven Pharmaceutical Holding Company Ltd.,Healthcare,Healthcare,,United States
+BKD,Brookdale Senior Living Inc.,Healthcare,Healthcare,,United States
+RGNX,REGENXBIO Inc.,Healthcare,Healthcare,,United States
 PTCT,"PTC Therapeutics, Inc.",Healthcare,Healthcare,,United States
 CBM,Cambrex Corporation,Healthcare,Healthcare,,United States
-PBH,Prestige Consumer Healthcare Inc.,Healthcare,Healthcare,,United States
-KANG,"iKang Healthcare Group, Inc.",Healthcare,Healthcare,,China
 ATRI,Atrion Corporation,Healthcare,Healthcare,,United States
 NVRO,Nevro Corp.,Healthcare,Healthcare,,United States
-USPH,"U.S. Physical Therapy, Inc.",Healthcare,Healthcare,,United States
 AIMT,"Aimmune Therapeutics, Inc.",Healthcare,Healthcare,,United States
+PBH,Prestige Consumer Healthcare Inc.,Healthcare,Healthcare,,United States
+USPH,"U.S. Physical Therapy, Inc.",Healthcare,Healthcare,,United States
 MYOV,Myovant Sciences Ltd.,Healthcare,Healthcare,,Kingdom
 CLVS,"Clovis Oncology, Inc.",Healthcare,Healthcare,,United States
-TXMD,"TherapeuticsMD, Inc.",Healthcare,Healthcare,,United States
+ARWR,"Arrowhead Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 XON,Intrexon Corporation,Healthcare,Healthcare,,United States
+TXMD,"TherapeuticsMD, Inc.",Healthcare,Healthcare,,United States
 INSP,"Inspire Medical Systems, Inc.",Healthcare,Healthcare,,United States
 LMNX,Luminex Corporation,Healthcare,Healthcare,,United States
-ARWR,"Arrowhead Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+SPPI,"Spectrum Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 QURE,uniQure N.V.,Healthcare,Healthcare,,Netherland
-BABY,Natus Medical Incorporated,Healthcare,Healthcare,,United States
 SGMO,"Sangamo Therapeutics, Inc.",Healthcare,Healthcare,,United States
 MNTA,"Momenta Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-SPPI,"Spectrum Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+BABY,Natus Medical Incorporated,Healthcare,Healthcare,,United States
+RUBY,"Rubius Therapeutics, Inc.",Healthcare,Healthcare,,United States
 KNSA,"Kiniksa Pharmaceuticals, Ltd.",Healthcare,Healthcare,,Bermuda
 NVTA,Invitae Corporation,Healthcare,Healthcare,,United States
 PACB,"Pacific Biosciences of California, Inc.",Healthcare,Healthcare,,United States
-RUBY,"Rubius Therapeutics, Inc.",Healthcare,Healthcare,,United States
+BCRX,"BioCryst Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 VREX,Varex Imaging Corporation,Healthcare,Healthcare,,United States
+AUTL,Autolus Therapeutics plc,Healthcare,Healthcare,,Kingdom
 ORTX,Orchard Therapeutics plc,Healthcare,Healthcare,,Kingdom
 CRY,"CryoLife, Inc.",Healthcare,Healthcare,,United States
-DCPH,"Deciphera Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-DPLO,"Diplomat Pharmacy, Inc.",Healthcare,Healthcare,,United States
 AMPH,"Amphastar Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-AUTL,Autolus Therapeutics plc,Healthcare,Healthcare,,Kingdom
-BCRX,"BioCryst Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-OFIX,Orthofix Medical Inc.,Healthcare,Healthcare,,United States
-CSII,"Cardiovascular Systems, Inc.",Healthcare,Healthcare,,United States
+DPLO,"Diplomat Pharmacy, Inc.",Healthcare,Healthcare,,United States
+DCPH,"Deciphera Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 PBYI,"Puma Biotechnology, Inc.",Healthcare,Healthcare,,United States
-NRC,National Research Corporation,Healthcare,Healthcare,,United States
 EDIT,"Editas Medicine, Inc.",Healthcare,Healthcare,,United States
+CSII,"Cardiovascular Systems, Inc.",Healthcare,Healthcare,,United States
+OFIX,Orthofix Medical Inc.,Healthcare,Healthcare,,United States
+NRC,National Research Corporation,Healthcare,Healthcare,,United States
 TVTY,"Tivity Health, Inc.",Healthcare,Healthcare,,United States
 CDXS,"Codexis, Inc.",Healthcare,Healthcare,,United States
 IFRX,InflaRx N.V.,Healthcare,Healthcare,NASDAQ Composite,Germany
 TCDA,"Tricida, Inc.",Healthcare,Healthcare,,United States
 SLDB,Solid Biosciences Inc.,Healthcare,Healthcare,,United States
-PRSC,The Providence Service Corporation,Healthcare,Healthcare,,United States
 NTRA,"Natera, Inc.",Healthcare,Healthcare,,United States
+PRSC,The Providence Service Corporation,Healthcare,Healthcare,,United States
 PETQ,"PetIQ, Inc.",Healthcare,Healthcare,,United States
 FIXX,"Homology Medicines, Inc.",Healthcare,Healthcare,,United States
-ADUS,Addus HomeCare Corporation,Healthcare,Healthcare,,United States
-ANGO,"AngioDynamics, Inc.",Healthcare,Healthcare,,United States
 ATNX,"Athenex, Inc.",Healthcare,Healthcare,,United States
-HNGR,"Hanger, Inc.",Healthcare,Healthcare,,United States
+ANGO,"AngioDynamics, Inc.",Healthcare,Healthcare,,United States
+ADUS,Addus HomeCare Corporation,Healthcare,Healthcare,,United States
 GTHX,"G1 Therapeutics, Inc.",Healthcare,Healthcare,,United States
-OSUR,"OraSure Technologies, Inc.",Healthcare,Healthcare,,United States
-EPZM,"Epizyme, Inc.",Healthcare,Healthcare,,United States
-CTMX,"CytomX Therapeutics, Inc.",Healthcare,Healthcare,,United States
-ACOR,"Acorda Therapeutics, Inc.",Healthcare,Healthcare,,United States
 APLS,"Apellis Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+HNGR,"Hanger, Inc.",Healthcare,Healthcare,,United States
+EPZM,"Epizyme, Inc.",Healthcare,Healthcare,,United States
+OSUR,"OraSure Technologies, Inc.",Healthcare,Healthcare,,United States
+ACOR,"Acorda Therapeutics, Inc.",Healthcare,Healthcare,,United States
+CTMX,"CytomX Therapeutics, Inc.",Healthcare,Healthcare,,United States
+IMGN,"ImmunoGen, Inc.",Healthcare,Healthcare,,United States
 YMAB,"Y-mAbs Therapeutics, Inc.",Healthcare,Healthcare,,United States
 CO,Global Cord Blood Corporation,Healthcare,Healthcare,,Hong Kong
 PRNB,Principia Biopharma Inc.,Healthcare,Healthcare,,United States
 VIVO,"Meridian Bioscience, Inc.",Healthcare,Healthcare,,United States
-SRDX,"Surmodics, Inc.",Healthcare,Healthcare,,United States
-TWST,Twist Bioscience Corporation,Healthcare,Healthcare,NASDAQ Composite,United States
 ITCI,"Intra-Cellular Therapies, Inc.",Healthcare,Healthcare,,United States
-SGRY,"Surgery Partners, Inc.",Healthcare,Healthcare,,United States
-CIVI,"Civitas Solutions, Inc.",Healthcare,Healthcare,,United States
 OBSV,ObsEva SA,Healthcare,Healthcare,,Switzerland
+TWST,Twist Bioscience Corporation,Healthcare,Healthcare,NASDAQ Composite,United States
+SRDX,"Surmodics, Inc.",Healthcare,Healthcare,,United States
+CIVI,"Civitas Solutions, Inc.",Healthcare,Healthcare,,United States
 DRNA,"Dicerna Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+SGRY,"Surgery Partners, Inc.",Healthcare,Healthcare,,United States
 CCXI,"ChemoCentryx, Inc.",Healthcare,Healthcare,,United States
-CRNX,"Crinetics Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 KURA,"Kura Oncology, Inc.",Healthcare,Healthcare,,United States
+CRNX,"Crinetics Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 AMAG,"AMAG Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
+ARVN,"Arvinas Holding Company, LLC",Healthcare,Healthcare,,United States
 KPTI,Karyopharm Therapeutics Inc.,Healthcare,Healthcare,,United States
 ASMB,"Assembly Biosciences, Inc.",Healthcare,Healthcare,,United States
-ARVN,"Arvinas Holding Company, LLC",Healthcare,Healthcare,,United States
 COLL,"Collegium Pharmaceutical, Inc.",Healthcare,Healthcare,,United States
 ANIK,"Anika Therapeutics, Inc.",Healthcare,Healthcare,,United States
-ZYME,Zymeworks Inc.,Healthcare,Healthcare,,Canada
 CBAY,"CymaBay Therapeutics, Inc.",Healthcare,Healthcare,,United States
+ZYME,Zymeworks Inc.,Healthcare,Healthcare,,Canada
+MGNX,"MacroGenics, Inc.",Healthcare,Healthcare,,United States
 UBX,"Unity Biotechnology, Inc.",Healthcare,Healthcare,,United States
 CMTA,Clementia Pharmaceuticals Inc.,Healthcare,Healthcare,,Canada
 INO,"Inovio Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-MGNX,"MacroGenics, Inc.",Healthcare,Healthcare,,United States
 OMI,"Owens &amp; Minor, Inc.",Healthcare,Healthcare,,United States
 PRTA,Prothena Corporation plc,Healthcare,Healthcare,,Ireland
 ODT,"Odonate Therapeutics, Inc.",Healthcare,Healthcare,,United States
 FTSV,"Forty Seven, Inc.",Healthcare,Healthcare,,United States
-NITE,Nightstar Therapeutics plc,Healthcare,Healthcare,,Kingdom
+RCUS,"Arcus Biosciences, Inc.",Healthcare,Healthcare,,United States
 SVA,Sinovac Biotech Ltd.,Healthcare,Healthcare,,China
 ZEAL,Zealand Pharma A/S,Healthcare,Healthcare,,Denmark
-EIDX,"Eidos Therapeutics, Inc.",Healthcare,Healthcare,,United States
-RCUS,"Arcus Biosciences, Inc.",Healthcare,Healthcare,,United States
-THOR,"Synthorx, Inc.",Healthcare,Healthcare,,United States
+NITE,Nightstar Therapeutics plc,Healthcare,Healthcare,,Kingdom
 FLDM,Fluidigm Corporation,Healthcare,Healthcare,,United States
-AXNX,"Axonics Modulation Technologies, Inc.",Healthcare,Healthcare,,United States
-GRTS,"Gritstone Oncology, Inc.",Healthcare,Healthcare,,United States
+EIDX,"Eidos Therapeutics, Inc.",Healthcare,Healthcare,,United States
+THOR,"Synthorx, Inc.",Healthcare,Healthcare,,United States
 OSMT,Osmotica Pharmaceuticals plc,Healthcare,Healthcare,,United States
-ARA,"American Renal Associates Holdings, Inc.",Healthcare,Healthcare,,United States
-FPRX,"Five Prime Therapeutics, Inc.",Healthcare,Healthcare,,United States
 SRRK,Scholar Rock Holding Corporation,Healthcare,Healthcare,,United States
+AXNX,"Axonics Modulation Technologies, Inc.",Healthcare,Healthcare,,United States
+FPRX,"Five Prime Therapeutics, Inc.",Healthcare,Healthcare,,United States
+GRTS,"Gritstone Oncology, Inc.",Healthcare,Healthcare,,United States
+ARA,"American Renal Associates Holdings, Inc.",Healthcare,Healthcare,,United States
 NCNA,NuCana plc,Healthcare,Healthcare,,Kingdom
 CYTK,"Cytokinetics, Incorporated",Healthcare,Healthcare,,United States
 DBVT,DBV Technologies S.A.,Healthcare,Healthcare,,France
@@ -300,22 +300,22 @@ UTMD,"Utah Medical Products, Inc.",Healthcare,Healthcare,,United States
 LCI,"Lannett Company, Inc.",Healthcare,Healthcare,,United States
 XERS,"Xeris Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 AVRO,"AVROBIO, Inc.",Healthcare,Healthcare,,United States
-VAPO,"Vapotherm, Inc.",Healthcare,Healthcare,,United States
 APYX,Apyx Medical Corporation,Healthcare,Healthcare,,United States
-MGTX,MeiraGTx Holdings plc,Healthcare,Healthcare,,United States
-EVLO,"Evelo Biosciences, Inc.",Healthcare,Healthcare,,United States
-SPNE,SeaSpine Holdings Corporation,Healthcare,Healthcare,,United States
-UROV,Urovant Sciences Ltd.,Healthcare,Healthcare,,Kingdom
-ACRS,"Aclaris Therapeutics, Inc.",Healthcare,Healthcare,,United States
-DERM,"Dermira, Inc.",Healthcare,Healthcare,,United States
-SVRA,Savara Inc.,Healthcare,Healthcare,,United States
+VAPO,"Vapotherm, Inc.",Healthcare,Healthcare,,United States
 VYGR,"Voyager Therapeutics, Inc.",Healthcare,Healthcare,,United States
-OPTN,"OptiNose, Inc.",Healthcare,Healthcare,,United States
+MGTX,MeiraGTx Holdings plc,Healthcare,Healthcare,,United States
+SPNE,SeaSpine Holdings Corporation,Healthcare,Healthcare,,United States
+ACRS,"Aclaris Therapeutics, Inc.",Healthcare,Healthcare,,United States
+EVLO,"Evelo Biosciences, Inc.",Healthcare,Healthcare,,United States
+SVRA,Savara Inc.,Healthcare,Healthcare,,United States
+DERM,"Dermira, Inc.",Healthcare,Healthcare,,United States
+UROV,Urovant Sciences Ltd.,Healthcare,Healthcare,,Kingdom
 TBIO,"Translate Bio, Inc.",Healthcare,Healthcare,NASDAQ Composite,United States
+OPTN,"OptiNose, Inc.",Healthcare,Healthcare,,United States
 MCRB,"Seres Therapeutics, Inc.",Healthcare,Healthcare,,United States
-CSU,Capital Senior Living Corporation,Healthcare,Healthcare,,United States
 TORC,"resTORbio, Inc.",Healthcare,Healthcare,,United States
 TOCA,Tocagen Inc.,Healthcare,Healthcare,,United States
+CSU,Capital Senior Living Corporation,Healthcare,Healthcare,,United States
 XBIT,XBiotech Inc.,Healthcare,Healthcare,,United States
 KMDA,Kamada Ltd.,Healthcare,Healthcare,,Israel
 SYRS,"Syros Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
@@ -324,9 +324,9 @@ KALA,"Kala Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 APTX,Aptinyx Inc.,Healthcare,Healthcare,,United States
 IVC,Invacare Corporation,Healthcare,Healthcare,,United States
 ECOR,"electroCore, Inc.",Healthcare,Healthcare,,United States
+CNST,"Constellation Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 SPRO,"Spero Therapeutics, Inc.",Healthcare,Healthcare,,United States
 ALNA,"Allena Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
-CNST,"Constellation Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 ERYP,ERYTECH Pharma S.A.,Healthcare,Healthcare,,France
 SNDX,"Syndax Pharmaceuticals, Inc.",Healthcare,Healthcare,,United States
 MNLO,Menlo Therapeutics Inc.,Healthcare,Healthcare,,United States
@@ -344,9 +344,9 @@ DYNC,Vistra Energy Corp.,Utilities,Utilities,,United States
 EXC,Exelon Corporation,Utilities,Utilities,,United States
 AEP,"American Electric Power Company, Inc.",Utilities,Utilities,,United States
 NGG,National Grid plc,Utilities,Utilities,,Kingdom
-SRE-PA,Sempra Energy,Utilities,Utilities,,United States
 SRE,Sempra Energy,Utilities,Utilities,,United States
 SRE-PB,Sempra Energy,Utilities,Utilities,,United States
+SRE-PA,Sempra Energy,Utilities,Utilities,,United States
 DCUD,"Dominion Energy, Inc. UT SER A 081519",Utilities,Utilities,,nan
 PEG,Public Service Enterprise Group Incorporated,Utilities,Utilities,,United States
 XEL,Xcel Energy Inc.,Utilities,Utilities,,United States
@@ -364,10 +364,10 @@ AEE,Ameren Corporation,Utilities,Utilities,,United States
 ETR,Entergy Corporation,Utilities,Utilities,,United States
 BIP,Brookfield Infrastructure Partners L.P.,Utilities,Utilities,,Bermuda
 AGR,"Avangrid, Inc.",Utilities,Utilities,,United States
-CNP,"CenterPoint Energy, Inc.",Utilities,Utilities,,United States
-CNP-PB,"CenterPoint Energy, Inc.",Utilities,Utilities,,United States
 EVRG,"Evergy, Inc.",Utilities,Utilities,,United States
 FTS,Fortis Inc.,Utilities,Utilities,,Canada
+CNP,"CenterPoint Energy, Inc.",Utilities,Utilities,,United States
+CNP-PB,"CenterPoint Energy, Inc.",Utilities,Utilities,,United States
 CMS,CMS Energy Corporation,Utilities,Utilities,,United States
 ENIA,Enel Américas S.A.,Utilities,Utilities,,Chile
 HNP,"Huaneng Power International, Inc.",Utilities,Utilities,,China
@@ -384,8 +384,8 @@ PNW,Pinnacle West Capital Corporation,Utilities,Utilities,,United States
 UGI,UGI Corporation,Utilities,Utilities,,United States
 DTV,DTE Energy Company CORPORATE UNIT,Utilities,Utilities,,nan
 BEP,Brookfield Renewable Partners L.P.,Utilities,Utilities,,Bermuda
-CPL,CPFL Energia S.A.,Utilities,Utilities,,Brazil
 CMS-PB,Consumers Energy Company,Utilities,Utilities,,United States
+CPL,CPFL Energia S.A.,Utilities,Utilities,,Brazil
 OGE,OGE Energy Corp.,Utilities,Utilities,,United States
 SBS,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,Utilities,Utilities,,Brazil
 PCG,PG&amp;E Corporation,Utilities,Utilities,,United States
@@ -401,22 +401,22 @@ NJR,New Jersey Resources Corporation,Utilities,Utilities,,United States
 SWX,"Southwest Gas Holdings, Inc.",Utilities,Utilities,,United States
 HE,"Hawaiian Electric Industries, Inc.",Utilities,Utilities,,United States
 SR,Spire Inc.,Utilities,Utilities,,United States
-ALE,"ALLETE, Inc.",Utilities,Utilities,,United States
 BKH,Black Hills Corporation,Utilities,Utilities,,United States
+ALE,"ALLETE, Inc.",Utilities,Utilities,,United States
 PNM,"PNM Resources, Inc.",Utilities,Utilities,,United States
 NWE,NorthWestern Corporation,Utilities,Utilities,,United States
 CWEN,"Clearway Energy, Inc.",Utilities,Utilities,,United States
 CWEN-A,"Clearway Energy, Inc.",Utilities,Utilities,,United States
-ORA,"Ormat Technologies, Inc.",Utilities,Utilities,,United States
 SJI,"South Jersey Industries, Inc.",Utilities,Utilities,,United States
+ORA,"Ormat Technologies, Inc.",Utilities,Utilities,,United States
 APU,"AmeriGas Partners, L.P.",Utilities,Utilities,,United States
 AVA,Avista Corporation,Utilities,Utilities,,United States
 TGS,Transportadora de Gas del Sur S.A.,Utilities,Utilities,,Argentina
 ELP,Companhia Paranaense de Energia - COPEL,Utilities,Utilities,,Brazil
 CZZ,Cosan Limited,Utilities,Utilities,,Brazil
 AWR,American States Water Company,Utilities,Utilities,,United States
-PAM,Pampa Energía S.A.,Utilities,Utilities,,Argentina
 TERP,"TerraForm Power, Inc.",Utilities,Utilities,,United States
+PAM,Pampa Energía S.A.,Utilities,Utilities,,Argentina
 NEP,"NextEra Energy Partners, LP",Utilities,Utilities,,United States
 CWT,California Water Service Group,Utilities,Utilities,,United States
 MGEE,"MGE Energy, Inc.",Utilities,Utilities,,United States
@@ -426,8 +426,8 @@ OTTR,Otter Tail Corporation,Utilities,Utilities,,United States
 AY,Atlantica Yield plc,Utilities,Utilities,,Kingdom
 NWN,Northwest Natural Holding Company,Utilities,Utilities,,United States
 SJW,SJW Group,Utilities,Utilities,,United States
-CEPU,Central Puerto S.A.,Utilities,Utilities,,Argentina
 TAC,TransAlta Corporation,Utilities,Utilities,,Canada
+CEPU,Central Puerto S.A.,Utilities,Utilities,,Argentina
 CPK,Chesapeake Utilities Corporation,Utilities,Utilities,,United States
 SPH,"Suburban Propane Partners, L.P.",Utilities,Utilities,,United States
 BE,Bloom Energy Corporation,Utilities,Utilities,,United States
@@ -450,9 +450,9 @@ TVC,Tennessee Valley Authority PARRS D 2028,Utilities,Utilities,,nan
 HE-PU,HECO Capital Trust III QUIPS 6.5% 04,Utilities,Utilities,,nan
 NMK-PB,Niagara Mohawk Power Corporation PFD 3.60%,Utilities,Utilities,,nan
 MOG-A,Moog Inc. Class A,Industrials,Industrials,,United States
+BBL,BHP Group,,Basic materials,,Australia
 BHP,BHP Group,,Basic materials,,Australia
 DWDP,DowDuPont Inc.,,Basic materials,Dow Jones Industrial Average,United States
-BBL,BHP Group,,Basic materials,,Australia
 LIN,Linde plc,,Basic materials,,Kingdom
 DD-PB,E. I. du Pont de Nemours and Company,,Basic materials,,United States
 RIO,Rio Tinto plc,,Basic materials,,Kingdom
@@ -479,27 +479,27 @@ VMC,Vulcan Materials Company,,Basic materials,,United States
 TECK,Teck Resources Limited,,Basic materials,,Canada
 CE,Celanese Corporation,,Basic materials,,United States
 MOS,The Mosaic Company,,Basic materials,,United States
-SQM,Sociedad Química y Minera de Chile S.A.,,Basic materials,,Chile
 EMN,Eastman Chemical Company,,Basic materials,,United States
+SQM,Sociedad Química y Minera de Chile S.A.,,Basic materials,,Chile
 MLM,"Martin Marietta Materials, Inc.",,Basic materials,,United States
 FMC,FMC Corporation,,Basic materials,,United States
 BAK,Braskem S.A.,,Basic materials,,Brazil
 VEDL,Vedanta Limited,,Basic materials,,India
-MAS,Masco Corporation,,Basic materials,,United States
 CF,"CF Industries Holdings, Inc.",,Basic materials,,United States
 WLK,Westlake Chemical Corporation,,Basic materials,,United States
+MAS,Masco Corporation,,Basic materials,,United States
 AEM,Agnico Eagle Mines Limited,,Basic materials,,Canada
 GG,Goldcorp Inc.,,Basic materials,,Canada
 WPM,Wheaton Precious Metals Corp.,,Basic materials,,Canada
-CX,"CEMEX, S.A.B. de C.V.",,Basic materials,,Mexico
-ALB,Albemarle Corporation,,Basic materials,,United States
 STLD,"Steel Dynamics, Inc.",,Basic materials,,United States
-RPM,RPM International Inc.,,Basic materials,,United States
+ALB,Albemarle Corporation,,Basic materials,,United States
+CX,"CEMEX, S.A.B. de C.V.",,Basic materials,,Mexico
 ICL,Israel Chemicals Ltd.,,Basic materials,,Israel
+RPM,RPM International Inc.,,Basic materials,,United States
 ACH,Aluminum Corporation of China Limited,,Basic materials,,China
-AXTA,Axalta Coating Systems Ltd.,,Basic materials,,United States
-CC,The Chemours Company,,Basic materials,,United States
 KL,Kirkland Lake Gold Ltd.,,Basic materials,,Canada
+CC,The Chemours Company,,Basic materials,,United States
+AXTA,Axalta Coating Systems Ltd.,,Basic materials,,United States
 USG,USG Corporation,,Basic materials,,United States
 TX,Ternium S.A.,,Basic materials,,Luxembourg
 RS,Reliance Steel &amp; Aluminum Co.,,Basic materials,,United States
@@ -509,53 +509,53 @@ AA,Alcoa Corporation,,Basic materials,,United States
 OC,Owens Corning,,Basic materials,,United States
 HUN,Huntsman Corporation,,Basic materials,,United States
 MDU,"MDU Resources Group, Inc.",,Basic materials,,United States
-ASH,Ashland Global Holdings Inc.,,Basic materials,,United States
-GRA,W. R. Grace &amp; Co.,,Basic materials,,United States
-CCJ,Cameco Corporation,,Basic materials,,Canada
 JHX,James Hardie Industries plc,,Basic materials,,Ireland
+CCJ,Cameco Corporation,,Basic materials,,Canada
+GRA,W. R. Grace &amp; Co.,,Basic materials,,United States
+ASH,Ashland Global Holdings Inc.,,Basic materials,,United States
 NEU,NewMarket Corporation,,Basic materials,,United States
 MEOH,Methanex Corporation,,Basic materials,,Canada
 BTU,Peabody Energy Corporation,,Basic materials,,United States
-TREX,"Trex Company, Inc.",,Basic materials,,United States
-BVN,Compañía de Minas Buenaventura S.A.A.,,Basic materials,,Peru
 OLN,Olin Corporation,,Basic materials,,United States
-RYN,Rayonier Inc.,,Basic materials,,United States
+BVN,Compañía de Minas Buenaventura S.A.A.,,Basic materials,,Peru
+TREX,"Trex Company, Inc.",,Basic materials,,United States
 NGVT,Ingevity Corporation,,Basic materials,,United States
-SMG,The Scotts Miracle-Gro Company,,Basic materials,,United States
+RYN,Rayonier Inc.,,Basic materials,,United States
 X,United States Steel Corporatio,,Basic materials,,United States
+SMG,The Scotts Miracle-Gro Company,,Basic materials,,United States
 VSM,"Versum Materials, Inc.",,Basic materials,,United States
 LPX,Louisiana-Pacific Corporation,,Basic materials,,United States
 AWI,"Armstrong World Industries, Inc.",,Basic materials,,United States
 PAH,Platform Specialty Products Corporation,,Basic materials,,United States
 EXP,Eagle Materials Inc.,,Basic materials,,United States
 UNVR,Univar Inc.,,Basic materials,,United States
+CLF,Cleveland-Cliffs Inc.,,Basic materials,,United States
 UFS,Domtar Corporation,,Basic materials,,United States
 CBT,Cabot Corporation,,Basic materials,,United States
-CLF,Cleveland-Cliffs Inc.,,Basic materials,,United States
 BCPC,Balchem Corporation,,Basic materials,,United States
-SXT,Sensient Technologies Corporation,,Basic materials,,United States
 KWR,Quaker Chemical Corporation,,Basic materials,,United States
+SXT,Sensient Technologies Corporation,,Basic materials,,United States
 POL,PolyOne Corporation,,Basic materials,,United States
 ARLP,"Alliance Resource Partners, L.P.",,Basic materials,,United States
 BECN,"Beacon Roofing Supply, Inc.",,Basic materials,,United States
 WDFC,WD-40 Company,,Basic materials,,United States
-OSB,Norbord Inc.,,Basic materials,,Canada
 FUL,H.B. Fuller Company,,Basic materials,,United States
+OSB,Norbord Inc.,,Basic materials,,Canada
 WOR,"Worthington Industries, Inc.",,Basic materials,,United States
 PAAS,Pan American Silver Corp.,,Basic materials,,Canada
-PQG,PQ Group Holdings Inc.,,Basic materials,,United States
 CMC,Commercial Metals Company,,Basic materials,,United States
+PQG,PQ Group Holdings Inc.,,Basic materials,,United States
 MTX,Minerals Technologies Inc.,,Basic materials,,United States
+LTHM,Livent Corporation,,Basic materials,,United States
 SCL,Stepan Company,,Basic materials,,United States
 AAON,"AAON, Inc.",,Basic materials,,United States
-LTHM,Livent Corporation,,Basic materials,,United States
-UFPI,"Universal Forest Products, Inc.",,Basic materials,,United States
 GCP,GCP Applied Technologies Inc.,,Basic materials,,United States
-HSC,Harsco Corporation,,Basic materials,,United States
+UFPI,"Universal Forest Products, Inc.",,Basic materials,,United States
 JELD,"JELD-WEN Holding, Inc.",,Basic materials,,United States
+HSC,Harsco Corporation,,Basic materials,,United States
 BLD,TopBuild Corp.,,Basic materials,,United States
-CMP,"Compass Minerals International, Inc.",,Basic materials,,United States
 SUM,"Summit Materials, Inc.",,Basic materials,,United States
+CMP,"Compass Minerals International, Inc.",,Basic materials,,United States
 IOSP,Innospec Inc.,,Basic materials,,United States
 ARCH,"Arch Coal, Inc.",,Basic materials,,United States
 OEC,"Orion Engineered Carbons, S.A.",,Basic materials,,Luxembourg
@@ -563,8 +563,8 @@ KALU,Kaiser Aluminum Corporation,,Basic materials,,United States
 KRO,"Kronos Worldwide, Inc.",,Basic materials,,United States
 SSRM,SSR Mining Inc.,,Basic materials,,Canada
 HBM,Hudbay Minerals Inc.,,Basic materials,,Canada
-BLDR,"Builders FirstSource, Inc.",,Basic materials,,United States
 LOMA,Loma Negra Compañía Industrial Argentina Sociedad Anónima,,Basic materials,,Argentina
+BLDR,"Builders FirstSource, Inc.",,Basic materials,,United States
 DOOR,Masonite International Corporation,,Basic materials,,United States
 HCC,"Warrior Met Coal, Inc.",,Basic materials,,United States
 OR,Osisko Gold Royalties Ltd,,Basic materials,,Canada
@@ -577,35 +577,35 @@ BMCH,"BMC Stock Holdings, Inc.",,Basic materials,,United States
 ROCK,"Gibraltar Industries, Inc.",,Basic materials,,United States
 CSTM,Constellium N.V.,,Basic materials,,Netherland
 TROX,Tronox Limited,,Basic materials,,United States
-AG,First Majestic Silver Corp.,,Basic materials,,Canada
 SLCA,"U.S. Silica Holdings, Inc.",,Basic materials,,United States
+AG,First Majestic Silver Corp.,,Basic materials,,Canada
 CPAC,Cementos Pacasmayo S.A.A.,,Basic materials,,Peru
 BCC,Boise Cascade Company,,Basic materials,,United States
-SWM,"Schweitzer-Mauduit International, Inc.",,Basic materials,,United States
 CEIX,CONSOL Energy Inc.,,Basic materials,,United States
+SWM,"Schweitzer-Mauduit International, Inc.",,Basic materials,,United States
 MTRN,Materion Corporation,,Basic materials,,United States
-PGTI,"PGT Innovations, Inc.",,Basic materials,,United States
 MERC,Mercer International Inc.,,Basic materials,,Canada
+PGTI,"PGT Innovations, Inc.",,Basic materials,,United States
 CBPX,"Continental Building Products, Inc.",,Basic materials,,United States
 APOG,"Apogee Enterprises, Inc.",,Basic materials,,United States
 ASIX,AdvanSix Inc.,,Basic materials,,United States
-VRS,Verso Corporation,,Basic materials,,United States
 KRA,Kraton Corporation,,Basic materials,,United States
+VRS,Verso Corporation,,Basic materials,,United States
 RFP,Resolute Forest Products Inc.,,Basic materials,,Canada
 SA,Seabridge Gold Inc.,,Basic materials,,Canada
-GMS,GMS Inc.,,Basic materials,,United States
 CENX,Century Aluminum Company,,Basic materials,,United States
+GMS,GMS Inc.,,Basic materials,,United States
 EVA,"Enviva Partners, LP",,Basic materials,,United States
 FF,FutureFuel Corp.,,Basic materials,,United States
 WLKP,Westlake Chemical Partners LP,,Basic materials,,United States
 RYAM,Rayonier Advanced Materials Inc.,,Basic materials,,United States
-SXC,"SunCoke Energy, Inc.",,Basic materials,,United States
 RYAM-PA,Rayonier Advanced Materials Inc.,,Basic materials,,United States
+SXC,"SunCoke Energy, Inc.",,Basic materials,,United States
 CVIA,Covia Holdings Corporation,,Basic materials,,United States
 CTRA,"Contura Energy, Inc.",,Basic materials,,United States
-GFF,Griffon Corporation,,Basic materials,,United States
 SCHN,"Schnitzer Steel Industries, Inc.",,Basic materials,,United States
 SXCP,"SunCoke Energy Partners, L.P.",,Basic materials,,United States
+GFF,Griffon Corporation,,Basic materials,,United States
 GPRE,Green Plains Inc.,,Basic materials,,United States
 IPHS,"Innophos Holdings, Inc.",,Basic materials,,United States
 CLW,Clearwater Paper Corporation,,Basic materials,,United States
@@ -616,9 +616,9 @@ CSTE,Caesarstone Ltd.,,Basic materials,,Israel
 NX,Quanex Building Products Corporation,,Basic materials,,United States
 CCR,CONSOL Coal Resources LP,,Basic materials,,United States
 CINR,Ciner Resources LP,,Basic materials,,United States
-KOP,Koppers Holdings Inc.,,Basic materials,,United States
 REX,REX American Resources Corporation,,Basic materials,,United States
 NRP,Natural Resource Partners L.P.,,Basic materials,,United States
+KOP,Koppers Holdings Inc.,,Basic materials,,United States
 HWKN,"Hawkins, Inc.",,Basic materials,,United States
 USLM,"United States Lime &amp; Minerals, Inc.",,Basic materials,,United States
 OMN,OMNOVA Solutions Inc.,,Basic materials,,United States
@@ -627,8 +627,8 @@ BXC,BlueLinx Holdings Inc.,,Basic materials,,United States
 NC,"NACCO Industries, Inc.",,Basic materials,,United States
 METC,"Ramaco Resources, Inc.",,Basic materials,,United States
 TREC,Trecora Resources,,Basic materials,,United States
-ODC,Oil-Dri Corporation of America,,Basic materials,,United States
 LXU,"LSB Industries, Inc.",,Basic materials,,United States
+ODC,Oil-Dri Corporation of America,,Basic materials,,United States
 ZEUS,"Olympic Steel, Inc.",,Basic materials,,United States
 USAP,"Universal Stainless &amp; Alloy Products, Inc.",,Basic materials,,United States
 IFFT,International Flavors &amp; Fragran,,Basic materials,,nan
@@ -652,9 +652,9 @@ ADBE,Adobe Inc.,Information technology,Technology,,United States
 CRM,"salesforce.com, inc.",Information technology,Technology,,United States
 AVGO,Broadcom Inc.,Information technology,Technology,,United States
 TXN,Texas Instruments Incorporated,Information technology,Technology,,United States
+NVDA,NVIDIA Corporation,Information technology,Technology,,United States
 ACN,Accenture plc,Information technology,Technology,,Ireland
 ACN,Accenture plc,,Industrials,,Ireland
-NVDA,NVIDIA Corporation,Information technology,Technology,,United States
 ASML,ASML Holding N.V.,Information technology,Technology,,Netherland
 QCOM,QUALCOMM Incorporated,Information technology,Technology,,United States
 SNE,Sony Corporation,Information technology,Technology,,Japan
@@ -666,40 +666,40 @@ MU,"Micron Technology, Inc.",Information technology,Technology,,United States
 CTSH,Cognizant Technology Solutions Corporation,Information technology,Technology,,United States
 WDAY,"Workday, Inc.",Information technology,Technology,,United States
 AMAT,"Applied Materials, Inc.",Information technology,Technology,NASDAQ 100,United States
-ATVI,"Activision Blizzard, Inc.",Information technology,Technology,NASDAQ 100,United States
 NOK,Nokia Corporation,Information technology,Technology,,Finland
+ATVI,"Activision Blizzard, Inc.",Information technology,Technology,NASDAQ 100,United States
 ADI,"Analog Devices, Inc.",Information technology,Technology,,United States
 HPQ,HP Inc.,Information technology,Technology,,United States
 NOW,"ServiceNow, Inc.",Information technology,Technology,,United States
 DELL,Dell Technologies Inc.,Information technology,Technology,,United States
-NTES,"NetEase, Inc.",Information technology,Technology,,China
 SQ,"Square, Inc.",Information technology,Technology,,United States
+NTES,"NetEase, Inc.",Information technology,Technology,,China
 RHT,"Red Hat, Inc.",Information technology,Technology,,United States
 ADSK,"Autodesk, Inc.",Information technology,Technology,,United States
 ERIC,Telefonaktiebolaget LM Ericsson (publ),Information technology,Technology,,Sweden
+XLNX,"Xilinx, Inc.",Information technology,Technology,,United States
 EA,Electronic Arts Inc.,Information technology,Technology,,United States
 TEL,TE Connectivity Ltd.,Information technology,Technology,,Switzerland
-XLNX,"Xilinx, Inc.",Information technology,Technology,,United States
 APH,Amphenol Corporation,Information technology,Technology,,United States
-TME,Tencent Music Entertainment Group,Information technology,Technology,,China
-NXPI,NXP Semiconductors N.V.,Information technology,Technology,,Netherland
 LRCX,Lam Research Corporation,Information technology,Technology,,United States
+NXPI,NXP Semiconductors N.V.,Information technology,Technology,,Netherland
+TME,Tencent Music Entertainment Group,Information technology,Technology,,China
 TWTR,"Twitter, Inc.",Information technology,Technology,,United States
-GLW,Corning Incorporated,Information technology,Technology,,United States
 SPOT,Spotify Technology S.A.,Information technology,Technology,,Luxembourg
-FTV,Fortive Corporation,Information technology,Technology,,United States
+GLW,Corning Incorporated,Information technology,Technology,,United States
 FTV-PA,Fortive Corporation,Information technology,Technology,,United States
+FTV,Fortive Corporation,Information technology,Technology,,United States
 TEAM,Atlassian Corporation Plc,Information technology,Technology,,Kingdom
 WIT,Wipro Limited,Information technology,Technology,,India
 AMD,"Advanced Micro Devices, Inc.",Information technology,Technology,,United States
 HPE,Hewlett Packard Enterprise Company,Information technology,Technology,,United States
 VRSN,"VeriSign, Inc.",Information technology,Technology,NASDAQ 100,United States
 PANW,"Palo Alto Networks, Inc.",Information technology,Technology,,United States
-MSI,"Motorola Solutions, Inc.",Information technology,Technology,,United States
 MCHP,Microchip Technology Incorporated,Information technology,Technology,NASDAQ 100,United States
+MSI,"Motorola Solutions, Inc.",Information technology,Technology,,United States
 CERN,Cerner Corporation,Information technology,Technology,NASDAQ 100,United States
-GIB,CGI Group Inc.,Information technology,Technology,,Canada
 SPLK,Splunk Inc.,Information technology,Technology,,United States
+GIB,CGI Group Inc.,Information technology,Technology,,Canada
 SHOP,Shopify Inc.,Information technology,Technology,,Canada
 DXC,DXC Technology Company,Information technology,Technology,,United States
 IAC,IAC/InterActiveCorp,Information technology,Technology,,United States
@@ -708,8 +708,8 @@ ANET,"Arista Networks, Inc.",Information technology,Technology,,United States
 CHKP,Check Point Software Technologies Ltd.,Information technology,Technology,,Israel
 NTAP,"NetApp, Inc.",Information technology,Technology,,United States
 VEEV,Veeva Systems Inc.,Information technology,Technology,,United States
-KLAC,KLA-Tencor Corporation,Information technology,Technology,,United States
 MXIM,"Maxim Integrated Products, Inc.",Information technology,Technology,NASDAQ 100,United States
+KLAC,KLA-Tencor Corporation,Information technology,Technology,,United States
 STM,STMicroelectronics N.V.,Information technology,Technology,,Switzerland
 MTCH,"Match Group, Inc.",Information technology,Technology,,United States
 IQ,"iQIYI, Inc.",Information technology,Technology,,China
@@ -719,307 +719,305 @@ ANSS,"ANSYS, Inc.",Information technology,Technology,,United States
 KEYS,"Keysight Technologies, Inc.",Information technology,Technology,,United States
 CDNS,"Cadence Design Systems, Inc.",Information technology,Technology,,United States
 SYMC,Symantec Corporation,Information technology,Technology,,United States
+WB,Weibo Corporation,Information technology,Technology,,China
 GRMN,Garmin Ltd.,Information technology,Technology,,Switzerland
 SWKS,"Skyworks Solutions, Inc.",Information technology,Technology,,United States
-WB,Weibo Corporation,Information technology,Technology,,China
 SSNC,"SS&amp;C Technologies Holdings, Inc.",Information technology,Technology,,United States
 FTNT,"Fortinet, Inc.",Information technology,Technology,,United States
-WDC,Western Digital Corporation,Information technology,Technology,NASDAQ 100,United States
 STX,Seagate Technology plc,Information technology,Technology,,Ireland
+WDC,Western Digital Corporation,Information technology,Technology,NASDAQ 100,United States
 CDW,CDW Corporation,Information technology,Technology,,United States
 MRVL,Marvell Technology Group Ltd.,Information technology,Technology,,Bermuda
 IT,"Gartner, Inc.",Information technology,Technology,,United States
 TTWO,"Take-Two Interactive Software, Inc.",Information technology,Technology,,United States
 GDDY,GoDaddy Inc.,Information technology,Technology,,United States
+YNDX,Yandex N.V.,Information technology,Technology,,Netherland
 DATA,"Tableau Software, Inc.",Information technology,Technology,,United States
 AKAM,"Akamai Technologies, Inc.",Information technology,Technology,,United States
-YNDX,Yandex N.V.,Information technology,Technology,,Netherland
 TWLO,Twilio Inc.,Information technology,Technology,,United States
 JNPR,"Juniper Networks, Inc.",Information technology,Technology,,United States
 DBX,"Dropbox, Inc.",Information technology,Technology,,United States
 PTC,PTC Inc.,Information technology,Technology,,United States
 FFIV,"F5 Networks, Inc.",Information technology,Technology,,United States
 OTEX,Open Text Corporation,Information technology,Technology,,Canada
-TRMB,Trimble Inc.,Information technology,Technology,,United States
 NTNX,"Nutanix, Inc.",Information technology,Technology,,United States
+TRMB,Trimble Inc.,Information technology,Technology,,United States
 WUBA,58.com Inc.,Information technology,Technology,,China
 ATHM,Autohome Inc.,Information technology,Technology,,China
 OKTA,"Okta, Inc.",Information technology,Technology,,United States
-LDOS,"Leidos Holdings, Inc.",Information technology,Technology,,United States
-LN,LINE Corporation,Information technology,Technology,,Japan
 ULTI,"The Ultimate Software Group, Inc.",Information technology,Technology,,United States
+LN,LINE Corporation,Information technology,Technology,,Japan
+LDOS,"Leidos Holdings, Inc.",Information technology,Technology,,United States
 ON,ON Semiconductor Corporation,Information technology,Technology,,United States
 PAYC,"Paycom Software, Inc.",Information technology,Technology,,United States
-MFGP,Micro Focus International plc,Information technology,Technology,,Kingdom
-ANGI,ANGI Homeservices Inc.,Information technology,Technology,,United States
-QRVO,"Qorvo, Inc.",Information technology,Technology,,United States
-TDY,Teledyne Technologies Incorporated,Information technology,Technology,,United States
 SNAP,Snap Inc.,Information technology,Technology,,United States
+QRVO,"Qorvo, Inc.",Information technology,Technology,,United States
+ANGI,ANGI Homeservices Inc.,Information technology,Technology,,United States
+MFGP,Micro Focus International plc,Information technology,Technology,,Kingdom
 DOCU,"DocuSign, Inc.",Information technology,Technology,,United States
-DOX,Amdocs Limited,Information technology,Technology,,United States
+TDY,Teledyne Technologies Incorporated,Information technology,Technology,,United States
 ST,Sensata Technologies Holding PLC,Information technology,Technology,,Kingdom
-UBNT,"Ubiquiti Networks, Inc.",Information technology,Technology,,United States
-PAGS,PagSeguro Digital Ltd.,Information technology,Technology,,Brazil
-CGNX,Cognex Corporation,Information technology,Technology,,United States
+DOX,Amdocs Limited,Information technology,Technology,,United States
 EPAM,"EPAM Systems, Inc.",Information technology,Technology,,United States
+UBNT,"Ubiquiti Networks, Inc.",Information technology,Technology,,United States
+CGNX,Cognex Corporation,Information technology,Technology,,United States
+PAGS,PagSeguro Digital Ltd.,Information technology,Technology,,Brazil
 TYL,"Tyler Technologies, Inc.",Information technology,Technology,,United States
-GRUB,GrubHub Inc.,Information technology,Technology,,United States
 RNG,"RingCentral, Inc.",Information technology,Technology,,United States
+GRUB,GrubHub Inc.,Information technology,Technology,,United States
 IPGP,IPG Photonics Corporation,Information technology,Technology,,United States
 BKI,"Black Knight, Inc.",Information technology,Technology,,United States
+ZEN,"Zendesk, Inc.",Information technology,Technology,,United States
 AZPN,"Aspen Technology, Inc.",Information technology,Technology,,United States
 GWRE,"Guidewire Software, Inc.",Information technology,Technology,,United States
-ZEN,"Zendesk, Inc.",Information technology,Technology,,United States
-CDK,"CDK Global, Inc.",Information technology,Technology,,United States
 NICE,NICE Ltd.,Information technology,Technology,,Israel
+CDK,"CDK Global, Inc.",Information technology,Technology,,United States
 ARW,"Arrow Electronics, Inc.",Information technology,Technology,,United States
-FLIR,"FLIR Systems, Inc.",Information technology,Technology,,United States
-STNE,StoneCo Ltd.,Information technology,Technology,,Brazil
-LPL,"LG Display Co., Ltd.",Information technology,Technology,,Korea
 TER,"Teradyne, Inc.",Information technology,Technology,,United States
+STNE,StoneCo Ltd.,Information technology,Technology,,Brazil
+FLIR,"FLIR Systems, Inc.",Information technology,Technology,,United States
+LPL,"LG Display Co., Ltd.",Information technology,Technology,,Korea
 MOMO,Momo Inc.,Information technology,Technology,,China
-ZAYO,"Zayo Group Holdings, Inc.",Information technology,Technology,,United States
 SABR,Sabre Corporation,Information technology,Technology,,United States
+ZAYO,"Zayo Group Holdings, Inc.",Information technology,Technology,,United States
 FICO,Fair Isaac Corporation,Information technology,Technology,,United States
-CIEN,Ciena Corporation,Information technology,Technology,,United States
 IDTI,"Integrated Device Technology, Inc.",Information technology,Technology,,United States
+CIEN,Ciena Corporation,Information technology,Technology,,United States
 LOGI,Logitech International S.A.,Information technology,Technology,,Switzerland
-HUBS,"HubSpot, Inc.",Information technology,Technology,,United States
 NATI,National Instruments Corporation,Information technology,Technology,,United States
-HUBB,Hubbell Incorporated,Information technology,Technology,,United States
+HUBS,"HubSpot, Inc.",Information technology,Technology,,United States
 XRX,Xerox Corporation,Information technology,Technology,,United States
-ESTC,Elastic N.V.,Information technology,Technology,,United States
-ATHN,"athenahealth, Inc.",Information technology,Technology,,United States
+HUBB,Hubbell Incorporated,Information technology,Technology,,United States
 ZS,"Zscaler, Inc.",Information technology,Technology,,United States
+ESTC,Elastic N.V.,Information technology,Technology,,United States
 MPWR,"Monolithic Power Systems, Inc.",Information technology,Technology,,United States
+ATHN,"athenahealth, Inc.",Information technology,Technology,,United States
 NEWR,"New Relic, Inc.",Information technology,Technology,,United States
 CDAY,Ceridian HCM Holding Inc.,Information technology,Technology,,United States
 ARRS,ARRIS International plc,Information technology,Technology,,United States
-SWI,SolarWinds Corporation,Information technology,Technology,,United States
 PINC,"Premier, Inc.",Information technology,Technology,,United States
+SWI,SolarWinds Corporation,Information technology,Technology,,United States
 TDC,Teradata Corporation,Information technology,Technology,,United States
 FSLR,"First Solar, Inc.",Information technology,Technology,,United States
 WIX,Wix.com Ltd.,Information technology,Technology,,Israel
-WSO,"Watsco, Inc.",Information technology,Technology,,United States
 CREE,"Cree, Inc.",Information technology,Technology,,United States
 CY,Cypress Semiconductor Corporation,Information technology,Technology,,United States
+WSO,"Watsco, Inc.",Information technology,Technology,,United States
 RP,"RealPage, Inc.",Information technology,Technology,,United States
 BILI,Bilibili Inc.,Information technology,Technology,,China
 OLED,Universal Display Corporation,Information technology,Technology,,United States
+GDI,"Gardner Denver Holdings, Inc.",Information technology,Technology,,United States
 COUP,Coupa Software Incorporated,Information technology,Technology,,United States
 AYI,"Acuity Brands, Inc.",Information technology,Technology,,United States
-LFUS,"Littelfuse, Inc.",Information technology,Technology,,United States
 YY,YY Inc.,Information technology,Technology,,China
-AVT,"Avnet, Inc.",Information technology,Technology,,United States
-PVTL,"Pivotal Software, Inc.",Information technology,Technology,,United States
-GDI,"Gardner Denver Holdings, Inc.",Information technology,Technology,,United States
+LFUS,"Littelfuse, Inc.",Information technology,Technology,,United States
 LOGM,"LogMeIn, Inc.",Information technology,Technology,,United States
 FLEX,Flex Ltd.,Information technology,Technology,,Singapore
-SE,Sea Limited,Information technology,Technology,,Singapore
-CARG,"CarGurus, Inc.",Information technology,Technology,,United States
+PVTL,"Pivotal Software, Inc.",Information technology,Technology,,United States
 MLNX,"Mellanox Technologies, Ltd.",Information technology,Technology,,United States
-ENTG,"Entegris, Inc.",Information technology,Technology,,United States
-NVT,nVent Electric plc,Information technology,Technology,,Kingdom
+SE,Sea Limited,Information technology,Technology,,Singapore
+AVT,"Avnet, Inc.",Information technology,Technology,,United States
+CARG,"CarGurus, Inc.",Information technology,Technology,,United States
 NUAN,"Nuance Communications, Inc.",Information technology,Technology,,United States
+NVT,nVent Electric plc,Information technology,Technology,,Kingdom
+PSTG,"Pure Storage, Inc.",Information technology,Technology,,United States
+ENTG,"Entegris, Inc.",Information technology,Technology,,United States
+BB,BlackBerry Limited,Information technology,Technology,,Canada
 TDOC,"Teladoc Health, Inc.",Information technology,Technology,,United States
 PEGA,Pegasystems Inc.,Information technology,Technology,,United States
-BB,BlackBerry Limited,Information technology,Technology,,Canada
-PSTG,"Pure Storage, Inc.",Information technology,Technology,,United States
-MKSI,"MKS Instruments, Inc.",Information technology,Technology,,United States
 AYX,"Alteryx, Inc.",Information technology,Technology,,United States
+MKSI,"MKS Instruments, Inc.",Information technology,Technology,,United States
 INXN,InterXion Holding N.V.,Information technology,Technology,,Netherland
 SINA,SINA Corporation,Information technology,Technology,,China
 MDSO,"Medidata Solutions, Inc.",Information technology,Technology,,United States
 HQY,"HealthEquity, Inc.",Information technology,Technology,,United States
-PS,"Pluralsight, Inc.",Information technology,Technology,,United States
 JBL,Jabil Inc.,Information technology,Technology,,United States
-SAIC,Science Applications International Corporation,Information technology,Technology,,United States
-CACI,CACI International Inc,Information technology,Technology,,United States
 SLAB,Silicon Laboratories Inc.,Information technology,Technology,NASDAQ Composite,United States
+SAIC,Science Applications International Corporation,Information technology,Technology,,United States
+PS,"Pluralsight, Inc.",Information technology,Technology,,United States
 PLAN,"Anaplan, Inc.",Information technology,Technology,,United States
+CACI,CACI International Inc,Information technology,Technology,,United States
 SATS,EchoStar Corporation,Information technology,Technology,,United States
 COMM,"CommScope Holding Company, Inc.",Information technology,Technology,,United States
 VSAT,"Viasat, Inc.",Information technology,Technology,,United States
-ENS,EnerSys,Information technology,Technology,,United States
 JCOM,"j2 Global, Inc.",Information technology,Technology,,United States
-PCTY,Paylocity Holding Corporation,Information technology,Technology,,United States
+ENS,EnerSys,Information technology,Technology,,United States
 LITE,Lumentum Holdings Inc.,Information technology,Technology,,United States
+PCTY,Paylocity Holding Corporation,Information technology,Technology,,United States
 TECD,Tech Data Corporation,Information technology,Technology,,United States
 FEYE,"FireEye, Inc.",Information technology,Technology,NASDAQ Composite,United States
 ACIW,"ACI Worldwide, Inc.",Information technology,Technology,,United States
 BLKB,"Blackbaud, Inc.",Information technology,Technology,,United States
-PRSP,Perspecta Inc.,Information technology,Technology,,United States
-SMTC,Semtech Corporation,Information technology,Technology,,United States
-CSOD,"Cornerstone OnDemand, Inc.",Information technology,Technology,,United States
 TWOU,"2U, Inc.",Information technology,Technology,,United States
+SMTC,Semtech Corporation,Information technology,Technology,,United States
+CSOD,"Cornerstone OnDemand, Inc.",Information technology,Technology,,nan
+PRSP,Perspecta Inc.,Information technology,Technology,,United States
 QLYS,"Qualys, Inc.",Information technology,Technology,,United States
 STMP,Stamps.com Inc.,Information technology,Technology,,United States
 MANH,"Manhattan Associates, Inc.",Information technology,Technology,,United States
 NCR,NCR Corporation,Information technology,Technology,,United States
-VRNT,Verint Systems Inc.,Information technology,Technology,,United States
 YELP,Yelp Inc.,Information technology,Technology,,United States
+VRNT,Verint Systems Inc.,Information technology,Technology,,United States
 COHR,"Coherent, Inc.",Information technology,Technology,,United States
 ALRM,"Alarm.com Holdings, Inc.",Information technology,Technology,,United States
 ENR,"Energizer Holdings, Inc.",Information technology,Technology,,United States
 AVX,AVX Corporation,Information technology,Technology,,United States
-SMAR,Smartsheet Inc.,Information technology,Technology,,United States
 RAMP,"LiveRamp Holdings, Inc.",Information technology,Technology,,United States
-CVLT,"Commvault Systems, Inc.",Information technology,Technology,,United States
 ORBK,Orbotech Ltd.,Information technology,Technology,,Israel
+SMAR,Smartsheet Inc.,Information technology,Technology,,United States
 BOX,"Box, Inc.",Information technology,Technology,,United States
 CYBR,CyberArk Software Ltd.,Information technology,Technology,,Israel
-CCMP,Cabot Microelectronics Corporation,Information technology,Technology,,United States
+CVLT,"Commvault Systems, Inc.",Information technology,Technology,,United States
 VSH,"Vishay Intertechnology, Inc.",Information technology,Technology,,United States
+CCMP,Cabot Microelectronics Corporation,Information technology,Technology,,United States
 AVLR,"Avalara, Inc.",Information technology,Technology,,United States
 OMCL,"Omnicell, Inc.",Information technology,Technology,,United States
+QTT,Qutoutiao Inc.,Information technology,Technology,,China
 FNSR,Finisar Corporation,Information technology,Technology,,United States
 ELLI,"Ellie Mae, Inc.",Information technology,Technology,,United States
-BL,"BlackLine, Inc.",Information technology,Technology,,United States
-VIAV,Viavi Solutions Inc.,Information technology,Technology,,United States
 SOGO,Sogou Inc.,Information technology,Technology,,China
-QTWO,"Q2 Holdings, Inc.",Information technology,Technology,,United States
+VIAV,Viavi Solutions Inc.,Information technology,Technology,,United States
 TENB,"Tenable Holdings, Inc.",Information technology,Technology,,United States
-EB,"Eventbrite, Inc.",Information technology,Technology,,United States
-QTT,Qutoutiao Inc.,Information technology,Technology,,China
-IRBT,iRobot Corporation,Information technology,Technology,,United States
+BL,"BlackLine, Inc.",Information technology,Technology,,United States
+QTWO,"Q2 Holdings, Inc.",Information technology,Technology,,United States
+GLOB,Globant S.A.,Information technology,Technology,,Luxembourg
 NOVT,Novanta Inc.,Information technology,Technology,,United States
 SEND,"SendGrid, Inc.",Information technology,Technology,,United States
-GLOB,Globant S.A.,Information technology,Technology,,Luxembourg
-LEXEB,"Liberty Expedia Holdings, Inc.",Information technology,Technology,,United States
+EB,"Eventbrite, Inc.",Information technology,Technology,,United States
 SAIL,"SailPoint Technologies Holdings, Inc.",Information technology,Technology,,United States
+IRBT,iRobot Corporation,Information technology,Technology,,United States
 DSGX,The Descartes Systems Group Inc,Information technology,Technology,,Canada
 MRCY,"Mercury Systems, Inc.",Information technology,Technology,,United States
 LEXEA,"Liberty Expedia Holdings, Inc.",Information technology,Technology,,United States
-CRUS,"Cirrus Logic, Inc.",Information technology,Technology,,United States
-MANT,ManTech International Corporation,Information technology,Technology,,United States
 ZUO,"Zuora, Inc.",Information technology,Technology,,United States
-EPAY,"Bottomline Technologies (de), Inc.",Information technology,Technology,,United States
+CRUS,"Cirrus Logic, Inc.",Information technology,Technology,,United States
 ROG,Rogers Corporation,Information technology,Technology,,United States
 ALTR,Altair Engineering Inc.,Information technology,Technology,,United States
+EPAY,"Bottomline Technologies (de), Inc.",Information technology,Technology,,United States
 INOV,"Inovalon Holdings, Inc.",Information technology,Technology,,United States
-IIVI,II-VI Incorporated,Information technology,Technology,,United States
+MANT,ManTech International Corporation,Information technology,Technology,,United States
 BDC,Belden Inc.,Information technology,Technology,,United States
-MDRX,"Allscripts Healthcare Solutions, Inc.",Information technology,Technology,,United States
+IIVI,II-VI Incorporated,Information technology,Technology,,United States
 BDC-PB,Belden Inc.,Information technology,Technology,,United States
-ITRI,"Itron, Inc.",Information technology,Technology,,United States
-GSKY,"GreenSky, Inc.",Information technology,Technology,,United States
 FN,Fabrinet,Information technology,Technology,,Cayman Islands
 BRKS,"Brooks Automation, Inc.",Information technology,Technology,,United States
+ITRI,"Itron, Inc.",Information technology,Technology,,United States
+GSKY,"GreenSky, Inc.",Information technology,Technology,,United States
+MDRX,"Allscripts Healthcare Solutions, Inc.",Information technology,Technology,,United States
 MIME,Mimecast Limited,Information technology,Technology,,Kingdom
+CLDR,"Cloudera, Inc.",Information technology,Technology,,United States
 NTCT,"NetScout Systems, Inc.",Information technology,Technology,,United States
 UPWK,Upwork Inc.,Information technology,Technology,,United States
-CLDR,"Cloudera, Inc.",Information technology,Technology,,United States
 EVTC,"EVERTEC, Inc.",Information technology,Technology,,United States
 SWCH,"Switch, Inc.",Information technology,Technology,,United States
+AEIS,"Advanced Energy Industries, Inc.",Information technology,Technology,,United States
 LXFT,"Luxoft Holding, Inc.",Information technology,Technology,,Switzerland
 POWI,"Power Integrations, Inc.",Information technology,Technology,,United States
-AEIS,"Advanced Energy Industries, Inc.",Information technology,Technology,,United States
 SEDG,"SolarEdge Technologies, Inc.",Information technology,Technology,,Israel
-VICR,Vicor Corporation,Information technology,Technology,,United States
 SANM,Sanmina Corporation,Information technology,Technology,,United States
+VICR,Vicor Corporation,Information technology,Technology,,United States
 AMKR,"Amkor Technology, Inc.",Information technology,Technology,,United States
 ACIA,"Acacia Communications, Inc.",Information technology,Technology,,United States
 WK,Workiva Inc.,Information technology,Technology,,United States
 PLXS,Plexus Corp.,Information technology,Technology,,United States
+CISN,Cision Ltd.,Information technology,Technology,,United States
 ESE,ESCO Technologies Inc.,Information technology,Technology,,United States
 CRTO,Criteo S.A.,Information technology,Technology,,France
-CISN,Cision Ltd.,Information technology,Technology,,United States
 EBIX,"Ebix, Inc.",Information technology,Technology,,United States
-SVMK,SVMK Inc.,Information technology,Technology,,United States
-IPHI,Inphi Corporation,Information technology,Technology,,United States
 DIOD,Diodes Incorporated,Information technology,Technology,,United States
+IPHI,Inphi Corporation,Information technology,Technology,,United States
+SVMK,SVMK Inc.,Information technology,Technology,,United States
 VRNS,"Varonis Systems, Inc.",Information technology,Technology,,United States
 NSIT,"Insight Enterprises, Inc.",Information technology,Technology,,United States
 MSTR,MicroStrategy Incorporated,Information technology,Technology,,United States
 PRGS,Progress Software Corporation,Information technology,Technology,,United States
-TSEM,Tower Semiconductor Ltd.,Information technology,Technology,,Israel
 SPSC,"SPS Commerce, Inc.",Information technology,Technology,,United States
-FIT,"Fitbit, Inc.",Information technology,Technology,,United States
-BMI,"Badger Meter, Inc.",Information technology,Technology,,United States
 OSIS,"OSI Systems, Inc.",Information technology,Technology,,United States
+TSEM,Tower Semiconductor Ltd.,Information technology,Technology,,Israel
+BMI,"Badger Meter, Inc.",Information technology,Technology,,United States
+FIT,"Fitbit, Inc.",Information technology,Technology,,United States
+YEXT,"Yext, Inc.",Information technology,Technology,,United States
 SCWX,SecureWorks Corp.,Information technology,Technology,,United States
 PLT,"Plantronics, Inc.",Information technology,Technology,,United States
-YEXT,"Yext, Inc.",Information technology,Technology,,United States
-EVH,"Evolent Health, Inc.",Information technology,Technology,,United States
-KLIC,"Kulicke and Soffa Industries, Inc.",Information technology,Technology,,Singapore
-LPSN,"LivePerson, Inc.",Information technology,Technology,,United States
 VRTU,Virtusa Corporation,Information technology,Technology,,United States
 SSTK,"Shutterstock, Inc.",Information technology,Technology,,United States
+KLIC,"Kulicke and Soffa Industries, Inc.",Information technology,Technology,,Singapore
+LPSN,"LivePerson, Inc.",Information technology,Technology,,United States
+EVH,"Evolent Health, Inc.",Information technology,Technology,,United States
 TIVO,TiVo Corporation,Information technology,Technology,,United States
-INST,"Instructure, Inc.",Information technology,Technology,,United States
 SYNA,Synaptics Incorporated,Information technology,Technology,,United States
+INST,"Instructure, Inc.",Information technology,Technology,,United States
 RUN,Sunrun Inc.,Information technology,Technology,,United States
 SIMO,Silicon Motion Technology Corporation,Information technology,Technology,,Hong Kong
 GLUU,Glu Mobile Inc.,Information technology,Technology,,United States
 KN,Knowles Corporation,Information technology,Technology,,United States
-CLS,Celestica Inc.,Information technology,Technology,,Canada
-DAVA,Endava plc,Information technology,Technology,,Kingdom
-BITA,Bitauto Holdings Limited,Information technology,Technology,,China
 DDD,3D Systems Corporation,Information technology,Technology,,United States
-PRO,"PROS Holdings, Inc.",Information technology,Technology,,United States
+CLS,Celestica Inc.,Information technology,Technology,,Canada
+BITA,Bitauto Holdings Limited,Information technology,Technology,,China
 MXL,"MaxLinear, Inc.",Information technology,Technology,,United States
-PSDO,"Presidio, Inc.",Information technology,Technology,,United States
+DAVA,Endava plc,Information technology,Technology,,Kingdom
+PRO,"PROS Holdings, Inc.",Information technology,Technology,,United States
 LTRPA,"Liberty TripAdvisor Holdings, Inc.",Information technology,Technology,,United States
-VCRA,"Vocera Communications, Inc.",Information technology,Technology,,United States
+PSDO,"Presidio, Inc.",Information technology,Technology,,United States
 NTGR,"NETGEAR, Inc.",Information technology,Technology,,United States
-NXGN,"NextGen Healthcare, Inc.",Information technology,Technology,,United States
 AMBA,"Ambarella, Inc.",Information technology,Technology,,United States
-ARCE,Arco Platform Limited,Information technology,Technology,,Brazil
+VCRA,"Vocera Communications, Inc.",Information technology,Technology,,United States
 SSYS,Stratasys Ltd.,Information technology,Technology,,United States
 CSGS,"CSG Systems International, Inc.",Information technology,Technology,,United States
-SYKE,"Sykes Enterprises, Incorporated",Information technology,Technology,,United States
 KEM,KEMET Corporation,Information technology,Technology,,United States
-TTMI,"TTM Technologies, Inc.",Information technology,Technology,,United States
+NXGN,"NextGen Healthcare, Inc.",Information technology,Technology,,United States
 MTSI,"MACOM Technology Solutions Holdings, Inc.",Information technology,Technology,,United States
-CSIQ,Canadian Solar Inc.,Information technology,Technology,,Canada
+TTMI,"TTM Technologies, Inc.",Information technology,Technology,,United States
+ARCE,Arco Platform Limited,Information technology,Technology,,Brazil
+SYKE,"Sykes Enterprises, Incorporated",Information technology,Technology,,United States
 EIGI,"Endurance International Group Holdings, Inc.",Information technology,Technology,,United States
+CSIQ,Canadian Solar Inc.,Information technology,Technology,,Canada
 SONO,"Sonos, Inc.",Information technology,Technology,,United States
 WIRE,Encore Wire Corporation,Information technology,Technology,,United States
 EFII,"Electronics for Imaging, Inc.",Information technology,Technology,,United States
 LORL,Loral Space &amp; Communications Inc.,Information technology,Technology,,United States
-RDWR,Radware Ltd.,Information technology,Technology,,Israel
-BHE,"Benchmark Electronics, Inc.",Information technology,Technology,,United States
-CANG,Cango Inc.,Information technology,Technology,,China
-PLUS,ePlus inc.,Information technology,Technology,,United States
 FORM,"FormFactor, Inc.",Information technology,Technology,,United States
+RDWR,Radware Ltd.,Information technology,Technology,,Israel
+PLUS,ePlus inc.,Information technology,Technology,,United States
+BHE,"Benchmark Electronics, Inc.",Information technology,Technology,,United States
 IIJI,Internet Initiative Japan Inc.,Information technology,Technology,,Japan
+CANG,Cango Inc.,Information technology,Technology,,China
 ESIO,"Electro Scientific Industries, Inc.",Information technology,Technology,,United States
+XPER,Xperi Corporation,Information technology,Technology,,United States
 CASA,"Casa Systems, Inc.",Information technology,Technology,,United States
 CYOU,Changyou.com Limited,Information technology,Technology,,China
-XPER,Xperi Corporation,Information technology,Technology,,United States
 LSCC,Lattice Semiconductor Corporation,Information technology,Technology,,United States
+VNET,"21Vianet Group, Inc.",Information technology,Technology,,China
 SCSC,"ScanSource, Inc.",Information technology,Technology,,United States
 TRUE,"TrueCar, Inc.",Information technology,Technology,,United States
-VNET,"21Vianet Group, Inc.",Information technology,Technology,,China
 CBLK,"Carbon Black, Inc.",Information technology,Technology,,United States
 RMBS,Rambus Inc.,Information technology,Technology,,United States
-CMCM,Cheetah Mobile Inc.,Information technology,Technology,,China
 MEI,"Methode Electronics, Inc.",Information technology,Technology,,United States
+CMCM,Cheetah Mobile Inc.,Information technology,Technology,,China
 EGOV,NIC Inc.,Information technology,Technology,,United States
-CTS,CTS Corporation,Information technology,Technology,,United States
 QNST,"QuinStreet, Inc.",Information technology,Technology,,United States
+CTS,CTS Corporation,Information technology,Technology,,United States
 CRAY,Cray Inc.,Information technology,Technology,,United States
 JT,Jianpu Technology Inc.,Information technology,Technology,,China
+BAND,Bandwidth Inc.,Information technology,Technology,,United States
 RCM,R1 RCM Inc.,Information technology,Technology,,United States
 CNXN,"PC Connection, Inc.",Information technology,Technology,,United States
 MTSC,MTS Systems Corporation,Information technology,Technology,,United States
-BAND,Bandwidth Inc.,Information technology,Technology,,United States
-OPRA,Opera Limited,Information technology,Technology,,Norway
 MTLS,Materialise NV,Information technology,Technology,,Belgium
 MLAB,"Mesa Laboratories, Inc.",Information technology,Technology,,United States
 PRFT,"Perficient, Inc.",Information technology,Technology,,United States
+OPRA,Opera Limited,Information technology,Technology,,Norway
 HSTM,"HealthStream, Inc.",Information technology,Technology,,United States
-EXTR,"Extreme Networks, Inc.",Information technology,Technology,,United States
 QADA,QAD Inc.,Information technology,Technology,,United States
+EXTR,"Extreme Networks, Inc.",Information technology,Technology,,United States
 SPWR,SunPower Corporation,Information technology,Technology,,United States
 SOHU,Sohu.com Limited,Information technology,Technology,,China
-CTK,CooTek (Cayman) Inc.,Information technology,Technology,,China
-QADB,QAD Inc.,Information technology,Technology,,United States
 CRCM,"Care.com, Inc.",Information technology,Technology,,United States
-FARO,"FARO Technologies, Inc.",Information technology,Technology,NASDAQ Composite,United States
+QADB,QAD Inc.,Information technology,Technology,,United States
 NANO,Nanometrics Incorporated,Information technology,Technology,,United States
-GPRO,"GoPro, Inc.",Information technology,Technology,,United States
+CTK,CooTek (Cayman) Inc.,Information technology,Technology,,China
 COHU,"Cohu, Inc.",Information technology,Technology,,United States
+FARO,"FARO Technologies, Inc.",Information technology,Technology,NASDAQ Composite,United States
 LASR,"nLIGHT, Inc.",Information technology,Technology,,United States
 PLAB,"Photronics, Inc.",Information technology,Technology,,United States
 ITRN,Ituran Location and Control Ltd.,Information technology,Technology,,Israel
@@ -1027,71 +1025,69 @@ RTEC,"Rudolph Technologies, Inc.",Information technology,Technology,,United Stat
 NVMI,Nova Measuring Instruments Ltd.,Information technology,Technology,,Israel
 ADTN,"ADTRAN, Inc.",Information technology,Technology,,United States
 UIS,Unisys Corporation,Information technology,Technology,,United States
+ACLS,"Axcelis Technologies, Inc.",Information technology,Technology,,United States
 TYPE,Monotype Imaging Holdings Inc.,Information technology,Technology,,United States
 HMI,Huami Corporation,Information technology,Technology,,China
-ACLS,"Axcelis Technologies, Inc.",Information technology,Technology,,United States
 IIIV,"i3 Verticals, Inc.",Information technology,Technology,,United States
 IMOS,ChipMOS TECHNOLOGIES INC.,Information technology,Technology,,Taiwan
-CMTL,Comtech Telecommunications Corp.,Information technology,Technology,,United States
 CEVA,"CEVA, Inc.",Information technology,Technology,,United States
-CALX,"Calix, Inc.",Information technology,Technology,,United States
+CMTL,Comtech Telecommunications Corp.,Information technology,Technology,,United States
 JKS,"JinkoSolar Holding Co., Ltd.",Information technology,Technology,,China
-FORTY,Formula Systems (1985) Ltd.,Information technology,Technology,,Israel
+CALX,"Calix, Inc.",Information technology,Technology,,United States
 QTNA,"Quantenna Communications, Inc.",Information technology,Technology,,United States
-SWIR,"Sierra Wireless, Inc.",Information technology,Technology,,Canada
 SGH,"SMART Global Holdings, Inc.",Information technology,Technology,,United States
-ARLO,"Arlo Technologies, Inc.",Information technology,Technology,,United States
-CTRL,Control4 Corporation,Information technology,Technology,,United States
+SWIR,"Sierra Wireless, Inc.",Information technology,Technology,,Canada
 VIOT,"Viomi Technology Co., Ltd",Information technology,Technology,,China
+CTRL,Control4 Corporation,Information technology,Technology,,United States
+ARLO,"Arlo Technologies, Inc.",Information technology,Technology,,United States
 ATEN,"A10 Networks, Inc.",Information technology,Technology,,United States
 GILT,Gilat Satellite Networks Ltd.,Information technology,Technology,,Israel
+VECO,Veeco Instruments Inc.,Information technology,Technology,,United States
+ICHR,"Ichor Holdings, Ltd.",Information technology,Technology,,United States
 MODN,"Model N, Inc.",Information technology,Technology,,United States
 CAMP,CalAmp Corp.,Information technology,Technology,,United States
-VECO,Veeco Instruments Inc.,Information technology,Technology,,United States
 PKE,Park Electrochemical Corp.,Information technology,Technology,,United States
-ICHR,"Ichor Holdings, Ltd.",Information technology,Technology,,United States
-HLIT,Harmonic Inc.,Information technology,Technology,,United States
 VPG,"Vishay Precision Group, Inc.",Information technology,Technology,,United States
 DQ,Daqo New Energy Corp.,Information technology,Technology,,China
-KE,"Kimball Electronics, Inc.",Information technology,Technology,,United States
+HLIT,Harmonic Inc.,Information technology,Technology,,United States
 UCTT,"Ultra Clean Holdings, Inc.",Information technology,Technology,,United States
+KE,"Kimball Electronics, Inc.",Information technology,Technology,,United States
 PAR,PAR Technology Corporation,Information technology,Technology,,United States
-INSG,Inseego Corp.,Information technology,Technology,,United States
 UEIC,Universal Electronics Inc.,Information technology,Technology,,United States
-AUDC,AudioCodes Ltd.,Information technology,Technology,,Israel
-CPSI,"Computer Programs and Systems, Inc.",Information technology,Technology,,United States
-HBB,Hamilton Beach Brands Holding Company,Information technology,Technology,,United States
-MGIC,Magic Software Enterprises Ltd.,Information technology,Technology,,Israel
-ZIXI,Zix Corporation,Information technology,Technology,,United States
-MIXT,MiX Telematics Limited,Information technology,Technology,,Africa
 AGYS,"Agilysys, Inc.",Information technology,Technology,,United States
-RST,Rosetta Stone Inc.,Information technology,Technology,,United States
-AMSWA,"American Software, Inc.",Information technology,Technology,,United States
+AUDC,AudioCodes Ltd.,Information technology,Technology,,Israel
+HBB,Hamilton Beach Brands Holding Company,Information technology,Technology,,United States
+ZIXI,Zix Corporation,Information technology,Technology,,United States
+CPSI,"Computer Programs and Systems, Inc.",Information technology,Technology,,United States
+MGIC,Magic Software Enterprises Ltd.,Information technology,Technology,,Israel
+MIXT,MiX Telematics Limited,Information technology,Technology,,Africa
 DAKT,"Daktronics, Inc.",Information technology,Technology,,United States
-KEYW,The KeyW Holding Corporation,Information technology,Technology,,United States
+AMSWA,"American Software, Inc.",Information technology,Technology,,United States
+RST,Rosetta Stone Inc.,Information technology,Technology,,United States
 NPTN,NeoPhotonics Corporation,Information technology,Technology,,United States
 MAXR,Maxar Technologies Inc.,Information technology,Technology,,United States
+KEYW,The KeyW Holding Corporation,Information technology,Technology,,United States
 PI,"Impinj, Inc.",Information technology,Technology,,United States
 AQ,Aquantia Corp.,Information technology,Technology,,United States
-DGII,Digi International Inc.,Information technology,Technology,,United States
 PDFS,"PDF Solutions, Inc.",Information technology,Technology,,United States
+DGII,Digi International Inc.,Information technology,Technology,,United States
 SNCR,"Synchronoss Technologies, Inc.",Information technology,Technology,,United States
 ECOM,ChannelAdvisor Corporation,Information technology,Technology,,United States
-IMMR,Immersion Corporation,Information technology,Technology,,United States
 AOSL,Alpha and Omega Semiconductor Limited,Information technology,Technology,,United States
+IMMR,Immersion Corporation,Information technology,Technology,,United States
 BCOV,Brightcove Inc.,Information technology,Technology,,United States
-FTEO,"FRONTEO, Inc.",Information technology,Technology,,Japan
 DSPG,"DSP Group, Inc.",Information technology,Technology,,United States
+FTEO,"FRONTEO, Inc.",Information technology,Technology,,Japan
 PLPC,Preformed Line Products Company,Information technology,Technology,,United States
 AMSC,American Superconductor Corporation,Information technology,Technology,,United States
 BELFB,Bel Fuse Inc.,Information technology,Technology,,United States
 RNET,"RigNet, Inc.",Information technology,Technology,,United States
-SILC,Silicom Ltd.,Information technology,Technology,,Israel
 HURC,"Hurco Companies, Inc.",Information technology,Technology,,United States
-AMBR,"Amber Road, Inc.",Information technology,Technology,,United States
+SILC,Silicom Ltd.,Information technology,Technology,,Israel
 BELFA,Bel Fuse Inc.,Information technology,Technology,,United States
-MX,MagnaChip Semiconductor Corporation,Information technology,Technology,,Luxembourg
+AMBR,"Amber Road, Inc.",Information technology,Technology,,United States
 DMRC,Digimarc Corporation,Information technology,Technology,,United States
+MX,MagnaChip Semiconductor Corporation,Information technology,Technology,,Luxembourg
 ALLT,Allot Ltd.,Information technology,Technology,,Israel
 KVHI,"KVH Industries, Inc.",Information technology,Technology,,United States
 GSIT,"GSI Technology, Inc.",Information technology,Technology,,United States
@@ -1160,13 +1156,13 @@ NTT,NTT,Communication services,Telecommunication,,nan
 NTDOY,"Nintendo Co., Ltd.",Information technology,Technology,,Japan
 CAJ,Canon Inc.,Information technology,Technology,,Japan
 AMZN,"Amazon.com, Inc.",Information technology,Technology,,United States
-AMZN,"Amazon.com, Inc.",Industrials,Oil & gas,,United States
+AMZN,"Amazon.com, Inc.",Industrials,Consumer services,,United States
 AMZN,"Amazon.com, Inc.",Consumer discretionary,Consumer services,,United States
-BABA,Alibaba Group Holding Limited,Information technology,Technology,,China
+BABA,Alibaba Group Holding Limited,Information technology,Technology,,Hong Kong
 YHOO,YHOO,Information technology,Technology,,nan
 LNKD,LNKD,Information technology,Technology,,nan
 EBAY,eBay Inc.,Information technology,Technology,,United States
-EBAY,eBay Inc.,Industrials,Oil & gas,,United States
+EBAY,eBay Inc.,Industrials,Consumer services,,United States
 PYPL,"PayPal Holdings, Inc.",Information technology,Technology,,United States
 DIA.MC,"Distribuidora Internacional de Alimentación, S.A.",Consumer staples,Consumer goods,Ibex 35,Spain
 EBRO.MC,"Ebro Foods, S.A.",Consumer staples,Consumer goods,,Spain
@@ -1175,7 +1171,7 @@ CA.PA,Carrefour SA,Consumer staples,Consumer goods,CAC 40,France
 WMT,Walmart Inc.,Consumer staples,Consumer goods,Dow Jones Industrial Average,United States
 WMT,Walmart Inc.,Consumer discretionary,Consumer services,Dow Jones Industrial Average,United States
 NESN.VX,Nestlé S.A.,Consumer staples,Consumer goods,,nan
-NESN.VX,Nestlé S.A.,Industrials,Oil & gas,,nan
+NESN.VX,Nestlé S.A.,Industrials,Consumer services,,nan
 KO,The Coca-Cola Company,Consumer staples,Consumer goods,Dow Jones Industrial Average,United States
 PEP,"PepsiCo, Inc.",Consumer staples,Consumer goods,,United States
 MDLZ,"Mondelez International, Inc.",Consumer staples,Consumer goods,NASDAQ 100,United States
@@ -1184,7 +1180,7 @@ KHC,The Kraft Heinz Company,Consumer staples,Consumer goods,,United States
 BN.PA,Danone SA,Consumer staples,Consumer goods,CAC 40,France
 KOFL.MX,"Coca-Cola FEMSA, S.A.B. de C.V.",Consumer staples,Consumer goods,IPC Mexico,Mexico
 RI.PA,Pernod Ricard SA,Consumer staples,Consumer goods,CAC 40,France
-RI.PA,Pernod Ricard SA,Industrials,Oil & gas,CAC 40,France
+RI.PA,Pernod Ricard SA,Industrials,Consumer services,CAC 40,France
 TM,Toyota Motor Corporation,Consumer discretionary,Consumer goods,,Japan
 VOW3.DE,Volkswagen AG,Consumer discretionary,Consumer goods,DAX,Germany
 DAI.DE,Daimler AG,Consumer discretionary,Consumer goods,DAX,Germany
@@ -1196,7 +1192,7 @@ F,Ford Motor Compan,Consumer discretionary,Consumer goods,,United States
 005380.KS,Hyundai Motor Company,Consumer discretionary,Consumer goods,,Korea
 RNO.PA,Renault SA,Consumer discretionary,Consumer goods,,France
 UG.PA,Peugeot S.A.,Consumer discretionary,Consumer goods,CAC 40,France
-UG.PA,Peugeot S.A.,Industrials,Oil & gas,CAC 40,France
+UG.PA,Peugeot S.A.,Industrials,Consumer services,CAC 40,France
 TTM,Tata Motors Limited,Consumer discretionary,Consumer goods,,India
 600104.SS,SAIC Motor Corporation Limited,Consumer discretionary,Consumer goods,,nan
 AENA.MC,"Aena S.M.E., S.A.",Consumer discretionary,Consumer services,Ibex 35,Spain
@@ -1225,13 +1221,13 @@ GSK.L,GlaxoSmithKline plc,,Basic materials,,Kingdom
 ITX.MC,"Industria de Diseño Textil, S.A.",Consumer discretionary,Consumer goods,Ibex 35,Spain
 ADZ.MC,Adolfo Dominguez SA,Consumer discretionary,Consumer goods,,Spain
 CDI.PA,Christian Dior SE,Consumer discretionary,Consumer goods,,France
-CDI.PA,Christian Dior SE,Industrials,Oil & gas,,France
+CDI.PA,Christian Dior SE,Industrials,Consumer services,,France
 NKE,"NIKE, Inc.",Consumer discretionary,Consumer goods,Dow Jones Industrial Average,United States
 HM-B.ST,H &amp; M Hennes &amp; Mauritz AB (publ),Consumer discretionary,Consumer goods,,Sweden
 KER.PA,Kering SA,Consumer discretionary,Consumer goods,CAC 40,France
 ADS.DE,adidas AG,Consumer discretionary,Consumer goods,DAX,Germany
 RMS.PA,Hermès International Société en commandite par actions,Consumer discretionary,Consumer goods,,France
-RMS.PA,Hermès International Société en commandite par actions,Industrials,Oil & gas,,France
+RMS.PA,Hermès International Société en commandite par actions,Industrials,Consumer services,,France
 RL,Ralph Lauren Corporation,Consumer discretionary,Consumer goods,,United States
 BRBY.L,Burberry Group plc,Consumer discretionary,Consumer goods,,Kingdom
 BRBY.L,Burberry Group plc,Consumer discretionary,Consumer services,,Kingdom
@@ -1259,7 +1255,7 @@ SHI,Sinopec Shanghai Petrochemical Company Limited,Energy,Utilities,,China
 SHLX,"Shell Midstream Partners, L.P.",Energy,Utilities,,United States
 BP,BP p.l.c.,Energy,Utilities,,Kingdom
 TOT,TOTAL S.A.,Energy,Utilities,,France
-ENI,Enersis Americas S.A. American ,Energy,Utilities,,nan
+ENI,ENI,Energy,Utilities,,nan
 EDF.PA,Electricité de France S.A.,Energy,Utilities,,France
 EONGY,E.ON SE,Energy,Utilities,,Germany
 ENGIY,ENGIE SA,Energy,Utilities,,France
@@ -1298,26 +1294,26 @@ AB.PA,AB Science S.A.,Healthcare,Healthcare,,France
 GDS.PA,Ramsay Générale de Santé SA,Healthcare,Healthcare,,France
 IPH.PA,Innate Pharma S.A.,Healthcare,Healthcare,,France
 BOTHE.BR,Bone Therapeutics SA,Healthcare,Healthcare,,Belgium
-UL,Unilever PLC,Industrials,Oil & gas,,Kingdom
-PG,The Procter &amp; Gamble Company,Industrials,Oil & gas,,United States
-EL,The Estée Lauder Companies Inc.,Industrials,Oil & gas,,United States
-OR.PA,L'Oreal SA,Industrials,Oil & gas,,France
-DANOY,Danone SA,Industrials,Oil & gas,,France
-CARR.PA,CARR.PA,Industrials,Oil & gas,,nan
-TSCDY,Tesco PLC,Industrials,Oil & gas,,Kingdom
-MEO.DE,MEO.DE,Industrials,Oil & gas,,nan
+UL,Unilever PLC,Industrials,Consumer services,,Kingdom
+PG,The Procter &amp; Gamble Company,Industrials,Consumer services,,United States
+EL,The Estée Lauder Companies Inc.,Industrials,Consumer services,,United States
+OR.PA,L'Oreal SA,Industrials,Consumer services,,France
+DANOY,Danone SA,Industrials,Consumer services,,France
+CARR.PA,CARR.PA,Industrials,Consumer services,,nan
+TSCDY,Tesco PLC,Industrials,Consumer services,,Kingdom
+MEO.DE,MEO.DE,Industrials,Consumer services,,nan
 MEO.DE,MEO.DE,,Industrials,,nan
-MC.PA,LVMH Moët Hennessy Louis Vuitton S.E.,Industrials,Oil & gas,CAC 40,France
-SK.PA,SEB SA,Industrials,Oil & gas,,France
-ML.PA,Compagnie Générale des Établissements Michelin,Industrials,Oil & gas,CAC 40,France
-LPE.PA,Laurent-Perrier S.A.,Industrials,Oil & gas,,France
-RIN.PA,Vilmorin &amp; Cie SA,Industrials,Oil & gas,,France
+MC.PA,LVMH Moët Hennessy Louis Vuitton S.E.,Industrials,Consumer services,CAC 40,France
+SK.PA,SEB SA,Industrials,Consumer services,,France
+ML.PA,Compagnie Générale des Établissements Michelin,Industrials,Consumer services,CAC 40,France
+LPE.PA,Laurent-Perrier S.A.,Industrials,Consumer services,,France
+RIN.PA,Vilmorin &amp; Cie SA,Industrials,Consumer services,,France
 ILD.PA,Iliad SA,Communication services,Telecommunication,,France
 SFR.PA,SFR.PA,Communication services,Telecommunication,,nan
 CHL,China Mobile Limited,Communication services,Telecommunication,,Hong Kong
 DTEGY,Deutsche Telekom AG,Communication services,Telecommunication,,Germany
 NPPXF,Nippon Telegraph and Telephone Corporation,Communication services,Telecommunication,,Japan
-DCM,"NTT DOCOMO, Inc American Deposi",Communication services,Telecommunication,,nan
+DCM,DCM,Communication services,Telecommunication,,nan
 S,Sprint Corporatio,Communication services,Telecommunication,,United States
 SEQ.PA,Sequana SA,,Basic materials,,France
 JCQ.PA,Jacquet Metal Service SA,,Basic materials,,France
@@ -1437,7 +1433,7 @@ MSF.F,Microsoft Corporation,Information technology,Technology,,United States
 AMZ.F,"Amazon.com, Inc.",Information technology,Technology,,United States
 FB2A.DE,"Facebook, Inc.",Information technology,Technology,,United States
 NNND.DE,NNND.DE,Information technology,Technology,,nan
-AHLA.F,Alibaba Group Holding Limited,Information technology,Technology,,China
+AHLA.F,Alibaba Group Holding Limited,Information technology,Technology,,Hong Kong
 ORC.F,Oracle Corporation,Information technology,Technology,,United States
 QCI.F,QUALCOMM Incorporated,Information technology,Technology,,United States
 CSA.F,Accenture plc,Information technology,Technology,,Ireland
@@ -1597,7 +1593,7 @@ UBI.MI,Unione di Banche Italiane S.p.A.,Financials,Financials,FTSE MIB INDEX,Ita
 BMED.MI,Banca Mediolanum S.p.A.,Financials,Financials,,Italy
 CRDI.MI,CRDI.MI,Financials,Financials,,nan
 UNIPI.MI,UNIPI.MI,Financials,Financials,,nan
-US.MI,UnipolSai Assicurazioni S.p.A.,Financials,Financials,,Italy
+US.MI,UnipolSai Assicurazioni S.p.A.,Financials,Financials,,nan
 BAMI.MI,Banco BPM Società per Azioni,Financials,Financials,,Italy
 BMPS.MI,Banca Monte dei Paschi di Siena S.p.A.,Financials,Financials,,Italy
 AZM.MI,Azimut Holding S.p.A.,Financials,Financials,FTSE MIB INDEX,Italy
@@ -1637,7 +1633,7 @@ BP.L,BP p.l.c.,Energy,Utilities,,Kingdom
 CNA.L,Centrica plc,Energy,Utilities,FTSE 100,Kingdom
 SSE.L,SSE plc,Energy,Utilities,FTSE 100,Kingdom
 TOT.L,Total Produce plc,Energy,Utilities,,Ireland
-UKW.L,Greencoat UK Wind PLC,Energy,Utilities,,Kingdom
+UKW.L,Greencoat UK Wind PLC,Energy,Utilities,,nan
 EOAN.SW,E.ON SE,Energy,Utilities,,nan
 Enel.MI,Enel.MI,Energy,Utilities,,Italy
 REP.MA,REP.MA,Energy,Utilities,,nan
@@ -1709,7 +1705,7 @@ MKS.L,Marks and Spencer Group plc,Consumer discretionary,Consumer services,,King
 KGF.L,Kingfisher plc,Consumer discretionary,Consumer services,,Kingdom
 DC.L,Dixons Carphone plc,Consumer discretionary,Consumer services,,Kingdom
 TGT,Target Corporation,Consumer discretionary,Consumer services,,United States
-LUX,"Luxottica Group, S.p.A.",Consumer discretionary,Consumer services,,nan
+LUX,LUX,Consumer discretionary,Consumer services,,nan
 GPS,"The Gap, Inc.",Consumer discretionary,Consumer services,,United States
 TED.L,Ted Baker Plc,Consumer discretionary,Consumer services,,Kingdom
 DEB.L,Debenhams plc,Consumer discretionary,Consumer services,,Kingdom
@@ -1729,167 +1725,167 @@ PFD.L,Premier Foods plc,Consumer staples,Consumer goods,,Kingdom
 BTC-USD,Bitcoin USD,Cryptocurrency,Cryptocurrency,,nan
 XRP-USD,Ripple USD,Cryptocurrency,Cryptocurrency,,nan
 ETH-USD,Ethereum USD,Cryptocurrency,Cryptocurrency,,nan
-BCH-USD,Bitcoin Cash / BCC USD,Cryptocurrency,Cryptocurrency,,nan
 USDT-USD,Tether USD,Cryptocurrency,Cryptocurrency,,nan
+BCH-USD,Bitcoin Cash / BCC USD,Cryptocurrency,Cryptocurrency,,nan
+TRX-USD,Tronix USD,Cryptocurrency,Cryptocurrency,,nan
 LTC-USD,Litecoin USD,Cryptocurrency,Cryptocurrency,,nan
 XLM-USD,Stellar USD,Cryptocurrency,Cryptocurrency,,nan
-TRX-USD,Tronix USD,Cryptocurrency,Cryptocurrency,,nan
 EOS-USD,EOS USD,Cryptocurrency,Cryptocurrency,,nan
 BNB-USD,Binance Coin USD,Cryptocurrency,Cryptocurrency,,nan
 ADA-USD,Cardano USD,Cryptocurrency,Cryptocurrency,,nan
-IOT-USD,IOTA USD,Cryptocurrency,Cryptocurrency,,nan
 XMR-USD,Monero USD,Cryptocurrency,Cryptocurrency,,nan
-DASH-USD,DigitalCash USD,Cryptocurrency,Cryptocurrency,,nan
+IOT-USD,IOTA USD,Cryptocurrency,Cryptocurrency,,nan
 VEN-USD,Vechain USD,Cryptocurrency,Cryptocurrency,,nan
-XEM-USD,NEM USD,Cryptocurrency,Cryptocurrency,,nan
+DASH-USD,DigitalCash USD,Cryptocurrency,Cryptocurrency,,nan
 NEO-USD,NEO USD,Cryptocurrency,Cryptocurrency,,nan
-LINK-USD,ChainLink USD,Cryptocurrency,Cryptocurrency,,nan
+XEM-USD,NEM USD,Cryptocurrency,Cryptocurrency,,nan
 ETC-USD,Ethereum Classic USD,Cryptocurrency,Cryptocurrency,,nan
+LINK-USD,ChainLink USD,Cryptocurrency,Cryptocurrency,,nan
 XRB-USD,Nano USD,Cryptocurrency,Cryptocurrency,,nan
 ZEC-USD,ZCash USD,Cryptocurrency,Cryptocurrency,,nan
-ZRX-USD,0x USD,Cryptocurrency,Cryptocurrency,,nan
 WAVES-USD,Waves USD,Cryptocurrency,Cryptocurrency,,nan
+ZRX-USD,0x USD,Cryptocurrency,Cryptocurrency,,nan
 DOGE-USD,Dogecoin USD,Cryptocurrency,Cryptocurrency,,nan
 QTUM-USD,QTUM USD,Cryptocurrency,Cryptocurrency,,nan
-BTG-USD,Bitcoin Gold USD,Cryptocurrency,Cryptocurrency,,nan
 BAT-USD,Basic Attention Token USD,Cryptocurrency,Cryptocurrency,,nan
+BTG-USD,Bitcoin Gold USD,Cryptocurrency,Cryptocurrency,,nan
 OMG-USD,OmiseGo USD,Cryptocurrency,Cryptocurrency,,nan
 DCR-USD,Decred USD,Cryptocurrency,Cryptocurrency,,nan
-REP-USD,Augur USD,Cryptocurrency,Cryptocurrency,,nan
 LSK-USD,Lisk USD,Cryptocurrency,Cryptocurrency,,nan
 SNT-USD,Status Network Token USD,Cryptocurrency,Cryptocurrency,,nan
-AE-USD,Aeternity USD,Cryptocurrency,Cryptocurrency,,nan
+REP-USD,Augur USD,Cryptocurrency,Cryptocurrency,,nan
 GNO-USD,Gnosis USD,Cryptocurrency,Cryptocurrency,,nan
+AE-USD,Aeternity USD,Cryptocurrency,Cryptocurrency,,nan
 DGB-USD,DigiByte USD,Cryptocurrency,Cryptocurrency,,nan
-LRC-USD,Loopring USD,Cryptocurrency,Cryptocurrency,,nan
 XVG-USD,Verge USD,Cryptocurrency,Cryptocurrency,,nan
 BTS-USD,Bitshares USD,Cryptocurrency,Cryptocurrency,,nan
 STRAT-USD,Stratis USD,Cryptocurrency,Cryptocurrency,,nan
 ICX-USD,ICON Project USD,Cryptocurrency,Cryptocurrency,,nan
+LRC-USD,Loopring USD,Cryptocurrency,Cryptocurrency,,nan
 SC-USD,Siacoin USD,Cryptocurrency,Cryptocurrency,,nan
 QASH-USD,Quoine Liquid USD,Cryptocurrency,Cryptocurrency,,nan
-WTC-USD,Waltonchain USD,Cryptocurrency,Cryptocurrency,,nan
 KMD-USD,Komodo USD,Cryptocurrency,Cryptocurrency,,nan
-MCO-USD,Monaco USD,Cryptocurrency,Cryptocurrency,,nan
+WTC-USD,Waltonchain USD,Cryptocurrency,Cryptocurrency,,nan
 PPT-USD,Populous USD,Cryptocurrency,Cryptocurrency,,nan
+MCO-USD,Monaco USD,Cryptocurrency,Cryptocurrency,,nan
 GNT-USD,Golem Network Token USD,Cryptocurrency,Cryptocurrency,,nan
-PAY-USD,TenX USD,Cryptocurrency,Cryptocurrency,,nan
 FCT-USD,Factoids USD,Cryptocurrency,Cryptocurrency,,nan
 STORJ-USD,Storj USD,Cryptocurrency,Cryptocurrency,,nan
-MAID-USD,MaidSafe Coin USD,Cryptocurrency,Cryptocurrency,,nan
+PAY-USD,TenX USD,Cryptocurrency,Cryptocurrency,,nan
 ARDR-USD,Ardor USD,Cryptocurrency,Cryptocurrency,,nan
-CVC-USD,Civic USD,Cryptocurrency,Cryptocurrency,,nan
+MAID-USD,MaidSafe Coin USD,Cryptocurrency,Cryptocurrency,,nan
 XUC-USD,Exchange Union USD,Cryptocurrency,Cryptocurrency,,nan
+CVC-USD,Civic USD,Cryptocurrency,Cryptocurrency,,nan
+ARK-USD,ARK USD,Cryptocurrency,Cryptocurrency,,nan
 FUN-USD,FunFair USD,Cryptocurrency,Cryptocurrency,,nan
 HSR-USD,Hshare USD,Cryptocurrency,Cryptocurrency,,nan
-PIVX-USD,Private Instant Verified Transaction USD,Cryptocurrency,Cryptocurrency,,nan
-ARK-USD,ARK USD,Cryptocurrency,Cryptocurrency,,nan
 BNT-USD,Bancor Network Token USD,Cryptocurrency,Cryptocurrency,,nan
-DGD-USD,Digix DAO USD,Cryptocurrency,Cryptocurrency,,nan
 DCN-USD,Dentacoin USD,Cryptocurrency,Cryptocurrency,,nan
-STEEM-USD,Steem USD,Cryptocurrency,Cryptocurrency,,nan
+DGD-USD,Digix DAO USD,Cryptocurrency,Cryptocurrency,,nan
 MONA-USD,MonaCoin USD,Cryptocurrency,Cryptocurrency,,nan
+STEEM-USD,Steem USD,Cryptocurrency,Cryptocurrency,,nan
 XZC-USD,ZCoin USD,Cryptocurrency,Cryptocurrency,,nan
-ETP-USD,Metaverse USD,Cryptocurrency,Cryptocurrency,,nan
-KNC-USD,Kyber Network USD,Cryptocurrency,Cryptocurrency,,nan
 VERI-USD,Veritaseum USD,Cryptocurrency,Cryptocurrency,,nan
-SUB-USD,Substratum Network USD,Cryptocurrency,Cryptocurrency,,nan
 SALT-USD,Salt Lending USD,Cryptocurrency,Cryptocurrency,,nan
-NXT-USD,Nxt USD,Cryptocurrency,Cryptocurrency,,nan
 LKK-USD,Lykke USD,Cryptocurrency,Cryptocurrency,,nan
-SYS-USD,SysCoin USD,Cryptocurrency,Cryptocurrency,,nan
+KNC-USD,Kyber Network USD,Cryptocurrency,Cryptocurrency,,nan
+SUB-USD,Substratum Network USD,Cryptocurrency,Cryptocurrency,,nan
+NXT-USD,Nxt USD,Cryptocurrency,Cryptocurrency,,nan
 MGO-USD,MobileGo USD,Cryptocurrency,Cryptocurrency,,nan
+ETP-USD,Metaverse USD,Cryptocurrency,Cryptocurrency,,nan
+GBYTE-USD,Byteball USD,Cryptocurrency,Cryptocurrency,,nan
+RLC-USD,iExec USD,Cryptocurrency,Cryptocurrency,,nan
 NXS-USD,Nexus USD,Cryptocurrency,Cryptocurrency,,nan
 ZEN-USD,ZenCash USD,Cryptocurrency,Cryptocurrency,,nan
 GAS-USD,Gas USD,Cryptocurrency,Cryptocurrency,,nan
-PART-USD,Particl USD,Cryptocurrency,Cryptocurrency,,nan
-GBYTE-USD,Byteball USD,Cryptocurrency,Cryptocurrency,,nan
-KIN-USD,Kin USD,Cryptocurrency,Cryptocurrency,,nan
-RLC-USD,iExec USD,Cryptocurrency,Cryptocurrency,,nan
 SMART-USD,SmartCash USD,Cryptocurrency,Cryptocurrency,,nan
-MTL-USD,Metal USD,Cryptocurrency,Cryptocurrency,,nan
+KIN-USD,Kin USD,Cryptocurrency,Cryptocurrency,,nan
 NEBL-USD,Neblio USD,Cryptocurrency,Cryptocurrency,,nan
+MTL-USD,Metal USD,Cryptocurrency,Cryptocurrency,,nan
 ANT-USD,Aragon USD,Cryptocurrency,Cryptocurrency,,nan
+SNGLS-USD,SingularDTV USD,Cryptocurrency,Cryptocurrency,,nan
 EDG-USD,Edgeless USD,Cryptocurrency,Cryptocurrency,,nan
 ICN-USD,Iconomi USD,Cryptocurrency,Cryptocurrency,,nan
-SNGLS-USD,SingularDTV USD,Cryptocurrency,Cryptocurrency,,nan
-DNT-USD,district0x USD,Cryptocurrency,Cryptocurrency,,nan
-QRL-USD,Quantum Resistant Ledger USD,Cryptocurrency,Cryptocurrency,,nan
 VTC-USD,VertCoin USD,Cryptocurrency,Cryptocurrency,,nan
 BTCD-USD,BitcoinDark USD,Cryptocurrency,Cryptocurrency,,nan
+DNT-USD,district0x USD,Cryptocurrency,Cryptocurrency,,nan
+FRST-USD,FirstCoin USD,Cryptocurrency,Cryptocurrency,,nan
+QRL-USD,Quantum Resistant Ledger USD,Cryptocurrency,Cryptocurrency,,nan
 NAV-USD,NavCoin USD,Cryptocurrency,Cryptocurrency,,nan
 MLN-USD,Melon USD,Cryptocurrency,Cryptocurrency,,nan
-FRST-USD,FirstCoin USD,Cryptocurrency,Cryptocurrency,,nan
-WINGS-USD,Wings DAO USD,Cryptocurrency,Cryptocurrency,,nan
 SNM-USD,SONM USD,Cryptocurrency,Cryptocurrency,,nan
+WINGS-USD,Wings DAO USD,Cryptocurrency,Cryptocurrency,,nan
 UBQ-USD,Ubiq USD,Cryptocurrency,Cryptocurrency,,nan
 FAIR-USD,FairCoin USD,Cryptocurrency,Cryptocurrency,,nan
 GAME-USD,Gamecredits USD,Cryptocurrency,Cryptocurrency,,nan
 XCP-USD,CounterParty USD,Cryptocurrency,Cryptocurrency,,nan
-IOC-USD,IOCoin USD,Cryptocurrency,Cryptocurrency,,nan
 BQX-USD,Bitquence USD,Cryptocurrency,Cryptocurrency,,nan
+IOC-USD,IOCoin USD,Cryptocurrency,Cryptocurrency,,nan
 TAAS-USD,Token as a Service USD,Cryptocurrency,Cryptocurrency,,nan
 NLC2-USD,NoLimitCoin USD,Cryptocurrency,Cryptocurrency,,nan
 ATM-USD,Autumncoin USD,Cryptocurrency,Cryptocurrency,,nan
 ATB-USD,ATB coin USD,Cryptocurrency,Cryptocurrency,,nan
 MCAP-USD,MCAP USD,Cryptocurrency,Cryptocurrency,,nan
+SYS-USD,SysCoin USD,Cryptocurrency,Cryptocurrency,,nan
 BTM-USD,BTM* USD,Cryptocurrency,Cryptocurrency,,nan
+PART-USD,Particl USD,Cryptocurrency,Cryptocurrency,,nan
 BCCOIN-USD,BitConnect Coin USD,Cryptocurrency,Cryptocurrency,,nan
 BCN-USD,ByteCoin USD,Cryptocurrency,Cryptocurrency,,nan
 BLOCK-USD,BlockNet USD,Cryptocurrency,Cryptocurrency,,nan
+PIVX-USD,Private Instant Verified Transaction USD,Cryptocurrency,Cryptocurrency,,nan
 ADX-USD,AdEx USD,Cryptocurrency,Cryptocurrency,,nan
-VIS.MC,"Viscofan, S.A.",,,Ibex 35,Spain
+BBVA.MC,"Banco Bilbao Vizcaya Argentaria, S.A.",,,Ibex 35,Spain
+ELE.MC,"Endesa, S.A.",,,Ibex 35,Spain
 TEF.MC,"Telefónica, S.A.",,,Ibex 35,Spain
 COL.MC,"Inmobiliaria Colonial, SOCIMI, S.A.",,,Ibex 35,Spain
-SGRE.MC,"Siemens Gamesa Renewable Energy, S.A.",,,Ibex 35,Spain
-CLNX.MC,"Cellnex Telecom, S.A.",,,Ibex 35,Spain
-ELE.MC,"Endesa, S.A.",,,Ibex 35,Spain
-NTGY.MC,"Naturgy Energy Group, S.A.",,,Ibex 35,Spain
-BBVA.MC,"Banco Bilbao Vizcaya Argentaria, S.A.",,,Ibex 35,Spain
+VIS.MC,"Viscofan, S.A.",,,Ibex 35,Spain
 MRL.MC,"MERLIN Properties SOCIMI, S.A.",,,Ibex 35,Spain
-CABK.MC,"CaixaBank, S.A.",,,Ibex 35,Spain
 SAB.MC,"Banco de Sabadell, S.A.",,,Ibex 35,Spain
-CAP.PA,Capgemini SE,,,CAC 40,France
-AC.PA,Accor SA,,,CAC 40,France
+NTGY.MC,"Naturgy Energy Group, S.A.",,,Ibex 35,Spain
+CLNX.MC,"Cellnex Telecom, S.A.",,,Ibex 35,Spain
+CABK.MC,"CaixaBank, S.A.",,,Ibex 35,Spain
+SGRE.MC,"Siemens Gamesa Renewable Energy, S.A.",,,Ibex 35,Spain
 SW.PA,Sodexo S.A.,,,CAC 40,France
+SGO.PA,Compagnie de Saint-Gobain S.A.,,,CAC 40,France
 VIV.PA,Vivendi SA,,,CAC 40,France
-OR.PA,L'Oréal S.A.,,,CAC 40,France
+GLE.PA,Société Générale Société anonyme,,,CAC 40,France
+LR.PA,Legrand SA,,,CAC 40,France
 VIE.PA,Veolia Environnement S.A.,,,CAC 40,France
 ENGI.PA,ENGIE SA,,,CAC 40,France
-FP.PA,TOTAL S.A.,,,CAC 40,France
 FTI.PA,TechnipFMC plc,,,CAC 40,Kingdom
+CAP.PA,Capgemini SE,,,CAC 40,France
+OR.PA,L'Oréal S.A.,,,CAC 40,France
+FP.PA,TOTAL S.A.,,,CAC 40,France
 ATO.PA,Atos SE,,,CAC 40,France
-LR.PA,Legrand SA,,,CAC 40,France
+AC.PA,Accor SA,,,CAC 40,France
 ACA.PA,Crédit Agricole S.A.,,,CAC 40,France
-SGO.PA,Compagnie de Saint-Gobain S.A.,,,CAC 40,France
 FR.PA,Valeo SA,,,CAC 40,France
-GLE.PA,Société Générale Société anonyme,,,CAC 40,France
-RWE.DE,RWE Aktiengesellschaft,,,DAX,Germany
-BEI.DE,Beiersdorf Aktiengesellschaft,,,DAX,Germany
-DB1.DE,Deutsche Börse Aktiengesellschaft,,,DAX,Germany
-HEN3.DE,Henkel AG & Co. KGaA,,,DAX,Germany
 FRE.DE,Fresenius SE & Co. KGaA,,,DAX,Germany
+HEN3.DE,Henkel AG & Co. KGaA,,,DAX,Germany
+RWE.DE,RWE Aktiengesellschaft,,,DAX,Germany
 CON.DE,Continental Aktiengesellschaft,,,DAX,Germany
+BEI.DE,Beiersdorf Aktiengesellschaft,,,DAX,Germany
 FME.DE,Fresenius Medical Care AG & Co. KGaA,,,DAX,Germany
+DB1.DE,Deutsche Börse Aktiengesellschaft,,,DAX,Germany
 1COV.DE,Covestro AG,,,DAX,Germany
+TUI.L,TUI AG,,,FTSE 100,Germany
 STJ.L,St. James's Place plc,,,FTSE 100,Kingdom
-RTO.L,Rentokil Initial plc,,,FTSE 100,Kingdom
+SMT.L,Scottish Mortgage Ord,,,FTSE 100,nan
 RMV.L,Rightmove plc,,,FTSE 100,Kingdom
+AUTO.L,Auto Trader Group plc,,,FTSE 100,Kingdom
 DLG.L,Direct Line Insurance Group plc,,,FTSE 100,Kingdom
+GVC.L,GVC Holdings PLC,,,FTSE 100,Kingdom
+RTO.L,Rentokil Initial plc,,,FTSE 100,Kingdom
+ANTO.L,Antofagasta plc,,,FTSE 100,Kingdom
 RDSA.L,Royal Dutch Shell plc,,,FTSE 100,Netherland
 EXPN.L,Experian plc,,,FTSE 100,Ireland
-SDR.L,Schroders plc,,,FTSE 100,Kingdom
 PPB.L,Paddy Power Betfair plc,,,FTSE 100,Ireland
-SMT.L,Scottish Mortgage Investment Trust PLC,,,FTSE 100,Kingdom
+SMIN.L,Smiths Group plc,,,FTSE 100,Kingdom
+AHT.L,Ashtead Group plc,,,FTSE 100,Kingdom
+SDR.L,Schroders plc,,,FTSE 100,Kingdom
+SPX.L,Spirax-Sarco Engineering plc,,,FTSE 100,Kingdom
 NMC.L,NMC Health Plc,,,FTSE 100,Kingdom
 CCH.L,Coca-Cola HBC AG,,,FTSE 100,Switzerland
-SMIN.L,Smiths Group plc,,,FTSE 100,Kingdom
-SPX.L,Spirax-Sarco Engineering plc,,,FTSE 100,Kingdom
-AUTO.L,Auto Trader Group plc,,,FTSE 100,Kingdom
-AHT.L,Ashtead Group plc,,,FTSE 100,Kingdom
-GVC.L,GVC Holdings PLC,,,FTSE 100,Kingdom
-TUI.L,TUI AG,,,FTSE 100,Germany
-ANTO.L,Antofagasta plc,,,FTSE 100,Kingdom
 BLG.BR,BLG.BR,,,BEL 20,nan
 AGB.BR,AGB.BR,,,BEL 20,nan
 TNO.BR,TNO.BR,,,BEL 20,nan
@@ -1911,119 +1907,119 @@ BPO.BR,BPO.BR,,,BEL 20,nan
 COL.BR,COL.BR,,,BEL 20,nan
 INGA.BR,INGA.BR,,,BEL 20,nan
 MRK,"Merck & Co., Inc.",,,Dow Jones Industrial Average,United States
-PG,The Procter & Gamble Company,,,Dow Jones Industrial Average,United States
-MCD,McDonald's Corporation,,,Dow Jones Industrial Average,United States
+TRV,"The Travelers Companies, Inc.",,,Dow Jones Industrial Average,United States
 DIS,The Walt Disney Company,,,Dow Jones Industrial Average,United States
 JPM,JPMorgan Chase & Co.,,,Dow Jones Industrial Average,United States
-JNJ,Johnson & Johnson,,,Dow Jones Industrial Average,United States
 V,Visa Inc.,,,Dow Jones Industrial Average,United States
-TRV,"The Travelers Companies, Inc.",,,Dow Jones Industrial Average,United States
+PG,The Procter & Gamble Company,,,Dow Jones Industrial Average,United States
 WBA,"Walgreens Boots Alliance, Inc.",,,Dow Jones Industrial Average,United States
+JNJ,Johnson & Johnson,,,Dow Jones Industrial Average,United States
 HD,"The Home Depot, Inc.",,,Dow Jones Industrial Average,United States
 MMM,3M Company,,,Dow Jones Industrial Average,United States
+MCD,McDonald's Corporation,,,Dow Jones Industrial Average,United States
 CAT,Caterpillar Inc.,,,Dow Jones Industrial Average,United States
-MONC.MI,Moncler S.p.A.,,,FTSE MIB INDEX,Italy
-PIRC.MI,Pirelli & C. S.p.A.,,,FTSE MIB INDEX,Italy
-PST.MI,Poste Italiane SpA,,,FTSE MIB INDEX,Italy
-FCA.MI,Fiat Chrysler Automobiles N.V.,,,FTSE MIB INDEX,Kingdom
 G.MI,Assicurazioni Generali S.p.A.,,,FTSE MIB INDEX,Italy
-TIT.MI,Telecom Italia S.p.A.,,,FTSE MIB INDEX,Italy
-LDO.MI,Leonardo S.p.a.,,,FTSE MIB INDEX,Italy
+PIRC.MI,Pirelli & C. S.p.A.,,,FTSE MIB INDEX,Italy
+FCA.MI,Fiat Chrysler Automobiles N.V.,,,FTSE MIB INDEX,Kingdom
 SFER.MI,Salvatore Ferragamo S.p.A.,,,FTSE MIB INDEX,Italy
 UNI.MI,Unipol Gruppo S.p.A.,,,FTSE MIB INDEX,Italy
+MONC.MI,Moncler S.p.A.,,,FTSE MIB INDEX,Italy
 PRY.MI,Prysmian S.p.A.,,,FTSE MIB INDEX,Italy
-BPE.MI,BPER Banca S.p.A.,,,FTSE MIB INDEX,Italy
 CNHI.MI,CNH Industrial N.V.,,,FTSE MIB INDEX,Kingdom
 STM.MI,STMicroelectronics N.V.,,,FTSE MIB INDEX,Switzerland
-GRUMAB.MX,"Gruma, S.A.B. de C.V.",,,IPC Mexico,Mexico
-FEMSAUBD.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",,,IPC Mexico,Mexico
-ASURB.MX,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",,,IPC Mexico,Mexico
-GAPB.MX,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",,,IPC Mexico,Mexico
-ALPEKA.MX,"ALPEK, S.A.B. de C.V.",,,IPC Mexico,Mexico
-NEMAKA.MX,"Nemak, S. A. B. de C. V.",,,IPC Mexico,Mexico
-OMAB.MX,"Grupo Aeroportuario del Centro Norte, S. A. B. de C. V.",,,IPC Mexico,Mexico
-GFNORTEO.MX,"Grupo Financiero Banorte, S.A.B. de C.V.",,,IPC Mexico,Mexico
+PST.MI,Poste Italiane SpA,,,FTSE MIB INDEX,Italy
+BPE.MI,BPER Banca S.p.A.,,,FTSE MIB INDEX,Italy
+LDO.MI,Leonardo S.p.a.,,,FTSE MIB INDEX,Italy
+TIT.MI,Telecom Italia S.p.A.,,,FTSE MIB INDEX,Italy
 MEGACPO.MX,"Megacable Holdings, S. A. B. de C. V.",,,IPC Mexico,Mexico
-TLEVISACPO.MX,"Grupo Televisa, S.A.B.",,,IPC Mexico,Mexico
-AMXL.MX,"América Móvil, S.A.B. de C.V.",,,IPC Mexico,Mexico
-AC.MX,"Arca Continental, S. A. B. de C. V.",,,IPC Mexico,Mexico
+GMXT.MX,"GMéxico Transportes, S.A. de C.V.",,,IPC Mexico,Mexico
+CUERVO.MX,"Becle, S.A.B. de C.V.",,,IPC Mexico,Mexico
+ASURB.MX,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",,,IPC Mexico,Mexico
 RA.MX,Regional S.A.B. de C.V.,,,IPC Mexico,Mexico
 LALAB.MX,"Grupo Lala, S.A.B. de C.V.",,,IPC Mexico,Mexico
-MEXCHEM.MX,"Mexichem, S.A.B. de C.V.",,,IPC Mexico,Mexico
+ALPEKA.MX,"ALPEK, S.A.B. de C.V.",,,IPC Mexico,Mexico
+LIVEPOLC1.MX,LIVEPOLC1.MX,,,IPC Mexico,nan
 GMEXICOB.MX,"Grupo México, S.A.B. de C.V.",,,IPC Mexico,Mexico
-GENTERA.MX,"Gentera, S. A. B. de C. V.",,,IPC Mexico,Mexico
-CUERVO.MX,"Becle, S.A.B. de C.V.",,,IPC Mexico,Mexico
+GRUMAB.MX,"Gruma, S.A.B. de C.V.",,,IPC Mexico,Mexico
+PINFRA.MX,"Promotora y Operadora de Infraestructura, S. A. B. de C. V.",,,IPC Mexico,Mexico
+AC.MX,"Arca Continental, S. A. B. de C. V.",,,IPC Mexico,Mexico
+GCARSOA1.MX,"Grupo Carso, S.A.B. de C.V.",,,IPC Mexico,Mexico
+PEOLES.MX,PEOLES.MX,,,IPC Mexico,nan
+FEMSAUBD.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",,,IPC Mexico,Mexico
+AMXL.MX,"América Móvil, S.A.B. de C.V.",,,IPC Mexico,Mexico
+OMAB.MX,"Grupo Aeroportuario del Centro Norte, S. A. B. de C. V.",,,IPC Mexico,Mexico
 BIMBOA.MX,"Grupo Bimbo, S.A.B. de C.V.",,,IPC Mexico,Mexico
 KIMBERA.MX,"Kimberly-Clark de México, S. A. B. de C. V.",,,IPC Mexico,Mexico
-PINFRA.MX,"Promotora y Operadora de Infraestructura, S. A. B. de C. V.",,,IPC Mexico,Mexico
 CEMEXCPO.MX,"CEMEX, S.A.B. de C.V.",,,IPC Mexico,Mexico
-BSMXB.MX,"Banco Santander (México), S.A., Institución de Banca Múltiple, Grupo Financiero Santander México",,,IPC Mexico,Mexico
+GFNORTEO.MX,"Grupo Financiero Banorte, S.A.B. de C.V.",,,IPC Mexico,Mexico
+GAPB.MX,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",,,IPC Mexico,Mexico
 ALSEA.MX,"Alsea, S.A.B. de C.V.",,,IPC Mexico,Mexico
-GCARSOA1.MX,"Grupo Carso, S.A.B. de C.V.",,,IPC Mexico,Mexico
-LIVEPOLC1.MX,LIVEPOLC1.MX,,,IPC Mexico,nan
-GMXT.MX,"GMéxico Transportes, S.A. de C.V.",,,IPC Mexico,Mexico
+MEXCHEM.MX,"Mexichem, S.A.B. de C.V.",,,IPC Mexico,Mexico
+GENTERA.MX,"Gentera, S. A. B. de C. V.",,,IPC Mexico,Mexico
+TLEVISACPO.MX,"Grupo Televisa, S.A.B.",,,IPC Mexico,Mexico
+NEMAKA.MX,"Nemak, S. A. B. de C. V.",,,IPC Mexico,Mexico
+BSMXB.MX,"Banco Santander (México), S.A., Institución de Banca Múltiple, Grupo Financiero Santander México",,,IPC Mexico,Mexico
 IENOVA.MX,"Infraestructura Energética Nova, S.A.B. de C.V.",,,IPC Mexico,Mexico
-PEOLES.MX,PEOLES.MX,,,IPC Mexico,nan
 PESA.BA,PESA.BA,,,MERVAL,nan
-ERAR.BA,ERAR.BA,,,MERVAL,nan
 EDN.BA,Empresa Distribuidora y Comercializadora Norte Sociedad Anónima,,,MERVAL,Argentina
-FRAN.BA,BBVA Banco Francés S.A.,,,MERVAL,Argentina
-YPFD.BA,YPF Sociedad Anonima,,,MERVAL,Argentina
-ALUA.BA,Aluar Aluminio Argentino S.A.I.C.,,,MERVAL,Argentina
-COME.BA,Sociedad Comercial del Plata S.A.,,,MERVAL,Argentina
-APBR.BA,Petróleo Brasileiro S.A. - Petrobras,,,MERVAL,Brazil
 BMA.BA,Banco Macro S.A.,,,MERVAL,Argentina
+APBR.BA,Petróleo Brasileiro S.A. - Petrobras,,,MERVAL,Brazil
+ERAR.BA,ERAR.BA,,,MERVAL,nan
+ALUA.BA,Aluar Aluminio Argentino S.A.I.C.,,,MERVAL,Argentina
+FRAN.BA,BBVA Banco Francés S.A.,,,MERVAL,Argentina
 TECO2.BA,Telecom Argentina S.A.,,,MERVAL,Argentina
-PAMP.BA,Pampa Energía S.A.,,,MERVAL,Argentina
-TS.BA,Tenaris S.A.,,,MERVAL,Luxembourg
 GGAL.BA,Grupo Financiero Galicia S.A.,,,MERVAL,Argentina
-MAR,"Marriott International, Inc.",,,NASDAQ 100,United States
-SIRI,Sirius XM Holdings Inc.,,,NASDAQ 100,United States
+PAMP.BA,Pampa Energía S.A.,,,MERVAL,Argentina
+COME.BA,Sociedad Comercial del Plata S.A.,,,MERVAL,Argentina
+TS.BA,Tenaris S.A.,,,MERVAL,Luxembourg
+YPFD.BA,YPF Sociedad Anonima,,,MERVAL,Argentina
 UAL,"United Continental Holdings, Inc.",,,NASDAQ 100,United States
-VRSK,"Verisk Analytics, Inc.",,,NASDAQ 100,United States
 WLTW,Willis Towers Watson Public Limited Company,,,NASDAQ 100,Kingdom
+VRSK,"Verisk Analytics, Inc.",,,NASDAQ 100,United States
+MELI,"MercadoLibre, Inc.",,,NASDAQ 100,Argentina
+SIRI,Sirius XM Holdings Inc.,,,NASDAQ 100,United States
 PCAR,PACCAR Inc,,,NASDAQ 100,United States
+MAR,"Marriott International, Inc.",,,NASDAQ 100,United States
 DLTR,"Dollar Tree, Inc.",,,NASDAQ 100,United States
 WYNN,"Wynn Resorts, Limited",,,NASDAQ 100,United States
-MELI,"MercadoLibre, Inc.",,,NASDAQ 100,Argentina
 SBUX,Starbucks Corporation,,,NASDAQ 100,United States
-AKTX,"Akari Therapeutics, Plc",,,NASDAQ Composite,United States
-ATEC,"Alphatec Holdings, Inc.",,,NASDAQ Composite,United States
-FRSX,Foresight Autonomous Holdings Ltd.,,,NASDAQ Composite,Israel
-POPE,"Pope Resources, A Delaware Limited Partnership",,,NASDAQ Composite,United States
-CMRX,"Chimerix, Inc.",,,NASDAQ Composite,United States
-FARM,Farmer Bros. Co.,,,NASDAQ Composite,United States
-NMRK,"Newmark Group, Inc.",,,NASDAQ Composite,United States
-SPHS,"Sophiris Bio, Inc.",,,NASDAQ Composite,United States
 FRSH,"Papa Murphy's Holdings, Inc.",,,NASDAQ Composite,United States
-FNLC,"The First Bancorp, Inc.",,,NASDAQ Composite,United States
-CVCO,"Cavco Industries, Inc.",,,NASDAQ Composite,United States
-FNJN,"Finjan Holdings, Inc.",,,NASDAQ Composite,United States
-AGLE,"Aeglea BioTherapeutics, Inc.",,,NASDAQ Composite,United States
-SCOR,"comScore, Inc.",,,NASDAQ Composite,United States
+POPE,"Pope Resources, A Delaware Limited Partnership",,,NASDAQ Composite,United States
+NMRK,"Newmark Group, Inc.",,,NASDAQ Composite,United States
+FARM,Farmer Bros. Co.,,,NASDAQ Composite,United States
+ATEC,"Alphatec Holdings, Inc.",,,NASDAQ Composite,United States
+SPHS,"Sophiris Bio, Inc.",,,NASDAQ Composite,United States
 OPTT,"Ocean Power Technologies, Inc.",,,NASDAQ Composite,United States
-EXAS,Exact Sciences Corporation,,,NASDAQ Composite,United States
+AKTX,"Akari Therapeutics, Plc",,,NASDAQ Composite,United States
 KLXE,"KLX Energy Services Holdings, Inc.",,,NASDAQ Composite,United States
+FNLC,"The First Bancorp, Inc.",,,NASDAQ Composite,United States
+FNJN,"Finjan Holdings, Inc.",,,NASDAQ Composite,United States
+CVCO,"Cavco Industries, Inc.",,,NASDAQ Composite,United States
+AGLE,"Aeglea BioTherapeutics, Inc.",,,NASDAQ Composite,United States
+FRSX,Foresight Autonomous Holdings Ltd.,,,NASDAQ Composite,Israel
 SCON,Superconductor Technologies Inc.,,,NASDAQ Composite,United States
-FRTA,"Forterra, Inc.",,,NASDAQ Composite,United States
 IBKC,IBERIABANK Corporation,,,NASDAQ Composite,United States
+FRTA,"Forterra, Inc.",,,NASDAQ Composite,United States
+SCOR,"comScore, Inc.",,,NASDAQ Composite,United States
+EXAS,Exact Sciences Corporation,,,NASDAQ Composite,United States
 FNKO,"Funko, Inc.",,,NASDAQ Composite,United States
 NVCN,Neovasc Inc.,,,NASDAQ Composite,Canada
-IBS.LS,"Ibersol, S.G.P.S., S.A.",,,PSI 20,nan
-SON.LS,"Sonae, SGPS, S.A.",,,PSI 20,nan
-PHR.LS,"Pharol, SGPS S.A.",,,PSI 20,nan
-EDPR.LS,"EDP Renováveis, S.A.",,,PSI 20,nan
-GALP.LS,"Galp Energia, SGPS, S.A.",,,PSI 20,nan
-RENE.LS,"REN - Redes Energéticas Nacionais, SGPS, S.A.",,,PSI 20,nan
-RAM.LS,"F. Ramada Investimentos, SGPS, S.A.",,,PSI 20,nan
-JMT.LS,"Jerónimo Martins, SGPS, S.A.",,,PSI 20,nan
-EDP.LS,"EDP - Energias de Portugal, S.A.",,,PSI 20,nan
+CMRX,"Chimerix, Inc.",,,NASDAQ Composite,United States
 BCP.LS,"Banco Comercial Português, S.A.",,,PSI 20,nan
-NOS.LS,"NOS, S.G.P.S., S.A.",,,PSI 20,nan
-SONC.LS,"Sonae Capital, SGPS, SA",,,PSI 20,nan
-SEM.LS,"Semapa - Sociedade de Investimento e Gestão, SGPS, S.A.",,,PSI 20,nan
-CTT.LS,"CTT - Correios De Portugal, S.A.",,,PSI 20,nan
+PHR.LS,"Pharol, SGPS S.A.",,,PSI 20,nan
 ALTR.LS,"Altri, S.G.P.S., S.A.",,,PSI 20,nan
-COR.LS,"Corticeira Amorim, S.G.P.S., S.A.",,,PSI 20,nan
-NVG.LS,"The Navigator Company, S.A.",,,PSI 20,nan
+RENE.LS,"REN - Redes Energéticas Nacionais, SGPS, S.A.",,,PSI 20,nan
+SONC.LS,"Sonae Capital, SGPS, SA",,,PSI 20,nan
 EGL.LS,"Mota-Engil, SGPS, S.A.",,,PSI 20,nan
+SEM.LS,"Semapa - Sociedade de Investimento e Gestão, SGPS, S.A.",,,PSI 20,nan
+EDP.LS,"EDP - Energias de Portugal, S.A.",,,PSI 20,nan
+COR.LS,"Corticeira Amorim, S.G.P.S., S.A.",,,PSI 20,nan
+EDPR.LS,"EDP Renováveis, S.A.",,,PSI 20,nan
+JMT.LS,"Jerónimo Martins, SGPS, S.A.",,,PSI 20,nan
+NOS.LS,"NOS, S.G.P.S., S.A.",,,PSI 20,nan
+RAM.LS,"F. Ramada Investimentos, SGPS, S.A.",,,PSI 20,nan
+NVG.LS,"The Navigator Company, S.A.",,,PSI 20,nan
+CTT.LS,"CTT - Correios De Portugal, S.A.",,,PSI 20,nan
+SON.LS,"Sonae, SGPS, S.A.",,,PSI 20,nan
+GALP.LS,"Galp Energia, SGPS, S.A.",,,PSI 20,nan
+IBS.LS,"Ibersol, S.G.P.S., S.A.",,,PSI 20,nan
