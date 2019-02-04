@@ -5,7 +5,7 @@
 3. **data**
 
 
-- **bsm_categorical_data**
+### bsm_categorical_data
 
 In this section there is the code to download categorical data from [yahoo finance](https://finance.yahoo.com/).
 The description about data is:
@@ -23,7 +23,7 @@ environment or in the core. And finally to run script open a terminal in the fol
 There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `False`. If you change to `True` you will have in the folder *data* all intermediates dataframes
  as csv used to build the last data base (in csv) named *db_bsm_categorical.csv*.
  
- * **exploring_data**
+### exploring_data
  
  In this section we find a notebook called *categorical_data_exploratory.ipynb* which is an exploratory analysis about *db_bsm_categorical.csv*. To see the analysis you could:
  1. Copy the HTML code in *categorical_data_exploratory.html* in a .txt file changing the extension to .html.
