@@ -1,3 +1,19 @@
+"""
+
+#######################################################
+## Author: Esteban M. Sánchez García                 ##
+## E-mail: emsg94@gmail.com                          ##
+##                                                   ##
+## Project for master in data science from KSCHOOL   ##
+##   Title: Beating Stock Markets                    ##
+#######################################################
+
+This is the main script to launching the program. The script calls functions
+in package alpha_van to bring financial data from alpha_vantage. There are two
+ways, with a free account or a premium one. With the premium you only can have
+four randomly companies.
+
+"""
 import os
 
 import pandas as pd
@@ -9,10 +25,14 @@ from alpha_van import alpha_van
 
 def get_data(inputs_, is_premium):
     """
+    Function to get data from the api.
 
-    :param dict inputs_:
-    :return:
+    :param dict inputs_: Dictionary with info about user key and tickers
+    :param bool is_premium: Boolean wich decide if the key to choose is
+    for free account or for premium account.
+    :return list: List with all data requested.
     """
+
     key = inputs_.get('key')
 
     ticker_list = inputs_.get('list')
@@ -25,6 +45,12 @@ def get_data(inputs_, is_premium):
 
 
 def main(is_premium):
+    """
+    Principal function of the script.
+
+    :param bool is_premium: Boolean wich decide if the key to choose is
+    for free account or for premium account.
+    """
 
     path_categorical_df = os.path.join(os.path.join('..', 'data'), 'db_bsm_categorical.csv')
     df_categorical = pd.read_csv(path_categorical_df)
@@ -33,7 +59,6 @@ def main(is_premium):
     config_parser = ConfigParser()
     config_parser.read('config.properties')
     r_list = np.random.randint(0, len(all_tickers), size=4)
-    print(r_list)
 
     inputs_list = [
         {'key': str(config_parser.get('ALPHA_VANTAGE', 'free_key')),

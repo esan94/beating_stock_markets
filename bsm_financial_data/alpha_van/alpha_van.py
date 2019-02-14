@@ -1,3 +1,16 @@
+"""
+
+#######################################################
+## Author: Esteban M. Sánchez García                 ##
+## E-mail: emsg94@gmail.com                          ##
+##                                                   ##
+## Project for master in data science from KSCHOOL   ##
+##   Title: Beating Stock Markets                    ##
+#######################################################
+
+This script manages times about the process.
+
+"""
 import time
 
 import pandas as pd
@@ -35,6 +48,16 @@ def get_time_series(alpha_key, ticker, is_premium):
 
 
 def get_sma(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring sma data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_sma = ti.get_sma(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -43,6 +66,16 @@ def get_sma(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_wma(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring wma data for ticker.
+    
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_wma = ti.get_wma(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -60,6 +93,16 @@ def get_dema(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_kama(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring dema data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_kama = ti.get_kama(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -68,6 +111,16 @@ def get_kama(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_rsi(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring rsi data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_rsi = ti.get_rsi(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -84,6 +137,16 @@ def get_adx(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_mom(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring mom data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_mom = ti.get_mom(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -92,6 +155,16 @@ def get_mom(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_bop(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring bop data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_bop = ti.get_bop(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -100,6 +173,16 @@ def get_bop(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_cci(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring cci data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_cci = ti.get_cci(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -108,6 +191,16 @@ def get_cci(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_cmo(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring cmo data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_cmo = ti.get_cmo(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -116,6 +209,16 @@ def get_cmo(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_rocr(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring rocr data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_rocr = ti.get_rocr(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -124,6 +227,16 @@ def get_rocr(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_aroon(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring aroon data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_aroon = ti.get_aroon(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -132,6 +245,16 @@ def get_aroon(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_dx(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring dx data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_dx = ti.get_dx(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -140,6 +263,16 @@ def get_dx(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_minus_di(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring minus_di data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_minus_di = ti.get_minus_di(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -148,6 +281,16 @@ def get_minus_di(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_plus_di(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring plus_di data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_plus_di = ti.get_plus_di(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -156,6 +299,16 @@ def get_plus_di(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_minus_dm(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring minus_dm data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_minus_dm = ti.get_minus_dm(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -164,6 +317,16 @@ def get_minus_dm(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_plus_dm(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring plus_dm data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_plus_dm = ti.get_plus_dm(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -172,6 +335,16 @@ def get_plus_dm(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_bbands(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring bbands data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_bbands = ti.get_bbands(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -180,6 +353,16 @@ def get_bbands(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_natr(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring natr data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
+    
     for period in time_period_list:
         data_natr = ti.get_natr(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -188,6 +371,15 @@ def get_natr(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 
 def get_no_period(ti, ticker, t_init, df_by_ticker, is_premium):
+    """
+    This function bring data without period for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param float t_init: Initial time.
+    :param list df_by_ticker: List where save new data.
+    :param bool is_premium: Boolean to chose the key.
+    """
 
     data_mama = ti.get_mama(symbol=ticker)[0]
     df_by_ticker.append(data_mama)
@@ -231,6 +423,13 @@ def get_no_period(ti, ticker, t_init, df_by_ticker, is_premium):
 
 
 def get_technical_indicators(alpha_key, ticker, is_premium):
+    """
+    This function bring all technical indicators.
+
+    :param str alpha_key: User key of Alpha Vantage website.
+    :param str ticker: Ticker of a company.
+    :param bool is_premium: Boolean to chose the key.
+    """
 
     ti = TechIndicators(key=alpha_key, output_format='pandas')
 
@@ -302,10 +501,18 @@ def get_technical_indicators(alpha_key, ticker, is_premium):
     df_ticker['date'] = pd.to_datetime(df_ticker['date'])
     df_ticker = df_ticker[df_ticker['date'].dt.year >= 2004]
     show_time(t_init, time.time(), 'ALL Technical data for ticker %s done in time:' % ticker)
+
     return df_ticker
 
 
 def get_financials(alpha_key, ticker, is_premium):
+    """
+    This function bring all financial data.
+
+    :param str alpha_key: User key of Alpha Vantage website.
+    :param str ticker: Ticker of a company.
+    :param bool is_premium: Boolean to chose the key.
+    """
 
     fin_list = []
     df_ts = get_time_series(alpha_key, ticker, is_premium)
