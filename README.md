@@ -2,7 +2,8 @@
 
 1. **bsm_categorical_data**
 2. **exploring_data**
-3. **data**
+3. **bsm_financial_data**
+4. **data**
 
 
 ### bsm_categorical_data
@@ -30,6 +31,43 @@ There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `F
  2. Clone the repo and run the html
  3. Clone the repo and deploy all notebook in a anaconda workspace.
  
+ ### bsm_financial_data
  
+ In this section there is the code to download all financial data from [Alpha Vantage](https://www.alphavantage.co/). The description of the data is:
+ 
+- ticker: Column with the name of the company in a stock market.
+- close: Close price of the market for a company and a day.
+- date: Daily price of the company in the stock market.
+- volume: Number of transactions
+- ADX: Average directional index [click](https://en.wikipedia.org/wiki/Average_directional_movement_index)
+- Aroon: [click](https://www.investopedia.com/terms/a/aroon.asp)
+- BOP: Balance of power [click](https://tradingsim.com/blog/balance-of-power/)
+- CCI: Commodity channel index [click](https://www.investopedia.com/articles/active-trading/031914/how-traders-can-utilize-cci-commodity-channel-index-trade-stock-trends.asp)
+- CMO: Chande momentum oscilator [click](https://www.investopedia.com/terms/c/chandemomentumoscillator.asp)
+- Chaikin A/D: Chaikin oscillator [click](https://www.investopedia.com/articles/active-trading/031914/understanding-chaikin-oscillator.asp)
+- DEMA: Double exponential moving average [click](https://www.investopedia.com/articles/trading/10/double-exponential-moving-average.asp)
+- DX: Directional movement [click](https://www.investopedia.com/terms/d/dmi.asp)
+- FAMA: Fractal adaptative moving average [click](https://www.metatrader5.com/es/terminal/help/indicators/trend_indicators/fama)
+- KAMA: Kaufman's adaptative moving average [click](http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:kaufman_s_adaptive_moving_average)
+- MACD: Moving average convergence divergence [click](https://www.investopedia.com/terms/m/macd.asp)
+- MAMA: MESA Adaptative moving average [click](https://www.tradingview.com/script/foQxLbU3-Ehlers-MESA-Adaptive-Moving-Average-LazyBear/)
+- MINUS_DI: Negative directional indicator [click](https://www.investopedia.com/terms/n/negativedirectionalindicator.asp)
+- MINUS_DM: Directional movement [click](https://www.tradingview.com/wiki/Directional_Movement_(DMI))
+- MOM: Momentum [click](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/momentum-mom/)
+- NATR: Normalized average true range [click](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/normalized-average-true-range-natr/)
+- OBV: On-Balance volumen [click](https://www.investopedia.com/terms/o/onbalancevolume.asp)
+- PLUS_DM: Directional movement [click](https://www.tradingview.com/wiki/Directional_Movement_(DMI))
+- PLUS_DI: Positive directional indicator [click](https://www.investopedia.com/terms/n/negativedirectionalindicator.asp)
+- PPO: Porcentage price oscillator [click](https://www.investopedia.com/terms/p/ppo.asp)
+- ROCR: Rate of change [click](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/rate-of-change-rocr/)
+- RSI: Relative strenght index [click](https://www.investopedia.com/terms/r/rsi.asp)
+- BBands: Bolinger bands [click](https://en.wikipedia.org/wiki/Bollinger_Bands)
+- SAR: [click](https://www.investopedia.com/trading/introduction-to-parabolic-sar/)
+- SMA: Simple moving average [click](https://www.investopedia.com/terms/s/sma.asp)
+- SlowDK: Stochastic oscillator [click](https://www.investopedia.com/terms/s/stochasticoscillator.asp)
+- WMA: Weighted moving average [click](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/weighted-moving-average-wma/)
+- ULTOSC: Ultimate oscillator [click](https://www.investopedia.com/terms/u/ultimateoscillator.asp)
+
+There are columns with a number in the name this means the period in the calculate data.
  # IN PROGRESS
  
