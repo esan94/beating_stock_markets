@@ -1,0 +1,22 @@
+---
+title: "Financial Data Exploratory Analysis"
+author: "Esteban Sánchez"
+date: "18 de febrero de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The main of this .rmd is to show the data in the db_bsm_financial.csv and study different features from the varaibles.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyverse)
+library(zoo)
+```
+
+```{r message=FALSE}
+fin_data <- read_csv('../data/db_bsm_financial.csv')
+fin_data$date <- as.Date(fin_data$date, format = '%Y-%m-%d')
+```
