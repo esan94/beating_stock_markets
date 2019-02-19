@@ -13,10 +13,15 @@ The main of this .rmd is to show the data in the db_bsm_financial.csv and study 
 
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 library(tidyverse)
+library(lubridate)
 library(zoo)
+library(ggplot2)
 ```
 
 ```{r message=FALSE}
 fin_data <- read_csv('../data/db_bsm_financial.csv')
 fin_data$date <- as.Date(fin_data$date, format = '%Y-%m-%d')
+fin_data_plot <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
+  mutate(daily_pl = close - lag(close, default = first(close))) %>% 
+  select(ticker, date, close, daily_pl) %>% arrange(ticker, desc(date))
 ```

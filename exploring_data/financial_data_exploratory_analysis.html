@@ -193,9 +193,14 @@ $(document).ready(function () {
 
 <p>The main of this .rmd is to show the data in the db_bsm_financial.csv and study different features from the varaibles.</p>
 <pre class="r"><code>library(tidyverse)
-library(zoo)</code></pre>
+library(lubridate)
+library(zoo)
+library(ggplot2)</code></pre>
 <pre class="r"><code>fin_data &lt;- read_csv('../data/db_bsm_financial.csv')
-fin_data$date &lt;- as.Date(fin_data$date, format = '%Y-%m-%d')</code></pre>
+fin_data$date &lt;- as.Date(fin_data$date, format = '%Y-%m-%d')
+fin_data_plot &lt;- fin_data %&gt;% group_by(ticker) %&gt;% arrange(date, .by_group = TRUE) %&gt;% 
+  mutate(daily_pl = close - lag(close, default = first(close))) %&gt;% 
+  select(ticker, date, close, daily_pl) %&gt;% arrange(ticker, desc(date))</code></pre>
 
 
 
