@@ -18,12 +18,35 @@ library(zoo)
 library(ggplot2)
 ```
 
-```{r message=FALSE}
+```{r message=FALSE, warning=FALSE}
 fin_data <- read_csv('../data/db_bsm_financial.csv')
 fin_data$date <- as.Date(fin_data$date, format = '%Y-%m-%d')
 fin_data_plot <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
   mutate(daily_pl = close - lag(close, default = first(close))) %>% 
   select(ticker, date, close, daily_pl) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date))
+```
+
+```{r}
 fin_data_plot %>% filter(year > 2014 & year < 2019) %>% 
   ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + ylim(-10,10) + facet_grid(year~.)
+```
+
+```{r}
+fin_data_plot %>% filter(year == 2017 & ticker == 'CNA.L') %>% mutate(month = month(date)) %>% 
+  ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
+```
+
+```{r}
+fin_data_plot %>% filter(year == 2017 & ticker == 'CPG.L') %>% mutate(month = month(date)) %>% 
+  ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
+```
+
+```{r}
+fin_data_plot %>% filter(year == 2017 & ticker == 'DIA.MC') %>% mutate(month = month(date)) %>% 
+  ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
+```
+
+```{r}
+fin_data_plot %>% filter(year == 2017 & ticker == 'EZJ.L') %>% mutate(month = month(date)) %>% 
+  ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
 ```
