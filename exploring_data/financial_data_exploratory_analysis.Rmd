@@ -16,6 +16,7 @@ library(tidyverse)
 library(lubridate)
 library(zoo)
 library(ggplot2)
+library(cowplot)
 ```
 
 ```{r message=FALSE, warning=FALSE}
@@ -23,7 +24,7 @@ fin_data <- read_csv('../data/db_bsm_financial.csv')
 fin_data$date <- as.Date(fin_data$date, format = '%Y-%m-%d')
 fin_data_plot <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
   mutate(daily_pl = close - lag(close, default = first(close))) %>% 
-  select(ticker, date, close, daily_pl) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date))
+  select(ticker, date, close, daily_pl, volume) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date))
 ```
 
 ```{r}
@@ -49,4 +50,56 @@ fin_data_plot %>% filter(year == 2017 & ticker == 'DIA.MC') %>% mutate(month = m
 ```{r}
 fin_data_plot %>% filter(year == 2017 & ticker == 'EZJ.L') %>% mutate(month = month(date)) %>% 
   ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
+```
+
+```{r}
+plot1 <- fin_data_plot %>% filter(year == 2018, ticker == 'CNA.L') %>%
+  mutate(colour = ifelse(daily_pl < 0, '#F14D4D', '#31A02A'), 
+         quant25 = quantile(daily_pl, 0.25), quant75 = quantile(daily_pl, 0.75)) %>%
+  ggplot(aes(x = date)) + geom_bar(aes(y = daily_pl, fill=colour), stat = 'identity') + 
+  geom_ribbon(aes(ymin = (close - daily_pl + quant25), 
+                  ymax = (close - daily_pl + quant75), fill = 'orange')) + geom_line(aes(y = close)) +
+  scale_fill_identity()
+plot2 <- fin_data_plot %>% filter(year == 2018, ticker == 'CNA.L') %>% mutate(volume = volume / 1000000) %>% ggplot(aes(x = date, y = volume)) + 
+  geom_bar(stat = 'identity')
+plot_grid(plot1, plot2, align = 'v', nrow = 2, rel_heights = c(4/5, 1/5))
+```
+
+```{r}
+plot1 <- fin_data_plot %>% filter(year == 2018, ticker == 'CPG.L') %>%
+  mutate(colour = ifelse(daily_pl < 0, '#F14D4D', '#31A02A'), 
+         quant25 = quantile(daily_pl, 0.25), quant75 = quantile(daily_pl, 0.75)) %>%
+  ggplot(aes(x = date)) + geom_bar(aes(y = daily_pl, fill=colour), stat = 'identity') + 
+  geom_ribbon(aes(ymin = (close - daily_pl + quant25), 
+                  ymax = (close - daily_pl + quant75), fill = 'orange')) + geom_line(aes(y = close)) +
+  scale_fill_identity()
+plot2 <- fin_data_plot %>% filter(year == 2018, ticker == 'CPG.L') %>% mutate(volume = volume / 1000000) %>% ggplot(aes(x = date, y = volume)) + 
+  geom_bar(stat = 'identity')
+plot_grid(plot1, plot2, align = 'v', nrow = 2, rel_heights = c(4/5, 1/5))
+```
+
+```{r}
+plot1 <- fin_data_plot %>% filter(year == 2018, ticker == 'DIA.MC') %>%
+  mutate(colour = ifelse(daily_pl < 0, '#F14D4D', '#31A02A'), 
+         quant25 = quantile(daily_pl, 0.25), quant75 = quantile(daily_pl, 0.75)) %>%
+  ggplot(aes(x = date)) + geom_bar(aes(y = daily_pl, fill=colour), stat = 'identity') + 
+  geom_ribbon(aes(ymin = (close - daily_pl + quant25), 
+                  ymax = (close - daily_pl + quant75), fill = 'orange')) + geom_line(aes(y = close)) +
+  scale_fill_identity()
+plot2 <- fin_data_plot %>% filter(year == 2018, ticker == 'DIA.MC') %>% mutate(volume = volume / 1000000) %>% ggplot(aes(x = date, y = volume)) + 
+  geom_bar(stat = 'identity')
+plot_grid(plot1, plot2, align = 'v', nrow = 2, rel_heights = c(4/5, 1/5))
+```
+
+```{r}
+plot1 <- fin_data_plot %>% filter(year == 2018, ticker == 'EZJ.L') %>%
+  mutate(colour = ifelse(daily_pl < 0, '#F14D4D', '#31A02A'), 
+         quant25 = quantile(daily_pl, 0.25), quant75 = quantile(daily_pl, 0.75)) %>%
+  ggplot(aes(x = date)) + geom_bar(aes(y = daily_pl, fill=colour), stat = 'identity') + 
+  geom_ribbon(aes(ymin = (close - daily_pl + quant25), 
+                  ymax = (close - daily_pl + quant75), fill = 'orange')) + geom_line(aes(y = close)) +
+  scale_fill_identity()
+plot2 <- fin_data_plot %>% filter(year == 2018, ticker == 'EZJ.L') %>% mutate(volume = volume / 1000000) %>% ggplot(aes(x = date, y = volume)) + 
+  geom_bar(stat = 'identity')
+plot_grid(plot1, plot2, align = 'v', nrow = 2, rel_heights = c(4/5, 1/5))
 ```
