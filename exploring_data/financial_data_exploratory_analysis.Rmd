@@ -30,6 +30,8 @@ fin_data_plot <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRU
 fin_data_tech <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
   mutate(daily_pl = close - lag(close, default = first(close))) %>% 
   select(ticker, date, close, `SMA 14`, `SMA 21`, `SMA 42`) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date), quarter = quarter(date))
+
+fin_data_tech_trend <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% select(ticker, date, close, `ADX 14`, `ADX 21`, `ADX 42`, `MINUS_DI 14`, `MINUS_DI 21`,  `MINUS_DI 42`, `PLUS_DI 14`, `PLUS_DI 21`, `PLUS_DI 42`) %>% mutate(quarter = quarter(date), year = year(date)) %>% arrange(ticker, desc(date))
 ```
 
 ```{r}
@@ -73,6 +75,13 @@ fig <- fin_data_tech %>% filter(year == 2017, quarter == qt, ticker == tick) %>%
 plot(fig)
   }
 }
+```
+
+
+```{r}
+fig1 <- fin_data_tech_trend %>% filter(ticker == 'DIA.MC') %>% ggplot(aes(x = date)) + geom_line(aes(y=close))
+fig2 <-  fin_data_tech_trend %>% filter(ticker == 'DIA.MC') %>% ggplot(aes(x = date)) + geom_line(aes(y = `ADX 42`, colour = 'ADX 42')) + geom_line(aes(y = `MINUS_DI 42`), color='coral1') + geom_line(aes(y = `PLUS_DI 42`), color='darkblue')
+plot_grid(fig2, fig1, align = 'v', nrow = 2, rel_heights = c(2/3, 1/3))
 ```
 
 
