@@ -22,9 +22,14 @@ library(cowplot)
 ```{r message=FALSE, warning=FALSE}
 fin_data <- read_csv('../data/db_bsm_financial.csv')
 fin_data$date <- as.Date(fin_data$date, format = '%Y-%m-%d')
+
 fin_data_plot <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
   mutate(daily_pl = close - lag(close, default = first(close)), vol_mill = volume / 1000000) %>% 
   select(ticker, date, close, daily_pl, volume, vol_mill) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date))
+
+fin_data_tech <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% 
+  mutate(daily_pl = close - lag(close, default = first(close))) %>% 
+  select(ticker, date, close, `SMA 14`, `SMA 21`, `SMA 42`) %>% arrange(ticker, desc(date)) %>% mutate(year = year(date), quarter = quarter(date))
 ```
 
 ```{r}
@@ -60,3 +65,15 @@ for (tick in unique(fin_data_plot$ticker)){
 }
 
 ```
+
+```{r}
+for (tick in unique(fin_data_tech$ticker)){
+  for (qt in sort(unique(fin_data_tech$quarter))){
+fig <- fin_data_tech %>% filter(year == 2017, quarter == qt, ticker == tick) %>% ggplot(aes(x=date)) + geom_line(aes(y = close)) + geom_line(aes(y = `SMA 14`, color='SMA 14')) + geom_line(aes(y = `SMA 21`, colour='SMA 21')) + geom_line(aes(y = `SMA 42`, color='SMA 42')) + scale_color_discrete(name='SMA', labels = waiver()) + theme_grey() + ggtitle(tick)
+plot(fig)
+  }
+}
+```
+
+
+
