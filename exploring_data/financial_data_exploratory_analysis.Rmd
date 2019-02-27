@@ -14,7 +14,6 @@ The main of this .rmd is to show the data in the db_bsm_financial.csv and study 
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 library(tidyverse)
 library(lubridate)
-library(zoo)
 library(ggplot2)
 library(cowplot)
 ```
@@ -34,12 +33,12 @@ fin_data_tech <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRU
 fin_data_tech_trend <- fin_data %>% group_by(ticker) %>% arrange(date, .by_group = TRUE) %>% select(ticker, date, close, `ADX 14`, `ADX 21`, `ADX 42`, `MINUS_DI 14`, `MINUS_DI 21`,  `MINUS_DI 42`, `PLUS_DI 14`, `PLUS_DI 21`, `PLUS_DI 42`) %>% mutate(quarter = quarter(date), year = year(date)) %>% arrange(ticker, desc(date))
 ```
 
-```{r}
+```{r fig.align='center', warning=FALSE}
 fin_data_plot %>% filter(year > 2014 & year < 2019) %>% 
   ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + ylim(-10,10) + facet_grid(year~.)
 ```
 
-```{r}
+```{r, fig.align='center'}
 for (tick in unique(fin_data_plot$ticker)){
   fig <- fin_data_plot %>% filter(year == 2017 & ticker == tick) %>% mutate(month = month(date)) %>% 
   ggplot(aes(x = ticker, y = daily_pl)) + geom_boxplot() + facet_wrap(month~., ncol = 4)
@@ -49,7 +48,7 @@ for (tick in unique(fin_data_plot$ticker)){
 ```
 
 
-```{r}
+```{r, fig.align='center'}
 for (tick in unique(fin_data_plot$ticker)){
   plot1 <- fin_data_plot %>% filter(year == 2017, ticker == tick) %>%
   mutate(colour = ifelse(daily_pl < 0, '#F14D4D', '#31A02A'), 
@@ -68,20 +67,42 @@ for (tick in unique(fin_data_plot$ticker)){
 
 ```
 
-```{r}
+```{r, fig.align='center'}
 for (tick in unique(fin_data_tech$ticker)){
   for (qt in sort(unique(fin_data_tech$quarter))){
-fig <- fin_data_tech %>% filter(year == 2017, quarter == qt, ticker == tick) %>% ggplot(aes(x=date)) + geom_line(aes(y = close)) + geom_line(aes(y = `SMA 14`, color='SMA 14')) + geom_line(aes(y = `SMA 21`, colour='SMA 21')) + geom_line(aes(y = `SMA 42`, color='SMA 42')) + scale_color_discrete(name='SMA', labels = waiver()) + theme_grey() + ggtitle(tick)
+fig <- fin_data_tech %>% filter(year == 2017, quarter == qt, ticker == tick) %>% 
+  ggplot(aes(x=date)) + geom_line(aes(y = close)) +
+  geom_line(aes(y = `SMA 14`, color='SMA 14')) + 
+  geom_line(aes(y = `SMA 21`, colour='SMA 21')) +
+  geom_line(aes(y = `SMA 42`, color='SMA 42')) +
+  scale_color_discrete(name='SMA', labels = waiver()) +
+  theme_grey() + ggtitle(tick) +
+  theme(plot.title = element_text(hjust = 0.5))
 plot(fig)
   }
 }
 ```
 
 
-```{r}
-fig1 <- fin_data_tech_trend %>% filter(ticker == 'DIA.MC') %>% ggplot(aes(x = date)) + geom_line(aes(y=close))
-fig2 <-  fin_data_tech_trend %>% filter(ticker == 'DIA.MC') %>% ggplot(aes(x = date)) + geom_line(aes(y = `ADX 42`, colour = 'ADX 42')) + geom_line(aes(y = `MINUS_DI 42`), color='coral1') + geom_line(aes(y = `PLUS_DI 42`), color='darkblue')
-plot_grid(fig2, fig1, align = 'v', nrow = 2, rel_heights = c(2/3, 1/3))
+```{r, fig.align='center'}
+for (tick in unique(fin_data_tech_trend$ticker)){
+  for (qt in sort(unique(fin_data_tech_trend$quarter))){
+  
+fig1 <-  fin_data_tech_trend %>% filter(ticker == tick, quarter == qt, year == 2017) %>% 
+  ggplot(aes(x = date)) +
+  geom_line(aes(y = `ADX 42`, color = 'ADX 21')) +
+  geom_line(aes(y = `MINUS_DI 42`, color = 'MINUS_DI 21')) + 
+  geom_line(aes(y = `PLUS_DI 42`, color='PLUS_DI 21')) +
+  scale_color_discrete(name='ADX', labels = waiver()) + 
+  ggtitle(tick) + theme(legend.position = 'bottom') +
+  labs(y = 'ADX')
+  
+  fig2 <- fin_data_tech_trend %>% filter(ticker == tick, quarter == qt, year == 2017) %>% ggplot(aes(x = date)) + geom_line(aes(y=close))
+
+
+plot(plot_grid(fig1, fig2, align = 'v', nrow = 2, rel_heights = c(2/3, 1/3)))
+}
+}
 ```
 
 
