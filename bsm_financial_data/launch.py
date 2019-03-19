@@ -15,12 +15,14 @@ four randomly companies.
 
 """
 import os
+import time
 
 import pandas as pd
 import numpy as np
 from configparser import ConfigParser
 
 from alpha_van import alpha_van
+from utilities.times import show_time
 
 
 def get_data(inputs_, is_premium):
@@ -59,6 +61,7 @@ def main(is_premium):
     config_parser = ConfigParser()
     config_parser.read('config.properties')
     r_list = np.random.randint(0, len(all_tickers), size=4)
+    f_list = []
 
     inputs_list = [
         {'key': str(config_parser.get('ALPHA_VANTAGE', 'free_key')),
@@ -67,11 +70,22 @@ def main(is_premium):
         {'key': str(config_parser.get('ALPHA_VANTAGE', 'premium_key')),
          'list': all_tickers}
     ]
-
-    if is_premium:
-        f_list = get_data(inputs_list[1], is_premium)
-    else:
-        f_list = get_data(inputs_list[0], is_premium)
+    try:
+        if is_premium:
+            f_list.extend(get_data(inputs_list[1], is_premium))
+        else:
+            f_list.extend(get_data(inputs_list[0], is_premium))
+    except KeyError:
+        all_ticker_saved = [tick.split('.')[0] for tick in os.listdir(os.path.join('..', 'data'))]
+        all_tickers = list(set(all_tickers) - set(all_ticker_saved))
+        inputs_list = [
+            {'key': str(config_parser.get('ALPHA_VANTAGE', 'premium_key')),
+             'list': all_tickers}
+        ]
+        if is_premium:
+            f_list.extend(get_data(inputs_list[0], is_premium))
+        else:
+            raise ValueError('An api key premium in Alpha Vantage is needed.')
 
     path_financial_df = os.path.join(os.path.join('..', 'data'), 'db_bsm_financial.csv')
     df_financial = pd.concat(f_list)
@@ -79,5 +93,7 @@ def main(is_premium):
 
 
 if __name__ == '__main__':
-    IS_PREMIUM = False
+    IS_PREMIUM = True
+    T_INIT = time.time()
     main(IS_PREMIUM)
+    show_time(T_INIT, time.time(), 'ALL DATA COLLECTED')

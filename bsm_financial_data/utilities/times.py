@@ -23,7 +23,7 @@ def set_time_sleep(is_premium):
     """
 
     if is_premium:
-        time.sleep(1)
+        time.sleep(1.2)
     else:
         time.sleep(13)
 

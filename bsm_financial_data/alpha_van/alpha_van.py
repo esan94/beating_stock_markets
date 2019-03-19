@@ -12,6 +12,7 @@ This script manages times about the process.
 
 """
 import time
+import os
 
 import pandas as pd
 
@@ -29,6 +30,7 @@ def get_time_series(alpha_key, ticker, is_premium):
 
     :param str alpha_key: Key from Alpha Vantage
     :param str ticker: list of tickers to download
+    :param bool is_premium: Boolean to chose the key.
     :return pd.DataFrame: Dataframe with close and volume data of ticker
     from ticker_list.
     """
@@ -81,10 +83,18 @@ def get_wma(ti, ticker, df_by_ticker, time_period_list, is_premium):
         sleep(is_premium)
         data_wma.columns = [' '.join([col, period]) for col in data_wma.columns]
         df_by_ticker.append(data_wma)
-    sleep(is_premium)
 
 
 def get_dema(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring dema data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
     for period in time_period_list:
         data_dema = ti.get_dema(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -94,7 +104,7 @@ def get_dema(ti, ticker, df_by_ticker, time_period_list, is_premium):
 
 def get_kama(ti, ticker, df_by_ticker, time_period_list, is_premium):
     """
-    This function bring dema data for ticker.
+    This function bring kama data for ticker.
 
     :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
     :param str ticker: Ticker of a company.
@@ -129,6 +139,15 @@ def get_rsi(ti, ticker, df_by_ticker, time_period_list, is_premium):
     
 
 def get_adx(ti, ticker, df_by_ticker, time_period_list, is_premium):
+    """
+    This function bring adx data for ticker.
+
+    :param alpha_vantage.techindicators.TechIndicator ti: Alpha vantage obj.
+    :param str ticker: Ticker of a company.
+    :param list df_by_ticker: List where save new data.
+    :param list time_period_list: List with the periods of downloading.
+    :param bool is_premium: Boolean to chose the key.
+    """
     for period in time_period_list:
         data_adx = ti.get_adx(symbol=ticker, time_period=int(period))[0]
         sleep(is_premium)
@@ -518,6 +537,9 @@ def get_financials(alpha_key, ticker, is_premium):
     df_ts = get_time_series(alpha_key, ticker, is_premium)
     df_tech = get_technical_indicators(alpha_key, ticker, is_premium)
     df_fin = pd.merge(left=df_ts, right=df_tech, how='inner', on=['date', 'ticker'])
+    path_fin_df = os.path.join(os.path.join('..', 'data'), '%s.csv' % ticker)
+    df_fin.to_csv(path_fin_df, index=False)
+
     fin_list.append(df_fin)
 
     return fin_list
