@@ -17,6 +17,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV, cross_val_score
 
+
 def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
     scoring = 'precision_macro'
     dict_log_reg = {}

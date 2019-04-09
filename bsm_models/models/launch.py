@@ -77,13 +77,22 @@ def make_magic(df_, days_, mode_debug=True):
             if prec_basic >= prec_ensem:
                 if prec_basic >= prec_advan:
                     joblib.dump(dict_basic['best'][best_basic[0]][1], path_to_save + '/%s.sav' % best_basic[0])
+                    best_params = pd.DataFrame(dict_basic['best'][best_basic[0]][0])
+                    report = pd.DataFrame(dict_basic['best'][best_basic[0]][3])
+
+
                 else:
                     joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + '/%s.sav' % best_advan[0])
+                    best_params = pd.DataFrame(dict_advan['best'][best_advan[0]][0])
+                    report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
             else:
                 if prec_ensem >= prec_advan:
                     joblib.dump(dict_ensem['best'][best_ensem[0]][1], path_to_save + '/%s.sav' % best_ensem[0])
+                    report = pd.DataFrame(dict_ensem['best'][best_ensem[0]][2])
                 else:
                     joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + '/%s.sav' % best_advan[0])
+                    best_params = pd.DataFrame(dict_advan['best'][best_advan[0]][0])
+                    report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
 
 
 

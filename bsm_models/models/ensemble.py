@@ -20,6 +20,18 @@ from sklearn.ensemble import VotingClassifier, BaggingClassifier, AdaBoostClassi
 
 
 def get_ensemble_models(X_train, y_train, X_test, y_test, day_, sector, best_params):
+    """
+    This function is to looking for the best ensemble model.
+    
+    :param X_train: Set of features for train.
+    :param y_train: Set of target for train.
+    :param X_test: Set of features for test.
+    :param y_test: Set of target for test.
+    :param int day_: Time window for features.
+    :param str sector: Sector GICS for filtering the predictions.
+    :param list best_params: List of best params for basics models.
+    :return tuple of dict: Tuple of dicts with the different models.
+    """
     scoring = 'precision_macro'
     dict_vot = {}
     dict_bagg = {}
