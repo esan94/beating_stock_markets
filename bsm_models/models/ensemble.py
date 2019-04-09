@@ -11,6 +11,9 @@
 This script contains ensemble models to train.
 
 """
+import time
+
+from utilities.time import show_time
 from sklearn.metrics import classification_report
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
@@ -32,13 +35,13 @@ def get_ensemble_models(X_train, y_train, X_test, y_test, day_, sector, best_par
     :param list best_params: List of best params for basics models.
     :return tuple of dict: Tuple of dicts with the different models.
     """
+    t_init = time.time()
     scoring = 'precision_macro'
     dict_vot = {}
     dict_bagg = {}
     dict_ada = {}
     dict_total = {}
 
-    print('Time to train vot for %d days, %s sector and %s' % (day_, sector, scoring))
     vot = VotingClassifier(estimators=[('DecTree', DecisionTreeClassifier(**best_params[2])),
                                        ('KNN', KNeighborsClassifier(**best_params[1])),
                                        ('LogReg', LogisticRegression(**best_params[0]))])
@@ -46,23 +49,21 @@ def get_ensemble_models(X_train, y_train, X_test, y_test, day_, sector, best_par
     vot.fit(X_train, y_train)
     report = classification_report(y_test, vot.predict(X_test), digits=4, output_dict=True)
     dict_vot['vot'] = [vot, val_score_vot, report]
-    print(classification_report(y_test, vot.predict(X_test), digits=4))
+    show_time(t_init, time.time(), 'Time to train vot for %d days, %s sector and %s' % (day_, sector, scoring))
 
-    print('Time to train bagg for %d days, %s sector and %s' % (day_, sector, scoring))
     bagg = BaggingClassifier(base_estimator=KNeighborsClassifier(**best_params[1]))
     val_score_bagg = cross_val_score(bagg, X_train, y_train, cv=5, scoring=scoring).mean()
     bagg.fit(X_train, y_train)
     report = classification_report(y_test, bagg.predict(X_test), digits=4, output_dict=True)
     dict_bagg['bagg'] = [bagg, val_score_bagg, report]
-    print(classification_report(y_test, bagg.predict(X_test), digits=4))
+    show_time(t_init, time.time(), 'Time to train bagg for %d days, %s sector and %s' % (day_, sector, scoring))
 
-    print('Time to train ada for %d days, %s sector and %s' % (day_, sector, scoring))
     ada = AdaBoostClassifier(base_estimator=DecisionTreeClassifier(**best_params[2]))
     val_score_ada = cross_val_score(ada, X_train, y_train, cv=5, scoring=scoring).mean()
     ada.fit(X_train, y_train)
     report = classification_report(y_test, ada.predict(X_test), digits=4, output_dict=True)
     dict_ada['ada'] = [ada, val_score_ada, report]
-    print(classification_report(y_test, ada.predict(X_test), digits=4))
+    show_time(t_init, time.time(), 'Time to train ada for %d days, %s sector and %s' % (day_, sector, scoring))
 
     prec_vot = int(dict_vot['vot'][2]['weighted avg']['precision'])
     prec_bagg = int(dict_bagg['bagg'][2]['weighted avg']['precision'])

@@ -14,10 +14,12 @@ This script is the launch to create models.
 
 import pandas as pd
 import numpy as np
+import time
 
 from models.launch import make_magic
 from classification.categorize import categorize_each_difference
 from utilities.processing import interpolate_nan_values, add_shifts
+from utilities.time import show_time
 
 
 def load_and_transform():
@@ -48,8 +50,11 @@ def create_models():
     """
     Main function that load and transform data for calculate the bests models.
     """
+    t_init = time.time()
     df_procesed = load_and_transform()
-    make_magic(df_procesed, [3, 5, 7, 14, 21])
+    show_time(t_init, time.time(), 'Time of previous process ended')
+    make_magic(df_procesed, [3, 5, 7, 14, 21], True)
+    show_time(t_init, time.time(), 'Time of magic ended')
 
 
 if __name__ == '__main__':

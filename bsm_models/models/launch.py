@@ -13,6 +13,9 @@ This script contain the function to looking for the bests models for each day an
 """
 import os
 import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
+
 from sklearn.externals import joblib
 from .basic import get_basic_models
 from .advanced import get_advanced_models
@@ -24,7 +27,7 @@ from classification.categorize import split_df_train_test_by_date
 def make_magic(df_, days_, mode_debug=True):
     """
     This function split the data into train and test and calculate various models to choose the best one
-    for each day and sector.
+    for each day and sector and finally save the bests models.
 
     :param pd.DataFrame df_: Dataframe with procesed info.
     :param list days_: List with the days of the columns.
@@ -36,8 +39,8 @@ def make_magic(df_, days_, mode_debug=True):
         df_test_sct = df_test[df_test['sector_gics'] == sector]
         for day_ in days_:
             path_to_save = '../../models/%s/%i' % (sector, day_)
-            if not os.path.isdir(path_to_save):
-                os.mkdir(path_to_save)
+            if not os.path.isdir(os.path.abspath(path_to_save)):
+                os.makedirs(os.path.abspath(path_to_save))
 
             list_to_drop = get_non_n_cols(df_train_sct, int(day_))
             df_train_sct_non_n = df_train_sct.drop(list_to_drop, axis='columns')
@@ -66,9 +69,9 @@ def make_magic(df_, days_, mode_debug=True):
             dict_advan, dict_rand_for, dict_light = get_advanced_models(feat_train.values, target_train.values,
                                                                         feat_test.values, target_test.values, day_,
                                                                         sector)
-            best_basic = dict_basic['best'].keys()
-            best_ensem = dict_ensem['best'].keys()
-            best_advan = dict_advan['best'].keys()
+            best_basic = list(dict_basic['best'].keys())
+            best_ensem = list(dict_ensem['best'].keys())
+            best_advan = list(dict_advan['best'].keys())
 
             prec_basic = int(dict_basic['best'][best_basic[0]][3]['weighted avg']['precision'])
             prec_ensem = int(dict_ensem['best'][best_ensem[0]][2]['weighted avg']['precision'])
@@ -76,24 +79,39 @@ def make_magic(df_, days_, mode_debug=True):
 
             if prec_basic >= prec_ensem:
                 if prec_basic >= prec_advan:
-                    joblib.dump(dict_basic['best'][best_basic[0]][1], path_to_save + '/%s.sav' % best_basic[0])
-                    best_params = pd.DataFrame(dict_basic['best'][best_basic[0]][0])
+                    model_name = '/%s.mdl' % best_basic[0]
+                    joblib.dump(dict_basic['best'][best_basic[0]][1], path_to_save + model_name.replace(' ', '_'))
+                    best_params = pd.DataFrame(index=dict_basic['best'][best_basic[0]][0].keys(),
+                                               data=list(dict_basic['best'][best_basic[0]][0].values()),
+                                               columns=['best_values'])
                     report = pd.DataFrame(dict_basic['best'][best_basic[0]][3])
-
-
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                        best_params.to_excel(wrt, sheet_name='best_params')
+                        report.to_excel(wrt, sheet_name='report')
                 else:
-                    joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + '/%s.sav' % best_advan[0])
-                    best_params = pd.DataFrame(dict_advan['best'][best_advan[0]][0])
+                    model_name = '/%s.mdl' % best_advan[0]
+                    joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + model_name.replace(' ', '_'))
+                    best_params = pd.DataFrame(index=dict_advan['best'][best_advan[0]][0].keys(),
+                                               data=list(dict_advan['best'][best_advan[0]][0].values()),
+                                               columns=['best_values'])
                     report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                        best_params.to_excel(wrt, sheet_name='best_params')
+                        report.to_excel(wrt, sheet_name='report')
             else:
                 if prec_ensem >= prec_advan:
-                    joblib.dump(dict_ensem['best'][best_ensem[0]][1], path_to_save + '/%s.sav' % best_ensem[0])
+                    model_name = '/%s.mdl' % best_ensem[0]
+                    joblib.dump(dict_ensem['best'][best_ensem[0]][1], path_to_save + model_name.replace(' ', '_'))
                     report = pd.DataFrame(dict_ensem['best'][best_ensem[0]][2])
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                        report.to_excel(wrt, sheet_name='report')
                 else:
-                    joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + '/%s.sav' % best_advan[0])
-                    best_params = pd.DataFrame(dict_advan['best'][best_advan[0]][0])
+                    model_name = '/%s.mdl' % best_advan[0]
+                    joblib.dump(dict_advan['best'][best_advan[0]][1], path_to_save + model_name.replace(' ', '_'))
+                    best_params = pd.DataFrame(index=dict_advan['best'][best_advan[0]][0].keys(),
+                                               data=list(dict_advan['best'][best_advan[0]][0].values()),
+                                               columns=['best_values'])
                     report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
-
-
-
-
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                        best_params.to_excel(wrt, sheet_name='best_params')
+                        report.to_excel(wrt, sheet_name='report')

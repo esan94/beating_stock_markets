@@ -11,6 +11,10 @@
 This script contains bacis models to train.
 
 """
+
+import time
+
+from utilities.time import show_time
 from sklearn.metrics import classification_report
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
@@ -19,6 +23,19 @@ from sklearn.model_selection import GridSearchCV, cross_val_score
 
 
 def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
+    """
+    This function train basic models (Logistic Regression, KNN and Decciosion Tree) and choose the
+    best one.
+
+    :param X_train: Set of train features.
+    :param y_train: Set of train target.
+    :param X_test: Set of test features.
+    :param y_test: Set of train target.
+    :param int day_: Time window in execution.
+    :param sector: Sector gics to predict.
+    :return tuple: Tuple of dictionary with information about the models and the best one.
+    """
+    t_init = time.time()
     scoring = 'precision_macro'
     dict_log_reg = {}
     dict_knn = {}
@@ -30,7 +47,6 @@ def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
                                        'tol': [1e-3, 1e-4, 1e-5],
                                        'multi_class': ['auto']},
                            scoring=scoring, cv=5)
-    print('Time to train log_reg for %d days, %s sector and %s' % (day_, sector, scoring))
     log_reg.fit(X_train, y_train)
     best_params = log_reg.best_params_
     log_reg = LogisticRegression(**log_reg.best_params_)
@@ -38,12 +54,12 @@ def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
     log_reg.fit(X_train, y_train)
     report = classification_report(y_test, log_reg.predict(X_test), digits=4, output_dict=True)
     dict_log_reg['log_reg'] = [best_params, log_reg, val_score_log_reg, report]
+    show_time(t_init, time.time(), 'Time to train log_reg for %d days, %s sector and %s' % (day_, sector, scoring))
 
     knn = GridSearchCV(KNeighborsClassifier(),
                        param_grid={'n_neighbors': range(3, 9),
                                    'weights': ['uniform', 'distance']},
                        scoring=scoring, cv=5)
-    print('Time to train knn for %d days, %s sector and %s' % (day_, sector, scoring))
     knn.fit(X_train, y_train)
     best_params = knn.best_params_
     knn = KNeighborsClassifier(**knn.best_params_)
@@ -58,7 +74,6 @@ def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
                                         'min_samples_split': [2, 4],
                                         'min_samples_leaf': [1, 2]},
                             scoring=scoring, cv=5)
-    print('Time to train dec_tree for %d days, %s sector and %s' % (day_, sector, scoring))
     dec_tree.fit(X_train, y_train)
     best_params = dec_tree.best_params_
     dec_tree = DecisionTreeClassifier(**dec_tree.best_params_)
@@ -66,6 +81,7 @@ def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
     dec_tree.fit(X_train, y_train)
     report = classification_report(y_test, dec_tree.predict(X_test), digits=4, output_dict=True)
     dict_dec_tree['dec_tree'] = [best_params, dec_tree, val_score_dec_tree, report]
+    show_time(t_init, time.time(), 'Time to train dec_tree for %d days, %s sector and %s' % (day_, sector, scoring))
 
     prec_log_reg = int(dict_log_reg['log_reg'][3]['weighted avg']['precision'])
     prec_knn = int(dict_knn['knn'][3]['weighted avg']['precision'])
