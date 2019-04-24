@@ -15,6 +15,8 @@ This script is the launch to create models.
 import pandas as pd
 import numpy as np
 import time
+import random
+from multiprocessing import Pool
 
 from models.launch import make_magic
 from classification.categorize import categorize_each_difference
@@ -51,9 +53,16 @@ def create_models():
     Main function that load and transform data for calculate the bests models.
     """
     t_init = time.time()
+    pool = Pool(2)
     df_procesed = load_and_transform()
     show_time(t_init, time.time(), 'Time of previous process ended')
-    make_magic(df_procesed, [3, 5, 7, 14, 21], True)
+    list_sector = df_procesed['sector_gics'].unique()
+    first_list_sector = random.sample(list(list_sector), k=int(len(list_sector)/2))
+    second_list_sector = [elem for elem in list_sector if elem not in first_list_sector]
+    dict_arg = [[df_procesed, [3, 5, 7, 14, 21], first_list_sector, True],
+                [df_procesed, [3, 5, 7, 14, 21], second_list_sector, True]]
+    pool.map(make_magic, dict_arg)
+    # make_magic(df_procesed, [3, 5, 7, 14, 21], True)
     show_time(t_init, time.time(), 'Time of magic ended')
 
 

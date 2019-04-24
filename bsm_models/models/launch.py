@@ -24,17 +24,22 @@ from utilities.processing import get_non_n_cols, get_unwanted_cols
 from classification.categorize import split_df_train_test_by_date
 
 
-def make_magic(df_, days_, mode_debug=True):
+def make_magic(arguments):
     """
     This function split the data into train and test and calculate various models to choose the best one
     for each day and sector and finally save the bests models.
 
-    :param pd.DataFrame df_: Dataframe with procesed info.
-    :param list days_: List with the days of the columns.
-    :param bool mode_debug: Boolean to choose if create models with all data in train or with only a year.
+    :param list arguments: A list with the following parameters df_, days_, sector_list, mode_debug
+    to make magic.
     """
+
+    df_ = arguments[0]
+    days_ = arguments[1]
+    sector_list = arguments[2]
+    mode_debug = arguments[3]
+
     df_train, df_test = split_df_train_test_by_date(df_, 2019, mode_debug)
-    for sector in df_['sector_gics'].unique():
+    for sector in sector_list:
         df_train_sct = df_train[df_train['sector_gics'] == sector]
         df_test_sct = df_test[df_test['sector_gics'] == sector]
         for day_ in days_:
