@@ -38,7 +38,7 @@ def make_magic(df_, days_, mode_debug=True):
         df_train_sct = df_train[df_train['sector_gics'] == sector]
         df_test_sct = df_test[df_test['sector_gics'] == sector]
         for day_ in days_:
-            path_to_save = '../../models/%s/%i' % (sector, day_)
+            path_to_save = '../models/%s/%i' % (sector, day_)
             if not os.path.isdir(os.path.abspath(path_to_save)):
                 os.makedirs(os.path.abspath(path_to_save))
 
@@ -73,9 +73,9 @@ def make_magic(df_, days_, mode_debug=True):
             best_ensem = list(dict_ensem['best'].keys())
             best_advan = list(dict_advan['best'].keys())
 
-            prec_basic = int(dict_basic['best'][best_basic[0]][3]['weighted avg']['precision'])
-            prec_ensem = int(dict_ensem['best'][best_ensem[0]][2]['weighted avg']['precision'])
-            prec_advan = int(dict_advan['best'][best_advan[0]][3]['weighted avg']['precision'])
+            prec_basic = float(dict_basic['best'][best_basic[0]][3]['weighted avg']['precision'])
+            prec_ensem = float(dict_ensem['best'][best_ensem[0]][2]['weighted avg']['precision'])
+            prec_advan = float(dict_advan['best'][best_advan[0]][3]['weighted avg']['precision'])
 
             if prec_basic >= prec_ensem:
                 if prec_basic >= prec_advan:
@@ -95,7 +95,7 @@ def make_magic(df_, days_, mode_debug=True):
                                                data=list(dict_advan['best'][best_advan[0]][0].values()),
                                                columns=['best_values'])
                     report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
-                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_advan[0]) as wrt:
                         best_params.to_excel(wrt, sheet_name='best_params')
                         report.to_excel(wrt, sheet_name='report')
             else:
@@ -103,7 +103,7 @@ def make_magic(df_, days_, mode_debug=True):
                     model_name = '/%s.mdl' % best_ensem[0]
                     joblib.dump(dict_ensem['best'][best_ensem[0]][1], path_to_save + model_name.replace(' ', '_'))
                     report = pd.DataFrame(dict_ensem['best'][best_ensem[0]][2])
-                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_ensem[0]) as wrt:
                         report.to_excel(wrt, sheet_name='report')
                 else:
                     model_name = '/%s.mdl' % best_advan[0]
@@ -112,6 +112,6 @@ def make_magic(df_, days_, mode_debug=True):
                                                data=list(dict_advan['best'][best_advan[0]][0].values()),
                                                columns=['best_values'])
                     report = pd.DataFrame(dict_advan['best'][best_advan[0]][3])
-                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_basic[0]) as wrt:
+                    with pd.ExcelWriter(path_to_save + '/report_%s.xlsx' % best_advan[0]) as wrt:
                         best_params.to_excel(wrt, sheet_name='best_params')
                         report.to_excel(wrt, sheet_name='report')

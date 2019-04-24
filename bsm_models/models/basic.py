@@ -46,7 +46,7 @@ def get_basic_models(X_train, y_train, X_test, y_test, day_, sector):
                            param_grid={'C': [1.2, 1, 0.8],
                                        'tol': [1e-3, 1e-4, 1e-5],
                                        'multi_class': ['auto']},
-                           scoring=scoring, cv=5)
+                           scoring=scoring, cv=5, verbose=5)
     log_reg.fit(X_train, y_train)
     best_params = log_reg.best_params_
     log_reg = LogisticRegression(**log_reg.best_params_)

@@ -85,6 +85,6 @@ def split_df_train_test_by_date(df_, year_, mode_debug=True):
 
     df_train = df_[(df_['date'].dt.year < year_)]
     if mode_debug:
-        df_train = df_train[df_train['date'].dt.year > year_ - 2]
+        df_train = df_train[df_train['date'].dt.year > year_ - 7]
     df_test = df_[(df_['date'].dt.year >= year_)]
     return df_train, df_test
