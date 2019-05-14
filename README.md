@@ -1,10 +1,10 @@
 # BEATING STOCK MARKETS #
-
+ 
 1. **bsm_categorical_data**
 2. **exploring_data**
 3. **bsm_financial_data**
-4. **data**
-5. **models**
+4. **bsm_models**
+5. **data**
 
 
 ### bsm_categorical_data
@@ -27,10 +27,13 @@ There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `F
  
 ### exploring_data
  
- In this section we find a notebook called *categorical_data_exploratory.ipynb* which is an exploratory analysis about *db_bsm_categorical.csv*. To see the analysis you could:
- 1. Copy the HTML code in *categorical_data_exploratory.html* in a .txt file changing the extension to .html.
- 2. Clone the repo and run the html
- 3. Clone the repo and deploy all notebook in a anaconda workspace.
+ In this section we find a notebook called *categorical_data_exploratory.ipynb* which is an exploratory analysis about *db_bsm_categorical.csv*. Also a rmd called *financial_data_exploratory.rmd* which is an exploratory analysis of *db_bsm_financial.csv* and a time series analysis of the *db_bsm_financial.csv* where I decompose the close time 
+ serie in seasonality, trend and deploy an ARIMA among other analysis as well. To see these analysis you could:
+ 
+ 1. Copy the HTML files in a .txt file changing the extension to .html.
+ 2. Clone the repo and run the html.
+ 3. Clone the repo and deploy all notebook in a anaconda workspace. For the .rmd you need R statistic.
+ 
  
  ### bsm_financial_data
  
@@ -70,5 +73,8 @@ There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `F
 - ULTOSC: Ultimate oscillator [click](https://www.investopedia.com/terms/u/ultimateoscillator.asp)
 
 There are columns with a number in the name this means the period in the calculate data.
- # IN PROGRESS
+
+### bsm_models
+ 
+In this section there is the code to make all models in function of the day to predict and the sector_gics
  
