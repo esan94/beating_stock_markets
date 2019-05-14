@@ -4,6 +4,7 @@
 2. **exploring_data**
 3. **bsm_financial_data**
 4. **data**
+5. **models**
 
 
 ### bsm_categorical_data
