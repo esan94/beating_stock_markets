@@ -6,6 +6,7 @@
 4. **bsm_models**
 5. **data**
 6. **models, models_f_classif & models_mutual**
+7. **workflow**
 
 
 ### bsm_categorical_data
@@ -96,4 +97,8 @@ Here is where all data from AlphaVantage, yahoo finance or processed are saved.
 
 In this section we can find the trained models from bsm_models for each feature extraction.
 
+### Workflow
 
+bsm_categorical_data -> exploring_data (categorical_data_exploratory_analysis) -> 
+bsm_financial_data -> exploring_data (financial_data_exploratory_analysis) -> bsm_models -> 
+exploring_data (models_viz) -> exploring_data (preparing_data_4visualization) -> Dashboard tableau
