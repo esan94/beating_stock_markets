@@ -16,7 +16,6 @@ import pandas as pd
 import numpy as np
 import time
 import random
-from multiprocessing import Pool
 
 from models.launch import make_magic
 from classification.categorize import categorize_each_difference
@@ -37,6 +36,7 @@ def load_and_transform():
     df_financial_not_nan = df_financial_not_nan.sort_values(['ticker', 'date'], ascending=[True, False])
     for num_ in [3, 5, 7, 14, 21]:
         df_financial_not_nan = add_shifts(df_financial_not_nan, 'close', 'close_shifted_%i' % num_, num_)
+
     df_financial_not_nan.dropna(subset=['close_shifted_21'], inplace=True)
     df_fin_not_nan = interpolate_nan_values(df_financial_not_nan, list(df_financial_not_nan.select_dtypes(float)))
     df_fin_not_nan['date'] = pd.to_datetime(df_fin_not_nan['date'])
@@ -44,7 +44,11 @@ def load_and_transform():
     df_categorical = df_categorical.dropna()
     df_categorical = df_categorical.drop_duplicates(subset=['ticker'], keep='first')
     df_final = pd.merge(left=df_final, right=df_categorical, how='inner', on='ticker')
+    df_final.replace(0, np.NaN, inplace=True)
+    df_final[df_final.select_dtypes(float).columns] = df_final.select_dtypes(float).astype('float32')
+    df_final.replace([np.inf, -np.inf], np.NaN, inplace=True)
     df_final = df_final.dropna()
+    df_final[df_final.select_dtypes('float32').columns] = df_final.select_dtypes('float32').astype(float)
     return df_final
 
 
@@ -53,17 +57,13 @@ def create_models():
     Main function that load and transform data for calculate the bests models.
     """
     t_init = time.time()
-    pool = Pool(2)
     df_procesed = load_and_transform()
     show_time(t_init, time.time(), 'Time of previous process ended')
-    list_sector = df_procesed['sector_gics'].unique()
-    first_list_sector = random.sample(list(list_sector), k=int(len(list_sector)/2))
-    second_list_sector = [elem for elem in list_sector if elem not in first_list_sector]
-    dict_arg = [[df_procesed, [3, 5, 7, 14, 21], first_list_sector, True],
-                [df_procesed, [3, 5, 7, 14, 21], second_list_sector, True]]
-    pool.map(make_magic, dict_arg)
-    # make_magic(df_procesed, [3, 5, 7, 14, 21], True)
+    list_sector = list(df_procesed['sector_gics'].unique())
+    make_magic(df_procesed, [3, 5, 7, 14, 21], list_sector, True)
     show_time(t_init, time.time(), 'Time of magic ended')
+    make_magic(df_procesed, [3, 5, 7, 14, 21], list_sector, False)
+    show_time(t_init, time.time(), 'END')
 
 
 if __name__ == '__main__':

@@ -29,7 +29,7 @@ def add_shifts(df_, col_to_shift, new_col, shift):
 
     for id_ in df_['ticker'].unique():
         df_by_id = df_[df_['ticker'] == id_]
-        df_.loc[df_['ticker'] == id_, new_col] = df_by_id[col_to_shift] - df_by_id[col_to_shift].shift(shift)
+        df_.loc[df_['ticker'] == id_, new_col] = - df_by_id[col_to_shift] + df_by_id[col_to_shift].shift(shift) # Change sign
 
     return df_
 
