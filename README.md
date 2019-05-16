@@ -30,11 +30,17 @@ There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `F
  
  In this section we find a notebook called *categorical_data_exploratory.ipynb* which is an exploratory analysis about *db_bsm_categorical.csv*. Also a rmd called *financial_data_exploratory.rmd* which is an exploratory analysis of *db_bsm_financial.csv* and a time series analysis of the *db_bsm_financial.csv* where I decompose the close time 
  serie in seasonality, trend and deploy an ARIMA among other analysis as well. Also you could find a notebook called models_viz.ipynb which is to visualize
- the precission of the models and preparing_data_4visualization.ipynb that is to preparing the data to create the dashboads in Tableau.To see these analysis you could:
+ the precission of the models and preparing_data_4visualization.ipynb that is to preparing the data to create the dashboads in Tableau.
+ You can find also the tableau file (.twd) for the models without feature extraction. To see these analysis you could:
  
  1. Copy the HTML files in a .txt file changing the extension to .html.
  2. Clone the repo and run the html.
  3. Clone the repo and deploy all notebook in a anaconda workspace. For the .rmd you need R statistic.
+ 
+ To see the all dashboards on-line you could clik on
+  [beating_stock_markets](https://public.tableau.com/profile/esteban1670#!/vizhome/beating_stock_markets/Inicio), 
+  [beating_stock_market_f_classif](https://public.tableau.com/profile/esteban1670#!/vizhome/beating_stock_markets_f_classif/Inicio) or 
+  [beating_stock_market_mutual](https://public.tableau.com/profile/esteban1670#!/vizhome/beating_stock_markets_mutual/Inicio).
  
  
  ### bsm_financial_data
