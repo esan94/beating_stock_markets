@@ -5,6 +5,7 @@
 3. **bsm_financial_data**
 4. **bsm_models**
 5. **data**
+6. **models, models_f_classif & models_mutual**
 
 
 ### bsm_categorical_data
@@ -28,7 +29,8 @@ There are a parameter inside the *launch.py* called **IS_DEBUG_MODE** that is `F
 ### exploring_data
  
  In this section we find a notebook called *categorical_data_exploratory.ipynb* which is an exploratory analysis about *db_bsm_categorical.csv*. Also a rmd called *financial_data_exploratory.rmd* which is an exploratory analysis of *db_bsm_financial.csv* and a time series analysis of the *db_bsm_financial.csv* where I decompose the close time 
- serie in seasonality, trend and deploy an ARIMA among other analysis as well. To see these analysis you could:
+ serie in seasonality, trend and deploy an ARIMA among other analysis as well. Also you could find a notebook called models_viz.ipynb which is to visualize
+ the precission of the models and preparing_data_4visualization.ipynb that is to preparing the data to create the dashboads in Tableau.To see these analysis you could:
  
  1. Copy the HTML files in a .txt file changing the extension to .html.
  2. Clone the repo and run the html.
@@ -76,5 +78,16 @@ There are columns with a number in the name this means the period in the calcula
 
 ### bsm_models
  
-In this section there is the code to make all models in function of the day to predict and the sector_gics
- 
+In this section there is the code to make all models in function of the day to predict and the sector_gics.
+Here is where the model is deployed and there is a parameter called `feature_selection` in the folder models and the
+script launch.py whose values could be 'mutual', 'f_classif' or None and decide which feature extraction do before the train part.
+
+### data
+
+Here is where all data from AlphaVantage, yahoo finance or processed are saved.
+
+### models, models_f_classif & models_mutual
+
+In this section we can find the trained models from bsm_models for each feature extraction.
+
+
