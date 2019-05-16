@@ -100,5 +100,5 @@ In this section we can find the trained models from bsm_models for each feature 
 ### Workflow
 
 bsm_categorical_data -> exploring_data (categorical_data_exploratory_analysis) -> 
-bsm_financial_data -> exploring_data (financial_data_exploratory_analysis) -> bsm_models -> 
+bsm_financial_data (~24 hours) -> exploring_data (financial_data_exploratory_analysis) -> bsm_models (~16 hours)-> 
 exploring_data (models_viz) -> exploring_data (preparing_data_4visualization) -> Dashboard tableau
